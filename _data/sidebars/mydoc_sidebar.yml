@@ -1,0 +1,69 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: My Portfolio
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+
+  - title: Welcome
+    url: /mydoc_introduction.html
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+
+  - title: Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: Embedding Google Assistant
+      url: /mydoc_google_rpi3.html
+      output: web, pdf
+
+    - title: Facebook pre-deployment process
+      url: /mydoc_fb_deployment.html
+      output: web, pdf
+
+    - title: Anti-money laundering
+      url: /mydoc_aml.html
+      output: web,pdf
+
+    - title: Facebook programming pass-down
+      url: /mydoc_fb_programming.html
+      output: web, pdf
+
+  - title: Knowledge base
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook knowledge base landing page
+      url: /mydoc_kb_landing_page.html
+      output: web, pdf
+
+    - title: Facebook design standards portal
+      url: /mydoc_fb_kb_standards.html
+      output: web, pdf
+
+    - title: Facebook documentation portal
+      url: /mydoc_fb_kb_documentation.html
+      output: web, pdf
+
+  - title: Visualizations
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook SMB visualization
+      url: /mydoc_visualization_fb_smb.html
+      output: web, pdf
+
+    - title: Google Assistant built-in
+      url: /mydoc_google_program.html
+      output: web, pdf
