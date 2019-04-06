@@ -20,7 +20,7 @@ entries:
       url: /index.html
       output: web, pdf
 
-  - title: Documentation
+  - title: Developer Documentation
     output: web, pdf
     folderitems:
 
@@ -28,19 +28,27 @@ entries:
       url: /mydoc_google_rpi3.html
       output: web, pdf
 
+  - title: End User Documentation
+    output: web, pdf
+    folderitems:
+
     - title: Facebook pre-deployment process
       url: /mydoc_fb_deployment.html
       output: web, pdf
 
-    - title: Anti-money laundering
-      url: /mydoc_aml.html
-      output: web,pdf
-
     - title: Facebook programming pass-down
       url: /mydoc_fb_programming.html
+      output: web,pdf
+
+  - title: Legal Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: Anti-money laundering
+      url: /mydoc_aml.html
       output: web, pdf
 
-  - title: Knowledge base
+  - title: Knowledge Base
     output: web, pdf
     folderitems:
 

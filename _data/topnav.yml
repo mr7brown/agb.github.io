@@ -3,10 +3,6 @@
 topnav:
 - title: Topnav
   items:
-    - title: Personal Site
-      external_url: https://www.ashtonbrown.com/
-    - title: Templates Site
-      external_url: https://mr7brown.github.io/templates.github.io/
 
 #Topnav dropdowns
 #topnav_dropdowns:
