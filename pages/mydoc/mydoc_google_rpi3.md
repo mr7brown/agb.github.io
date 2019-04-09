@@ -16,6 +16,8 @@ to embed the Google Assistant and create custom actions that will work with
 your device. This page provides a brief introduction to the Pi, the hardware
 required to embed the Assistant, and how to install the Google Assistant SDK.
 
+Test
+
 ### Required hardware
 
 Before configuring your Pi, you will need the following components:
