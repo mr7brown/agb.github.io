@@ -20,7 +20,7 @@ This process outlines how to access the template, as well as how the template
 should be filled out.
 
 {% include important.html content="Project information should not be loaded into Project Tool until the project is live. Reason being: all project information
-should be treated as classified until it is able to be publicly shared.." %}
+should be treated as classified until it is able to be publicly shared." %}
 
 ## Getting started with the template
 
@@ -36,7 +36,8 @@ as the External Resources field.
 
 ### Project overview
 
-The project overview will differ from project to project, but at a high-level it should contain:
+The project overview will differ from project to project, but at a high-level it
+should contain:
 
 * Project location & size
 * Headcount
@@ -64,17 +65,20 @@ lifecycle. For example, DPMs should be monitoring and maintaining:
 * Current Status Reports
 * Current Issue Reports
 
-and they should also understand that any complications within the outlined scope should be fully communicated with the PPM for the project.
+and they should also understand that any complications within the outlined scope
+should be fully communicated with the PPM for the project.
 
 ### Resources
 
-Here PPMs should put links to relevant templates, standards, and any other useful resources that DPMs or Project Coordinators (PCs) may need to reference. For
-example, DPMs may need to reference:
+Here PPMs should put links to relevant templates, standards, and any other
+useful resources that DPMs or Project Coordinators (PCs) may need to reference.
+For example, DPMs may need to reference:
 
 * EENB timeline
 * DPM checklist
 * EENB standards
-* Facilities project folder (this location will vary from project to project, so be sure to grab the link for the project that is being passed down)
+* Facilities project folder (this location will vary from project to project, so
+be sure to grab the link for the project that is being passed down)
 * Project weekly meeting ID - if available
 
 ### Key project team
@@ -89,7 +93,7 @@ contact information for:
 ### External resources
 
 The external resources section (on the right-hand side of the screen) is where
-PPMs should attach relevant documents. For example, PPMs may want to attach:
+PPMs should attach relevant documents. PPMs may want to attach:
 
 * Preliminary project schedule
 * Project budget
