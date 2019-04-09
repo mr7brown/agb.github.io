@@ -1,5 +1,5 @@
 ---
-title: Embedding the Google Assistant Using a Raspberry Pi 3
+title: Raspberry Pi Set-up
 summary: "The purpose of this document was to provide 3rd party developers with
 the initial steps for prototyping with the Raspberry Pi 3. I did not author
 the process for registering the device model, so it has been excluded from this
@@ -11,12 +11,10 @@ folder: mydoc
 
 ## Overview
 
-Prior to prototyping, it is recommended that you use the Raspberryi Pi 3 (Pi)
-to embed the Google Assistant and create custom actions that will work with
+Prior to prototyping, it is recommended that you use the [Raspberryi Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
+(Pi) to embed the Google Assistant and create custom actions that will work with
 your device. This page provides a brief introduction to the Pi, the hardware
 required to embed the Assistant, and how to install the Google Assistant SDK.
-
-Test
 
 ### Required hardware
 
@@ -38,8 +36,8 @@ If you plan to connect the Pi to an external monitor, then you may also need:
 
 ### Connect Raspberry Pi
 
-1. Insert your micro SD card into your Pi
-2. Plug in your USB microphone and your USB or 3.5 mm speaker
+1. Insert your micro SD card into your Pi.
+2. Plug in your USB microphone and your USB or 3.5 mm speaker.
 3. Connect the keyboard and mouse using the usb ports (be sure not to cover your
 USB microphone if using one).
 4. Connect your monitor using the HDMI port.
@@ -49,7 +47,7 @@ on your Pi).
 {% include image.html file="rpi3_.jpg" alt="Example RPI3" %}
 <br>
 Once the Pi is connected, boot it up and follow the prompts until the Pi's home
- screen displays.
+screen displays.
 
 ### Configure and test the audio
 
@@ -69,7 +67,7 @@ $ aplay-1
 3. From the home directory (`/home/pi`) create a file name `.asoundrc`.
 4. Update the `.asoundrc` file with the correct slave definitions for microphone
 and speaker.
-* Use the configuration below but replace `<card number>` and `<device number>`
+* Use the configuration below, but replace `<card number>` and `<device number>`
 with the card and device numbers that were previously copied. Complete this for
 both `pcm.mic` and `pcm.speaker`.
 ```

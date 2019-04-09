@@ -1,19 +1,19 @@
 ---
-title: Configure Developer Account Settings
-tags: [getting_started]
-summary: "The purpose of this document is to enable access to the Google
-Assistant API. This API is needed to embed the Google Assistant's actions into
-an OEM device."
+title: Google - Developer Account Configuration
+summary: "The purpose of this document is to provide developers with
+instructions for configuring a developer account on Google."
 sidebar: mydoc_sidebar
-permalink: mydoc_google_developer_account.html
+permalink: mydoc_google_developer.html
 folder: mydoc
 ---
 
 ## Overview
 
-A Google Cloud Platform project, managed by the Actions Console, gives your
-project access to the Google Assistant API. The project tracks quota usage and
-gives you valuable metrics for the requests made from your device.
+To access to Google Assistant SDK, developers will need to configure a project
+and developer account settings in the Actions Console. These are the last
+steps required before installing the SDK.
+
+## Configure developer account and account settings
 
 To enable access to the Google Assistant API, do the following:
 
@@ -59,3 +59,51 @@ Open the Activity Controls page for the Google account that you want to use with
   * In addition, be sure to select the <b>Include Chrome history and activity from sites, apps, and devices that use Google services</b> checkbox.
 * Device Information
 * Voice & Audio Activity
+
+## Install the SDK and reference code
+
+These configurations can be used to install the SDK and reference code for your project.
+
+### Configure Python virtual environment
+
+Use a [Python virtual environment](https://docs.python.org/3/library/venv.html) to isolate the SDK and its dependencies from the system Python packages.
+
+{% include important.html content="For the Pi, run all commands from the <b>/home/pi</b> directory." %}
+
+Run the following commands for Python 3:
+```
+$ sudo apt-get update
+$ sudo apt-get install python3-dev python3-venv
+$ python3 -m venv env
+$ env/bin/python -m pip install --upgrade pip setuptools wheel
+$ source env/bin/activate
+```
+
+{% include important.html content="The rest of the SDK section was authored by
+another writer, so it has been redacted. My portion of the documentation picks
+back up at the <i>Complete test utterance</i> section." %}
+
+### Complete test utterance
+
+Now it's time to complete a test utterance. Once the utterance has been
+completed successfully, you will be able to begin creating custom actions that
+will work with your device.
+
+In the command below:
+
+1. Replace `my-dev-project` with the Google Cloud Platform project ID for the
+[Actions Console](https://console.actions.google.com/) project you created.
+* To find the project ID in the Actions Console, select the project, click the
+gear icon, and select <b>Project settings</b>.
+2. Replace `my-model` with the name of the model you created previously.
+```
+$ googlesamples-assistant-hotword --project-id my-dev-project --device-model-id my-model [--nickname device-nickname] [--query text-query]
+```
+3. Say test utterance. To initiate, say <i>Ok Google</i> or <i>Hey Google</i>,
+followed by one of the following:
+* <i>Tell me a joke</i>
+* <i>What time is it in New York?</i>
+* <i>What is the record for the Golden State Warriors?</i>
+
+If the Assistant responds, you have successfully embedded the Assistant into
+your Pi!

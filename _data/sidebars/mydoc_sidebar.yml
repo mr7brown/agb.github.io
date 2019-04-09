@@ -24,8 +24,16 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Embedding Google Assistant
+    - title: Google - RPI3 Prerequisites
       url: /mydoc_google_rpi3.html
+      output: web, pdf
+
+    - title: Google - Developer Account Configuration
+      url: /mydoc_google_developer.html
+      output: web, pdf
+
+    - title: Google - SDK Installation
+      url: /mydoc_google_sdk.html
       output: web, pdf
 
   - title: End User Documentation
