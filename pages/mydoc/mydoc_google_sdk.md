@@ -1,7 +1,7 @@
 ---
 title: Google - SDK Installation
 summary: "The purpose of this document is to provide developers with
-instructions for installing the Google Assistant SDK.."
+instructions for installing the Google Assistant SDK."
 sidebar: mydoc_sidebar
 permalink: mydoc_google_sdk.html
 folder: mydoc
