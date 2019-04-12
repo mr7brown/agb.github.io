@@ -23,7 +23,7 @@ recommendations for each category.
 
 The first category is Career growth and is the focus area for this week's post.
 
-## CAREER GROWTH
+## Career growth
 
 When we think about career growth and how we can continue to develop our
 personal-professional brand, there are a few ways to approach the topic. One way
