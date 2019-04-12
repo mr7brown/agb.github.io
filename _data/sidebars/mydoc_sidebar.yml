@@ -89,9 +89,9 @@ entries:
     folderitems:
 
     - title: Facebook career growth
-      url: /mydoc_pulse_career
+      url: /mydoc_pulse_career.html
       output: web, pdf
 
     - title: Facebook leveraging strengths
-      url: /mydoc_pulse_strengths
+      url: /mydoc_pulse_strengths.html
       output: web, pdf
