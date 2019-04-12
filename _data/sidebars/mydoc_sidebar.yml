@@ -83,3 +83,15 @@ entries:
     - title: Google Assistant built-in
       url: /mydoc_google_program.html
       output: web, pdf
+
+  - title: Blog Posts
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook career growth
+      url: /mydoc_pulse_career
+      output: web, pdf
+
+    - title: Facebook leveraging strengths
+      url: /mydoc_pulse_strengths
+      output: web, pdf
