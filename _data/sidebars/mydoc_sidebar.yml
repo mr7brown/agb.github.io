@@ -80,10 +80,6 @@ entries:
       url: /mydoc_visualization_fb_smb.html
       output: web, pdf
 
-    - title: Google Assistant built-in
-      url: /mydoc_google_program.html
-      output: web, pdf
-
   - title: Blog Posts
     output: web, pdf
     folderitems:
