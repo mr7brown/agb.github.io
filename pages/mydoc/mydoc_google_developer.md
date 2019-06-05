@@ -9,8 +9,8 @@ folder: mydoc
 
 ## Overview
 
-To access to Google Assistant SDK, developers will need to configure a project
-and developer account settings in the Actions Console. These are the last
+To access to Google Assistant SDK, developers need to configure a project
+and their developer account settings in the Actions Console. These are the last
 steps required before installing the SDK.
 
 ## Configure developer account and account settings
