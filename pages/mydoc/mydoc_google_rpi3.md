@@ -36,7 +36,7 @@ If you plan to connect the Pi to an external monitor, then you may also need:
 
 1. Insert your micro SD card into your Pi.
 2. Plug in your USB microphone and your USB or 3.5 mm speaker.
-3. Connect the keyboard and mouse using the usb ports (be sure not to cover your
+3. Connect the keyboard and mouse using the USB ports (be sure not to cover your
 USB microphone if using one).
 4. Connect your monitor using the HDMI port.
 5. Connect the ethernet Cable (if not using [Wi-Fi](https://www.raspberrypi.org/documentation/configuration/wireless/desktop.md)
@@ -44,8 +44,8 @@ on your Pi).
 
 {% include image.html file="rpi3_.jpg" alt="Example RPI3" %}
 <br>
-Once the Pi is connected, boot it up and follow the prompts until the Pi's home
-screen displays.
+Once the Pi is connected, boot it up and follow the prompts and recommended
+settings until the Pi's home screen displays.
 
 ### Configure and test the audio
 
@@ -91,8 +91,8 @@ pcm.speaker {
 ```
 $ speaker-test -t wav
 ```
-* If you do not hear a sound, try adjusting the volume. Press the up arrow key
-to set the playback volume level to around 70.
+* If you do not hear a sound, try adjusting the volume. (Press the up arrow key
+to set the playback volume level to around 70.)
 ```
 $ alsamixer
 ```
