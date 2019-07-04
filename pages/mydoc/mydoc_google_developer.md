@@ -15,16 +15,16 @@ steps required before installing the SDK.
 
 ## Configure developer account and account settings
 
-To enable access to the Google Assistant API, do the following:
+To enable access to the Google Assistant API, complete the following:
 
 1.  Open the Actions Console.<br><br>
 
     <a href="https://console.actions.google.com/" class="btn btn-primary">GO TO
     THE ACTIONS CONSOLE</a>
 
-2.  Click on <b>Add/import project</b>.
+2.  Click <b>Add/import project</b>.
 
-3.  To create a new project, type a name in the Project name box and click <b>CREATE PROJECT</b>.
+3.  To create a new project, type a name in the Project name field and click <b>CREATE PROJECT</b>.
 
     Alternatively, if you already have an existing Google Cloud Platform project,
     you can select that project and import it.
@@ -41,9 +41,9 @@ To enable access to the Google Assistant API, do the following:
 
     <a href="https://console.developers.google.com/apis/api/embeddedassistant.googleapis.com/overview" class="btn btn-primary">ENABLE API</a><br>
 
-    Click <b>Enable<b>.
+6.  Click <b>Enable<b>.
 
-6.  You must configure the OAuth consent screen for your project in the Cloud Platform Console. Note that most fields on this page are optional.
+7.  You must configure the OAuth consent screen for your project in the Cloud Platform Console. Note that most fields on this page are optional.
 
 {% include image.html file="consent-oauth_censored.png" alt="Example" %}
 
