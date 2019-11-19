@@ -16,6 +16,6 @@ blurred.
 
 ## Visualization
 
-The image below was created using Adobe Illustrator. TEST
+The image below was created using Adobe Illustrator.
 
  {% include image.html file="fb_smb.jpg" alt="Example" %}

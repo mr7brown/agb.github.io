@@ -9,6 +9,4 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
     - title: Style Guide
-      folderitems:
-        - title: Technical Editing Style Guide
-          url: /mydoc_styleguide_intro.html
+      url: /mydoc_style_intro.html
