@@ -15,7 +15,7 @@ The following sections need to be included in my personal website. This may be a
 
 These sections will become top bar navigation.
 
-
+(add parallelism  to a section).
 ### Resume
 
 In the resume section I need to have a static, dedicated page where I can list my portfolio, education, etc. Additionally, I need to include a tooling section to showcase the tools and applications that I'm able to use.

@@ -1,12 +1,15 @@
 ---
 title: Style Guide Overview
-tags:
+tags: "Style Guide, Grammar, Technical Writing, Technical Editing"
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
 summary: "This is an introductory page for the style guide, which is meant to be used across most, if not all, industries where documentation is needed."
 sidebar: mydoc_sidebar
 permalink: mydoc_style_intro.html
 folder: mydoc
 ---
+```
+{% raw %}<div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> {{include.content}}{% endraw %}</div>
+```
 
 This style guide provides general technical editing guidelines for anyone engaged in technical writing
 
@@ -20,7 +23,11 @@ A secondary goal of this style guide is to provide information that can help imp
 
 The information in this guideline is not meant to be a replacement of some of traditional style-guides that have more detail on grammar, punctuation, and general writing (the resources section has more information on some well respected style guides). Instead, this guideline contains supplementary information that is geared to the editorial side of technical writing.
 
-This guideline also does not need to be read through chronologically. Feel free to jump around or go to a section that you need specific guidance on.
+## Using the guide
+
+This guideline is broken down by key topics that offer you the flexibility to jump around to an area of interest or to an area that you may need guidance on.
+
+As a general note and maybe the most important aspect of this guide: you should treat this as a guideline and not as set of hard rules. There may be situations where the guidelines need to be overruled or where personal preference or a company rule may be more fitting for the documentation; and that is okay.
 
 ## Closing notes
 
