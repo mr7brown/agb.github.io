@@ -5,7 +5,7 @@ keywords: "annotations, comments, feedback"
 last_updated: "TBD"
 summary: "This is the general layout that I need to use for my personal site."
 sidebar: mydoc_sidebar
-permalink: mydoc_commenting_on_files.html
+permalink: mydoc_styleguide_intro.html
 folder: mydoc
 ---
 
@@ -49,7 +49,7 @@ After highlighting the sections of the style guide, I should have sections for t
 * Technical Specifications
 * Non-Technical
 
-### Contact 
+### Contact
 
 Page should have a simple form to send an email to me and should have a visual showing that I'm currently in NY.
 

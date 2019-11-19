@@ -4,15 +4,11 @@ topnav:
 - title: Topnav
   items:
 
-Topnav dropdowns
+#Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Products
+    - title: Style Guide
       folderitems:
-        - title: Jekyll Documentation Theme
-          url: /mydoc_introduction.html
-        - title: Product 1
-          url: /p1_landing_page.html
-        - title: Product 2
-          url: /p2_landing_page.html
+        - title: Technical Editing Style Guide
+          url: /mydoc_styleguide_intro.html
