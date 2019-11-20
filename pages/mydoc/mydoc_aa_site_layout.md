@@ -16,6 +16,12 @@ The following sections need to be included in my personal website. This may be a
 These sections will become top bar navigation.
 
 (add parallelism  to a section).
+(Add section on version control and submitting changes. may need to be a new page type that's dedicated to submitting changes.)
+(Add a resources page that contains some templates for specs/markdown/etc...within this section include general tips for submitting code or the spec...and create an editing checklist. Create a fairly general one and then add sections for code and/or technical specifications.)
+
+Add a section on being human and envoking your personal style
+
+(add link management – links in a new tab vs. links that replace the current link.)
 ### Resume
 
 In the resume section I need to have a static, dedicated page where I can list my portfolio, education, etc. Additionally, I need to include a tooling section to showcase the tools and applications that I'm able to use.

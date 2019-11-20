@@ -5,6 +5,8 @@ topnav:
   items:
     - title: Style Guide
       url: /mydoc_style_intro.html
+    - title: Resume
+      url: /mydoc_style_intro.html
 
 #Topnav dropdowns
 #topnav_dropdowns:
