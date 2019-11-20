@@ -1,0 +1,84 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Style Guide
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /mydoc_guide_style.html
+      output: web, pdf
+
+    - title: Google - Developer Account Configuration
+      url: /mydoc_google_developer.html
+      output: web, pdf
+
+    - title: Google - SDK Installation
+      url: /mydoc_google_sdk.html
+      output: web, pdf
+
+  - title: Guiding principles
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook pre-deployment process
+      url: /mydoc_fb_deployment.html
+      output: web, pdf
+
+    - title: Facebook programming pass-down
+      url: /mydoc_fb_programming.html
+      output: web,pdf
+
+  - title: Grammar
+    output: web, pdf
+    folderitems:
+
+    - title: Anti-money laundering
+      url: /mydoc_aml.html
+      output: web, pdf
+
+  - title: Punctucation
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook knowledge base landing page
+      url: /mydoc_kb_landing_page.html
+      output: web, pdf
+
+    - title: Facebook design standards portal
+      url: /mydoc_fb_kb_standards.html
+      output: web, pdf
+
+    - title: Facebook documentation portal
+      url: /mydoc_fb_kb_documentation.html
+      output: web, pdf
+
+  - title: Organization & UX
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook SMB visualization
+      url: /mydoc_visualization_fb_smb.html
+      output: web, pdf
+
+  - title: Other
+    output: web, pdf
+    folderitems:
+
+    - title: Facebook career growth
+      url: /mydoc_pulse_career.html
+      output: web, pdf
+
+    - title: Facebook leveraging strengths
+      url: /mydoc_pulse_strengths.html
+      output: web, pdf
