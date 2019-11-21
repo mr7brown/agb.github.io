@@ -3,7 +3,7 @@ title: Style Guide Overview
 tags: [Style Guide, Grammar, Technical Writing, Technical Editing]
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
 summary: "A style guide created from the best practices of the tech, financial, and media industries."
-sidebar: mydoc_sidebar
+sidebar: style_sidebar
 permalink: mydoc_style_intro.html
 folder: mydoc
 ---
