@@ -24,7 +24,7 @@ entries:
       output: web, pdf
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
   - title: Grammar
@@ -32,7 +32,7 @@ entries:
     folderitems:
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
   - title: Punctucation
@@ -40,15 +40,15 @@ entries:
     folderitems:
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
   - title: Organization & UX
@@ -56,7 +56,7 @@ entries:
     folderitems:
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
   - title: Other
@@ -64,9 +64,9 @@ entries:
     folderitems:
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
 
     - title: Placeholder
-      url: /mydoc_fb_programming.html
+      url: /mydoc_404
       output: web,pdf
