@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: Style Guide
-      url: /mydoc_style_intro.html
+    - title: Style Guide (Coming soon)
+      #url: /mydoc_style_intro.html
     - title: Documentation
       url: /index.html
 

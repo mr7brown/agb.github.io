@@ -28,7 +28,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
 ## Site Navigation
 <hr />
 
-<!-- Service List -->
+<!-- Navigation Start -->
 
 <div class="row">
     <div class="col-md-4">
@@ -128,8 +128,8 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_style_intro.html">Style Guide</a></h4>
-                <p>Link to a comprehensive style guide that I follow and have implemented as a "house" style.</p>
+                <h4 class="media-heading">Style Guide</h4>
+                <p>Link to a comprehensive style guide that I follow and have implemented as a "house" style. <b>Coming soon!</b></p>
             </div>
         </div>
     </div>
