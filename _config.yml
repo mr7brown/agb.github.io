@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+# repository:
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -6,7 +6,7 @@ output: web
 topnav_title: Ashton G. Brown | MBA
 # this appears on the top navigation bar next to the home button
 
-site_title: Ashton G. Brown | MBA
+site_title: Ashton Brown | MBA
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Ashton G. Brown
@@ -108,7 +108,7 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "This is a personal website meant to highlight some methods Ashton Brown uses for documenting technical information. It also serves as an online portfolio for current and past projects."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only

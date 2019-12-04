@@ -101,7 +101,7 @@ $ googlesamples-assistant-hotword --project-id my-dev-project --device-model-id 
 ```
 3. Say test utterance. To initiate, say <i>Ok Google</i> or <i>Hey Google</i>,
 followed by one of the following:
-* <i>Tell me a joke</i>
+* <i>Tell me a joke.</i>
 * <i>What time is it in New York?</i>
 * <i>What is the record for the Golden State Warriors?</i>
 

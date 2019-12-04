@@ -1,28 +1,136 @@
 ---
-title: Introduction
+title: Hello, World!
 sidebar: mydoc_sidebar
 permalink: index.html
 folder: mydoc
+toc: false
 ---
 
-## Hello, world!
+I'm Ashton Brown, an adaptable technical writer who’s passionate about working with engineers, designers, and business operations to make complex information accessible to both technical and non-technical audiences.
 
-I'm Ashton Brown - a transplant living in the Silicon Valley -
-and I'm an adaptable technical writer who’s passionate about working with
-engineers, designers, and business operations to make complex information
-accessible to both technical and non-technical audiences; and I developed this
-site for two primary reasons:
+I developed this site for two primary reasons:
 
-1. Without getting into too much detail, being a technical writer means that
-I need to see emerging trends in the tech industry, and then understand how
-the technology actually works. Over the past year, one of the more prominent
-trends that I'm seeing is for organizations to use a static site for
-documentation management - instead of using a Content Management System (CMS).
+### My Passion for Technology
+
+Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to see and be able to adopt emerging technolgies. Over the past year, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documenation.
+
 So, I figured what better way to understand static sites than to use Jekyll, a
 static site generator, to build my own documentation portal?
 
-2. I needed a better way to showcase the projects that I’ve worked on over the
+### Growing Need for an Online Portfolio
+
+I needed a better way to showcase the projects that I’ve worked on over the
 past few years. Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and sending screenshots of web pages featuring my content felt
-lazy. So, I came to the conclusion that I need a web-based portfolio, and Jekyll/GitHub Pages gives me the platform to showcase some of the tech writing projects that I've worked on over the past few years; and as an added bonus,
-I'm able to structure my content in a manner that the developer community
-is familiar with.
+lazy.
+
+Which led me to the conclusion that I need a web-based portfolio, and Jekyll/GitHub Pages gives me the platform to showcase some of the projects that I've worked on over the past few years.
+
+## Site Navigation
+<hr />
+
+<!-- Service List -->
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+            <h4 class="media-heading"><a href ="/mydoc_google_rpi3.html">Developer Docs.</a></h4>
+            <p>Documentation examples that contain code snippets and configurations.</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                      <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+            <h4 class="media-heading"><a href ="/mydoc_fb_deployment.html">End-User Docs.</a></h4>
+            <p>Information designed for both technical and non-technical audiences.</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                     <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+            <h4 class="media-heading"><a href ="/mydoc_aml.html">Legal Docs.</a></h4>
+            <p>Documentation created for a commercial credit policy rewrite.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                      <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href ="/mydoc_kb_landing_page.html">Knowledge Base</a></h4>
+                <p>Screenshots and background information for a Facebook KB.</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href ="/mydoc_visualization_fb_smb.html">Visualizations</a></h4>
+                <p>A few general examples of visualizations created for various companies.</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+            <h4 class="media-heading"><a href ="/mydoc_pulse_career.html">Blog Posts</a></h4>
+            <p>Excerpts from a few self-help articles created while employed with Facebook.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href ="/mydoc_aml.html">Specifications</a></h4>
+                <p>Technical information for Audio/Video specifications created at HBO.</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-paragraph fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href ="/mydoc_style_intro.html">Style Guide</a></h4>
+                <p>Link to a comprehensive style guide that I follow and have implemented as a "house" style.</p>
+            </div>
+        </div>
+    </div>
+</div>
