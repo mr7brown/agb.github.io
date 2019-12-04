@@ -15,7 +15,7 @@ entries:
       url: /mydoc_style_intro.html
       output: web, pdf
 
-  - title: Guiding principles
+  - title: General guidelines
     output: web, pdf
     folderitems:
 
@@ -23,8 +23,12 @@ entries:
       url: /mydoc_guide_style.html
       output: web, pdf
 
-    - title: Placeholder
-      url: /mydoc_404
+    - title: Accessibility
+      url: /mydoc_accessibility.html
+      output: web,pdf
+    
+    - title: Inclusive content
+      url: /mydoc_inclusive_content.html
       output: web,pdf
 
   - title: Grammar

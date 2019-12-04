@@ -6,7 +6,7 @@ folder: mydoc
 toc: false
 ---
 
-I'm Ashton Brown, an adaptable technical writer who’s passionate about working with engineers, designers, and business operations to make complex information accessible to both technical and non-technical audiences.
+I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Engineers, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences.
 
 I developed this site for two primary reasons:
 
