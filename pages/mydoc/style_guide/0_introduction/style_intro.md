@@ -4,7 +4,7 @@ tags: [Style Guide, Grammar, Technical Writing, Technical Editing]
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
 summary: "A style guide created from the best practices of the tech, financial, and media industries."
 sidebar: style_sidebar
-permalink: mydoc_style_intro.html
+permalink: style_intro.html
 folder: mydoc
 ---
 
@@ -32,4 +32,4 @@ As a general note and maybe the most important aspect of this guide: you should 
 
 While this guide focuses on industry standards and how to document information in a professional setting, much of the information can also be used as a general guide to writing.
 
-For more information on the sources used for this guide, and additional sources for a "fun" read, visit the [Resources]() section.
+For more information on the sources used for this guide, and additional sources for a "fun" read, visit the [Resources](/resources) page.

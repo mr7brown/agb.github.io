@@ -1,10 +1,9 @@
 ---
 title: Style and tone
-tags: [Style Guide, Grammar, Technical Writing, Technical Editing]
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
 summary: "Guiding principles on creating conversational documentation."
 sidebar: style_sidebar
-permalink: mydoc_guide_style.html
+permalink: style.html
 folder: mydoc
 ---
 
@@ -18,7 +17,7 @@ When writing it is easy to forget that the writing needs to be above all else, h
 
 Understanding your audience and the medium in which you are writing is essential for writing in the appropriate tone. In general, your writing should be in a tone that is conversational and professional. Again, we need to remember that the purpose is for the information to be understood.
 
-A lost art in technical documentation is the human aspect. It is easy to be stiff when writing and write in ways that we would never speak
+A lost art in technical documentation is the human aspect. It is easy to be stiff when writing and write in ways that we would never speak. To avoid this try thinking about the point you're attempting to make. Then try to think of how you would explain your point to a friend or colleague, while keeping in mind that the content still needs to be professional.
 
 ## General tips
 
@@ -28,19 +27,6 @@ When writing, you should keep the words accessibility and fairness in mind. To e
 * Writing long, complicated sentences
 * Having a structure that is too parallel (starting each sentence or section the same way)
 * Making pop culture references
-* sexism, ableism, or anthropomorphic language
-* Overuse "please"
+* Sexism, ableism, or anthropomorphic language
+* Overusing "please"
 
-## Examples
-
-Not recommended:
-
-This guideline is broken down by key topics that offer you the flexibility to jump around to an area of interest or to a specific area that you may have a question on.
-
-As a general note and maybe the most important aspect of this guide: you should treat this as a guideline and not as set of hard rules. There may be situations where the guidelines need to be overruled or where personal preference or a company rule may be more fitting for the documentation; and that is okay.
-
-## Closing notes
-
-While this guide focuses on industry standards and how to document information in a professional setting, much of the information can also be used as a general guide to writing.
-
-For more information on the sources used for this guide, and additional sources for a "fun" read, visit the [Resources]() section.

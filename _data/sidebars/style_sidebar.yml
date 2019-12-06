@@ -12,7 +12,7 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /mydoc_style_intro.html
+      url: /style_intro.html
       output: web, pdf
 
   - title: General guidelines
@@ -20,23 +20,35 @@ entries:
     folderitems:
 
     - title: Style and tone
-      url: /mydoc_guide_style.html
+      url: /style.html
       output: web, pdf
 
     - title: Accessibility
-      url: /mydoc_accessibility.html
+      url: /accessibility.html
       output: web,pdf
     
     - title: Inclusive content
-      url: /mydoc_inclusive_content.html
+      url: /inclusive_content.html
       output: web,pdf
 
   - title: Grammar
     output: web, pdf
     folderitems:
 
-    - title: Placeholder
-      url: /mydoc_404
+    - title: Anthropomorphism
+      url: /anthropomorphism.html
+      output: web,pdf
+    
+    - title: Capitalization
+      url: /capitalization.html
+      output: web,pdf
+
+    - title: Links and cross-references
+      url: /cross-references.html
+      output: web,pdf
+
+    - title: Links and cross-references
+      url: /tense.html
       output: web,pdf
 
   - title: Punctucation
@@ -67,10 +79,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Placeholder
-      url: /mydoc_404
+    - title: Resources
+      url: /resources.html
       output: web,pdf
 
-    - title: Placeholder
-      url: /mydoc_404
-      output: web,pdf

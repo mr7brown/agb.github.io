@@ -38,7 +38,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_google_rpi3.html">Developer Docs.</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_google_rpi3.html">Developer docs.</a></h4>
             <p>Documentation examples that contain code snippets and configurations.</p>
             </div>
         </div>
@@ -50,7 +50,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_fb_deployment.html">End-User Docs.</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_fb_deployment.html">End-User docs.</a></h4>
             <p>Information designed for both technical and non-technical audiences.</p>
             </div>
         </div>
@@ -62,7 +62,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_aml.html">Legal Docs.</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_aml.html">Legal docs.</a></h4>
             <p>Documentation created for a commercial credit policy rewrite.</p>
             </div>
         </div>
@@ -76,7 +76,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_kb_landing_page.html">Knowledge Base</a></h4>
+                <h4 class="media-heading"><a href ="/mydoc_kb_landing_page.html">Knowledge base</a></h4>
                 <p>Screenshots and background information for a Facebook KB.</p>
             </div>
         </div>
@@ -100,7 +100,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_pulse_career.html">Blog Posts</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_pulse_career.html">Blog posts</a></h4>
             <p>Excerpts from a few self-help articles created while employed with Facebook.</p>
             </div>
         </div>
@@ -114,8 +114,8 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_aml.html">Specifications</a></h4>
-                <p>Technical information for Audio/Video specifications created at HBO.</p>
+                <h4 class="media-heading">Specifications</h4>
+                <p>Technical information for Audio/Video specifications created at HBO. <b>Coming soon!</b></p>
             </div>
         </div>
         <div class="media">
@@ -126,8 +126,8 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading">Style Guide</h4>
-                <p>Link to a comprehensive style guide that I follow and have implemented as a "house" style. <b>Coming soon!</b></p>
+            <h4 class="media-heading"><a href ="/style_intro.html">Style guide</a></h4>
+                <p>Link to a comprehensive style guide that I follow and have implemented as a "house" style.</p>
             </div>
         </div>
     </div>
