@@ -6,8 +6,7 @@ permalink: capitalization.html
 folder: mydoc
 ---
 
-Different organizations have a house style for capitalization rules. The rules presented here are not intended to be presented to be necesarrily right. Insted, the capitalization rules on this page reflect a stylistic preference.
-Refer to Purdue's [Online Writing Lab](https://owl.purdue.edu/owl/general_writing/mechanics/help_with_capitals.html) for more information on capitalization rules. Following the general capitalization rules and stylistic preferences, comes consistency. No matter which style is chosen, being consitent across the content is necessary.
+Different organizations have a house style for capitalization rules. The rules presented here are not intended to be objectively correct. Insted, the capitalization rules on this page reflect a stylistic preference. For more information on capitalization rules, see [Help with Capitals](https://owl.purdue.edu/owl/general_writing/mechanics/help_with_capitals.html). Following the general capitalization rules and stylistic preferences, comes consistency. No matter which style is chosen, being consitent across the content is necessary.
 
 ## Capitalizing headings
 
