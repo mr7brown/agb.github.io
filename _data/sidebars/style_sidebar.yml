@@ -19,10 +19,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Style and tone
-      url: /style.html
-      output: web, pdf
-
     - title: Accessibility
       url: /accessibility.html
       output: web,pdf
@@ -30,6 +26,10 @@ entries:
     - title: Inclusive content
       url: /inclusive_content.html
       output: web,pdf
+      
+    - title: Style and tone
+      url: /style.html
+      output: web, pdf
 
   - title: Grammar
     output: web, pdf
@@ -47,11 +47,19 @@ entries:
       url: /cross-references.html
       output: web,pdf
 
-    - title: Present Tense
+    - title: Present tense
       url: /tense.html
       output: web,pdf
+      
+    - title: Second person
+      url: /second_person.html
+      output: web,pdf
 
-  - title: Punctucation
+    - title: Spelling
+      url: /spelling.html
+      output: web,pdf
+
+  - title: Computer interfaces
     output: web, pdf
     folderitems:
 
