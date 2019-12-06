@@ -6,13 +6,11 @@ folder: mydoc
 toc: false
 ---
 
-I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Engineers, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences.
-
-I developed this site for two primary reasons:
+I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Engineers, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences, and I developed this site for two primary reasons:
 
 ### My Passion for Technology
 
-Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to see and be able to adopt emerging technolgies. Over the past year, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documenation.
+Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to be able to adopt emerging technolgies. Over the past year, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documenation.
 
 So, I figured what better way to understand static sites than to use Jekyll, a
 static site generator, to build my own documentation portal?
