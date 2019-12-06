@@ -3944,7 +3944,7 @@ fieldset[disabled] .btn-danger:hover {
 
 .btn-link {
     font-weight: 400;
-    color: #337ab7;
+    color: #2e5eaa;
     border-radius: 0
 }
 
@@ -5301,7 +5301,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .btn-link:focus,
 .navbar-default .btn-link:hover {
-    color: #333
+    color: #2e5eaa;
 }
 
 .navbar-default .btn-link[disabled]:focus,
