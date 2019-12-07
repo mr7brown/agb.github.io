@@ -3,10 +3,12 @@
 topnav:
 - title: Topnav
   items:
-    - title: Style Guide
-      url: /style_intro.html
     - title: Documentation
       url: /index.html
+    - title: Resume
+      url: /resume.html
+    - title: Style guide
+      url: /style_intro.html
 
 #Topnav dropdowns
 #topnav_dropdowns:

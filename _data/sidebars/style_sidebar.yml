@@ -59,28 +59,20 @@ entries:
       url: /spelling.html
       output: web,pdf
 
-  - title: Computer interfaces
-    output: web, pdf
-    folderitems:
-
-    - title: Placeholder
-      url: /mydoc_404
-      output: web,pdf
-
-    - title: Placeholder
-      url: /mydoc_404
-      output: web,pdf
-
-    - title: Placeholder
-      url: /mydoc_404
-      output: web,pdf
+#  - title: Computer interfaces
+ #   output: web, pdf
+  #  folderitems:
 
   - title: Organization & UX
     output: web, pdf
     folderitems:
 
-    - title: Placeholder
-      url: /mydoc_404
+    - title: Consistency
+      url: /consistency.html
+      output: web,pdf
+
+    - title: General guidelines
+      url: /ux-guidelines.html
       output: web,pdf
 
   - title: Other
