@@ -1,12 +1,11 @@
 ---
 title: Links and Cross References
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Capitalization"
+summary: "Different users have different needs. To avoid excessive documentation or documentation that is not detailed enough, it's often useful to provide internal or external links. This page highlights some ways to improve links and cross-references."
 sidebar: style_sidebar
 permalink: cross-references.html
 folder: mydoc
 ---
-
-Different users willl have different needs. To avoid excessive documentation or documentation that is not detailed enough, it's often useful to provide internal or external links.
 
 ## Link formatting
 
@@ -26,4 +25,4 @@ To make documentation easier to read, try referencing the page from the root lev
 
 ## External links
 
-For external links, you should consider insterting an external link icon: <i class="fa fa-external-link"></i>.
+For external links, you should consider inserting an external link icon: <i class="fa fa-external-link"></i>.

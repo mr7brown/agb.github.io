@@ -1,12 +1,11 @@
 ---
 title: Accessibility
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
+summary: "When creating content for the web it is important to have content that is accessible. Having accessible content helps promote mindful practices that improve the overall experience and content quality."
 sidebar: style_sidebar
 permalink: accessibility.html
 folder: mydoc
 ---
-
-When creating content for the web it is important to have content that is accessible. Having accessible content helps promote mindful practices that improve the overall experience and content quality.
 
 ## General guidelines
 

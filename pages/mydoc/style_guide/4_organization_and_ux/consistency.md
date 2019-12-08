@@ -1,10 +1,13 @@
 ---
 title: Consistency
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
+summary: "This page provides examples on how to create content that is consistent and why it is so important in technical communication."
 sidebar: style_sidebar
 permalink: consistency.html
 folder: mydoc
 ---
+
+## Technical Writing at a glance
 
 Unlike other forms of writing, technical writing is better with less variation. For example, when describing the terminal, you should refer to it the same way throughout a document and throughout the whole library of information. 
 

@@ -1,15 +1,12 @@
 ---
 title: Spelling
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Spelling"
+summary: "This guide is written from the American English perspective. This means that for words spelled differently in British English (practise, colour, defence, offence, etc.) defer to the American spelling."
 sidebar: style_sidebar
 permalink: spelling.html
 toc: true
 folder: mydoc
 ---
-
-This guide is written from the American English perspective. This means that for words spelled differently in British English (practise, colour, defence, offence, etc.) defer to the American spelling.
-
-The only time to break the rule is if you are making a specific reference that requires the British spelling.
 
 ## Example
 

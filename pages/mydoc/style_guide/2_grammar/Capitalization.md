@@ -1,16 +1,15 @@
 ---
 title: Capitalization
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Capitalization"
+summary: "Different organizations have a house style for capitalization rules. The rules presented here are not intended to be objectively correct. Instead, the capitalization rules on this page reflect a stylistic preference."
 sidebar: style_sidebar
 permalink: capitalization.html
 folder: mydoc
 ---
 
-Different organizations have a house style for capitalization rules. The rules presented here are not intended to be objectively correct. Insted, the capitalization rules on this page reflect a stylistic preference. For more information on capitalization rules, see [Help with Capitals](https://owl.purdue.edu/owl/general_writing/mechanics/help_with_capitals.html). Following the general capitalization rules and stylistic preferences, comes consistency. No matter which style is chosen, being consitent across the content is necessary.
-
 ## Capitalizing headings
 
-* In document titles and page headings, use sentence case. That said, you should still capitalize all proper nouns.
+* In document titles and page headings, use sentence case. That said, you should still capitalize all proper nouns; for more information on capitalization rules, see [Help with Capitals](https://owl.purdue.edu/owl/general_writing/mechanics/help_with_capitals.html).
 * Do not put a period at the end of a heading.
 * Avoid using acronyms in headings, unless you are sure that the term is widely known (NASA, FAQ).
 
