@@ -115,7 +115,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
             </div>
             <div class="media-body">
                 <h4 class="media-heading">Specifications</h4>
-                <p>Technical information for Audio/Video specifications created at HBO. <b>Coming soon!</b></p>
+                <p>Technical information for Audio/Video specs created at HBO. <b>Coming soon!</b></p>
             </div>
         </div>
         <div class="media">
@@ -127,7 +127,18 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
             </div>
             <div class="media-body">
             <h4 class="media-heading"><a href ="/style_intro.html">Style guide</a></h4>
-                <p>Link to a comprehensive style guide that I follow and have implemented as a "house" style.</p>
+                <p>Link to a style guide that I follow and have also implemented.</p>
+            </div>
+            <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-black"></i>
+                       <i class="fa fa-suitcase fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+            <h4 class="media-heading"><a href ="/resume.html">Resume</a></h4>
+            <p>Static link to an up-to date resume that can be downloaded or viewed online.</p>
             </div>
         </div>
     </div>

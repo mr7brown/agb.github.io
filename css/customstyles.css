@@ -363,7 +363,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav > li.active > a  {
-background-color: #2e5eaa;
+background-color: black;
 }
 
 .nav li a {
@@ -388,7 +388,7 @@ ul#mysidebar {
 }
 
 .nav li.thirdlevel > a {
-    color: #248EC2;
+    color: black;
     font-weight:bold;
     padding-left:20px;
     background-color: whitesmoke !important;
@@ -506,7 +506,7 @@ section table tr.danger, table tr.preference, table tr.preference > td.sorting_1
 }
 
 table.profile thead tr th {
-    background-color: #248ec2;
+    background-color: black;
 }
 
 table.request thead tr th {
@@ -568,7 +568,7 @@ i.border {
 }
 
 a[data-toggle] {
-    color: #248EC2;
+    color: black;
 }
 
 .summary {
@@ -598,7 +598,7 @@ h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
+    background-color: black;
     color: white;
 }
 
@@ -614,7 +614,7 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: #FAFAFA;
+    background-color: whitesmoke;
 }
 
 span.tagTitle {font-weight: 500;}
@@ -710,7 +710,7 @@ ol.series li {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
+    border-color: black !important;
 }
 
 #mysidebar .nav ul {
@@ -995,7 +995,7 @@ p.post-meta time {
 }
 
 span.label.label-default {
-    background-color: gray;
+    background-color: black;
 }
 
 span.label.label-primary {
@@ -1011,7 +1011,7 @@ span.label.label-primary {
     }
 
 a code {
-    color: #248EC2;
+    color: black;
 }
 
 code + a > code {
