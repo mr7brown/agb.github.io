@@ -7,7 +7,10 @@ permalink: resume.html
 folder: mydoc
 ---
 
-   <div class="row">
+  <a href="https://drive.google.com/file/d/1E4Uj26CCJ6ZiileJHqwQiCM6fhvZY4pM/view?usp=sharing" class="btn btn-primary">PDF version</a>
+
+ 
+  <div class="row">
        <div class="col-lg-12">
            <h2 class="page-header">Experience</h2>
        </div>
