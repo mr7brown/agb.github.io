@@ -135,7 +135,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
             </div>
             <div class="media-body">
             <h4 class="media-heading"><a href ="/resume.html">Resume</a></h4>
-            <p>Static link to an up-to date resume that can be downloaded or viewed online.</p>
+            <p>Static link to a  resume that can be downloaded or viewed online.</p>
             </div>
         </div>
     </div>
