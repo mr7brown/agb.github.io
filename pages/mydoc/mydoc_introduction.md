@@ -6,22 +6,19 @@ folder: mydoc
 toc: false
 ---
 
-I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Engineers, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences, and I developed this site for two primary reasons:
+I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Engineers, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences, and I developed this site for two primary reasons.
 
 ### My Passion for Technology
 
-Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to be able to adopt emerging technolgies. Over the past year, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documenation.
+Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to be able to adopt emerging technologies. Over the past year, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documentation.
 
-So, I figured what better way to understand static sites than to use Jekyll, a
-static site generator, to build my own documentation portal?
+So, I figured what better way to understand static sites than to use Jekyll, a static site generator, to build my own documentation portal?
 
 ### Growing Need for an Online Portfolio
 
-I needed a better way to showcase the projects that I’ve worked on over the
-past few years. Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and sending screenshots of web pages featuring my content felt
-lazy.
+I needed a better way to showcase the projects that I’ve worked on over the past few years. Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and sending screenshots of web pages featuring my content felt lazy.
 
-Which led me to the conclusion that I need a web-based portfolio, and Jekyll/GitHub Pages gives me the platform to showcase some of the projects that I've worked on over the past few years.
+Which led me to the conclusion that I need a web-based portfolio, and Jekyll/GitHub Pages gives me the platform to showcase some of my work.
 
 ## Site Navigation
 <hr />
