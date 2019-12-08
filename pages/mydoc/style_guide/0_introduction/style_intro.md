@@ -1,6 +1,5 @@
 ---
 title: Style Guide Overview
-tags: [Style Guide, Grammar, Technical Writing, Technical Editing]
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
 summary: "A style guide created from the best practices of the tech, financial, and media industries."
 sidebar: style_sidebar
@@ -10,7 +9,7 @@ folder: mydoc
 
 {% include important.html content="The style guide is under construction." %}
 
-This style guide provides general technical editing guidelines for anyone engaged in technical writing. The guide is kept at a pretty high-level so that it is able to be used across industries. That said, the contents of the guide are written primarily for a technical audience.
+This style guide provides general technical editing guidelines for anyone engaged in technical writing. The guide is kept at a pretty high-level so that it is able to be used across industries. That said, some of the contents are written primarily for a technical audience.
 
 ## Objective
 
@@ -20,13 +19,13 @@ A secondary goal of this style guide is to provide information that can help imp
 
 ## Non-goals
 
-The information in this guideline is not meant to be a replacement for some of the traditional style-guides that have more detail on grammar, punctuation, and general writing (the resources section has more information on some well respected style guides). Instead, this guideline contains supplementary information geared towards the editorial side of technical documentation.
+The information in this guideline is not meant to be a replacement for some of the traditional style-guides that have more detail on grammar, punctuation, and general writing (the [Resources](/resources) page has more information on some well respected style guides). Instead, this guideline contains supplementary information geared towards the editorial side of technical documentation.
 
 ## Using the guide
 
-This guideline is broken down by key topics that offer you the flexibility to jump around to an area of interest or to a specific area that you may have a question on.
+This guideline is broken down by key topics, which offers you the flexibility to jump around to an area of interest or to a specific area that you may have a question on.
 
-As a general note and maybe the most important aspect of this guide: you should treat this as a guideline and not as set of hard rules. There may be situations where the guidelines need to be overruled or where personal preference or a company rule may be more fitting for the documentation; and that is okay.
+As a general note and maybe the most important aspect of this guide: you should treat this as a guideline and not as set of hard rules. There may be situations where the guidelines need to be overruled or where personal preference or a company rule may be more fitting for the documentation.
 
 ## Closing notes
 

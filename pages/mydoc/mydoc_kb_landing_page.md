@@ -18,10 +18,3 @@ of icons used.
 Below is the landing page that was developed using both Wiki syntax and HTML/CSS.
 
  {% include image.html file="kb_landing_page.png" alt="Example" %}
-<br>
-In addition to the landing page,there were two portals: one for documentation
-and one for the team's global design standards. Links to these examples can be
-found in the sidebar navigation and by using the links below:
-
-* [Facebook's Technical Design Standards](https://mr7brown.github.io/ashtonbrown.github.io/mydoc_fb_kb_standards.html)
-* [Facebook Documentation Portal](https://mr7brown.github.io/ashtonbrown.github.io/mydoc_fb_kb_standards.html)

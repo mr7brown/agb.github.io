@@ -1,7 +1,6 @@
 ---
 title: Facebook Programming
-summary: "The purpose of this document is guide Facebook's Portfolio Program
-Managers through the process of passing down projects to Deployment Project
+summary: "The purpose of this document is guide Facebook's Portfolio Program Managers through the process of passing down projects to Deployment Project
 Managers."
 sidebar: mydoc_sidebar
 permalink: mydoc_fb_programming.html
@@ -12,7 +11,7 @@ folder: mydoc
 
 The Portfolio Program Managers (PPMs) for the NORCAL and LATAM regions have
 developed a new, streamlined process for passing down projects to Deployment
-Project Managers (DPM)s. PPMs will now complete a template and assign projects
+Project Managers (DPMs). PPMs will now complete a template and assign projects
 through the Project Tool - after performing analysis of the DPMs existing
 workload.
 
@@ -36,7 +35,7 @@ as the External Resources field.
 
 ### Project overview
 
-The project overview will differ from project to project, but at a high-level it
+The project overview differs from project to project, but at a high-level it
 should contain:
 
 * Project location & size
@@ -46,7 +45,7 @@ should contain:
 
 ### Constraints - assumptions - risks - dependencies
 
-Here PPMs will enter any known constraints, assumptions, risks, or dependencies.
+Here PPMs should enter any known constraints, assumptions, risks, or dependencies.
 One piece of information that should be placed into this section is the
 anticipated FDOB date.
 

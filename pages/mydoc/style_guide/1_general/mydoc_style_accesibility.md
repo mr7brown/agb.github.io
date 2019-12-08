@@ -1,18 +1,17 @@
 ---
 title: Accessibility
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "Guiding principles on creating globally accessible content."
 sidebar: style_sidebar
 permalink: accessibility.html
 folder: mydoc
 ---
 
-When creating content for the web it is important to have content that is accessible. Having accessible content helps promote mindful practices that improves the overall experience and content quality.
+When creating content for the web it is important to have content that is accessible. Having accessible content helps promote mindful practices that improve the overall experience and content quality.
 
 ## General guidelines
 
-* Avoid using slang or jargon. Having confusing language or terminology can cause confusion for both native and non-native speakers.
-* Avoid [ableism](http://cdrnys.org/blog/uncategorized/ableism/), sexism, and [anthropomorphism](https://www.britannica.com/topic/anthropomorphism).
+* Avoid using slang or jargon. Having confusing language or terminology can cause unnecessary confusion.
+* Avoid [ableism](https://cdrnys.org/blog/uncategorized/ableism/), sexism, and [anthropomorphism](/anthropomorphism).
 * Keep sentences and paragraphs concise. Keep in mind that screen readers may be used to present the information. The longer the sentences and paragraphs, the more difficult it becomes for users to engage with the content.
 * Limit using symbols such as &, especially in headings and navigation.
 

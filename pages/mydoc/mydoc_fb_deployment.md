@@ -11,21 +11,17 @@ folder: mydoc
 ## Overview
 
 In the Deployment phase there are two core activities that you will need to be
-aware of, along with a few processes for each.
-
-Below is a brief guide for the project management aspects that you should be
-aware of, as well as an introduction to the larger processes that need to be
-completed in the Deployment phase.
+aware of, along with a few processes for each. Below is a brief guide for the project management components, as well as an introduction to the larger processes that need to be completed in the Deployment phase.
 
 ## General guidelines
 
 In general, you should:
 
-* Try to be as responsive as possible for any escalations
-* Constantly track the delivery schedule of equipment. Since EENB is not\
+* Try to be as responsive as possible for any escalations.
+* Constantly track the delivery schedule of equipment. Since EENB is not
 receiving live EUEE equipment tracking, there is some due diligence required to
 understand the FDOB date, the process for installation, and the commissioning
-process for EENB’s cross-functional (XFN) partners
+process for EENB’s cross-functional (XFN) partners.
 * Create a Workplace group that can be used as a medium for communication
 throughout the project on small questions, XFN collaboration, and project status
 updates. Add the following XFNs to the Workplace group:
@@ -34,10 +30,10 @@ updates. Add the following XFNs to the Workplace group:
   * VIO DE
   * Events DE
   * RSE PM
-  * Any additional partners with an @fb e-mail that should have visibility on
+  * Any additional partners with an @fb email that should have visibility on
    project questions
 * Schedule pre-FDOB meeting(s) with EUIT teams to ensure that the equipment
-delivery is on schedule
+delivery is on schedule.
 
 ## Confirming network live date is on schedule
 
@@ -59,13 +55,15 @@ network live date.
 To add telephone numbers to conference rooms, phones must be provisioned
 (assigned to a room). These provisioned numbers must then be assigned to
 conference rooms, which is done by entering the numbers into the amenities
- document. (Link to separate process has been redacted.)
+ document. 
+ 
+ **(Link to separate process has been redacted.)**
 
 ## Amenities document process
 
 In general, you will perform the following steps in the process:
 
-1. Receive amenities document ~ 4 weeks prior to the project’s FDOB date from
+1. Receive amenities document ~4 weeks prior to the project’s FDOB date from
 CAFM team - via Tasks.
 2. Cross-check the approved spots and dots with the Amenities document to ensure
 accurate accounting for all amenities.

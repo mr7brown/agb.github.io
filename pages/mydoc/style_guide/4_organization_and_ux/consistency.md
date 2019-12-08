@@ -12,7 +12,6 @@ With technical information, it is easy to cause confusion just by referring to a
 
 ## Examples
 
-<br>
 <i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> **Not recommended:** The filename should match the title record. If the file name does not match, the submission will be rejected. <br><br>
 <i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> **Recommended:** The filename should match the title record. If the filename does not match, the submission will be rejected.
 

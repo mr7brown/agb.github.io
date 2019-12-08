@@ -1,7 +1,6 @@
 ---
 title: Google - SDK Installation
-summary: "The purpose of this document is to provide developers with
-instructions for installing the Google Assistant SDK."
+summary: "The purpose of this document is to provide developers with instructions for installing the Google Assistant SDK."
 sidebar: mydoc_sidebar
 permalink: mydoc_google_sdk.html
 folder: mydoc
@@ -18,7 +17,7 @@ Pi, you can begin developing customs actions that will work with your device.
 Use a [Python virtual environment](https://docs.python.org/3/library/venv.html)
 to isolate the SDK and its dependencies from the system Python packages.
 
-{% include important.html content="For the Pi, run all commands from the <b>/home/pi</b> directory." %}
+{% include important.html content="Run all commands from the <b>/home/pi</b> directory." %}
 
 Run the following commands for Python 3:
 ```
@@ -50,8 +49,8 @@ gear icon, and select <b>Project settings</b>.
 $ googlesamples-assistant-hotword --project-id my-dev-project --device-model-id my-model [--nickname device-nickname] [--query text-query]
 ```
 3. Say test utterance. To initiate, say <i>Ok Google</i> or <i>Hey Google</i>,
-followed by one of the following:
-* <i>Tell me a joke</i>
+proceeded by one of the following:
+* <i>Tell me a joke.</i>
 * <i>What time is it in New York?</i>
 * <i>What is the record for the Golden State Warriors?</i>
 

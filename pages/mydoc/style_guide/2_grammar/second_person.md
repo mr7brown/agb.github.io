@@ -1,5 +1,5 @@
 ---
-title: Second person versus first prson
+title: Second Person Versus First Person
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Second Person"
 sidebar: style_sidebar
 permalink: second_person.html
@@ -9,9 +9,8 @@ folder: mydoc
 
 In technical writing it is important for it to be clear who is performing an action. For this reason, documents are typically written in the second person "you" rather than the first person "I/we." This may not always be the case, but regardless if the content is written in second person or first person, your reader should be clear who or what is perfoming an action.
 
-### Examples
+## Examples
 
-<br><br>
 <i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> **Not recommended:** You'll need to enter admin credentials.<br><br>
 <i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> **Recommended:** Enter admin credentials.<br><br>
 

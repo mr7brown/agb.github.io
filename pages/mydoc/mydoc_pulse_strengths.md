@@ -21,8 +21,7 @@ As with most things at Facebook, there's probably a Wiki for it. The Learning &
 Development Center provides an excellent resource that's designed to:
 * Uncover our strengths
 * Understand practical applications for our strengths
-* Help us to use our education of strengths to help improve our relationship
-with the work that we're doing
+* Help us to use our strengths to find meaning in our work
 
 ### Method 2: Leveraging 1:1s
 
@@ -33,7 +32,8 @@ that extend beyond the "how are you doing today" questions.
 ### Example case study
 
 Below is an excerpt from a case study concerning a modern approach to 1:1s, an
-approach geared towards having more impactful interactions:
+approach geared towards having more impactful interactions.
+
 Anand Sanwal, the CEO and founder of CB Insights, a company that provides
 predictive intelligence on the health of private companies, admits that he
 wasn’t always good at running 1:1 meetings with his team members. He states,
@@ -48,13 +48,11 @@ invites.
 For context, some of the questions that Anand asked were:
 * Who do you admire in the organization and why?
 * What is the biggest opportunity we’re missing out on?
-* hat don’t you like about our product (service)?
+* What don’t you like about our product (service)?
 
-and these questions helped to create the kind of dialogue that can reveal hidden
-passions or strengths. And if it doesn’t, that’s fine too! It’s simply the
-desire to spark engaging conversations that makes a world of difference -
-according to Anand.
+These questions helped create the kind of dialogue that can reveal hidden passions or strengths. And if it doesn’t, that’s fine too! It’s simply the desire to spark engaging conversations that makes a world of difference – according to Anand.
 
 ### A look ahead
+
 Next week we will focus on the third impact area: recognition, and how an
 internal Facebook tool can go a long way in helping with employee recognition!

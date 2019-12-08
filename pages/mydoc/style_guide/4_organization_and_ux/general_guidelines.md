@@ -1,5 +1,5 @@
 ---
-title: General organization and UX guidelines
+title: General Organization and UX Guidelines
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
 sidebar: style_sidebar
 permalink: ux-guidelines.html

@@ -1,5 +1,5 @@
 ---
-title: Links and cross references
+title: Links and Cross References
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Capitalization"
 sidebar: style_sidebar
 permalink: cross-references.html
@@ -17,7 +17,7 @@ Links should be meaningful and accessible.<br>
 
 Another important note is that the wording of the cross-reference or link matters. When inserting a cross reference contains additional information, use *about* instead of *on*.
 
-<i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> **Not recommended:** Note: For more information on style and tone, see [Style and Tone](/style).<br><br>
+<i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> **Not recommended:** For more information on style and tone, see [Style and Tone](/style).<br><br>
 <i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> **Recommended:** For more information about style and tone, see [Style and Tone](/style).
 
 ## Linking to pages in the same directory
