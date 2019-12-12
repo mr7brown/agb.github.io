@@ -46,6 +46,7 @@ folder: mydoc
                    <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
                    <span class="label label-default">Amazon AWS s3</span>
                    <span class="label label-default">Wiki & Wiki syntax</span>
+                   <span class="label label-default">Javascript</span>
                    <span class="label label-default">Jekyll</span>
                    <span class="label label-default">Gatsby</span>
                    <span class="label label-default">Aspera</span>
@@ -64,6 +65,7 @@ folder: mydoc
                    <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
                    <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
                    <span class="label label-default">Google Drive & Team Drive</span>
+                   <span class="label label-default">Javascript</span>
                    <span class="label label-default">Google Suite</span>
                    <span class="label label-default">Wiki & Wiki syntax</span>
                    <span class="label label-default">Jekyll</span>
@@ -82,6 +84,7 @@ folder: mydoc
                    <i class="fa fa-github fa-2x"></i>
                    <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
                    <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
+                   <span class="label label-default">Javascript</span>
                    <span class="label label-default">Google Drive & Team Drive</span>
                    <span class="label label-default">Google Suite</span>
                    <span class="label label-default">Piper</span>
@@ -104,6 +107,7 @@ folder: mydoc
                     <i class="fa fa-file-pdf-o fa-2x" style ="color: red;"></i>
                    <span class="label label-default">AWS</span>
                    <span class="label label-default">Blue Prism</span>
+                   <span class="label label-default">Visio</span>
                </div>
                <div class="tab-pane fade" id="service-five">
                    <h4>Technical Writer III</h4>
@@ -151,21 +155,20 @@ folder: mydoc
 <i class="fa fa-github fa-2x"></i>
 <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
 <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
-<span class="label label-default">Amazon AWS</span>
-<span class="label label-default">Ubuntu</span>
 <span class="label label-default">Xcode</span>
 <span class="label label-default">JSON</span>
 <span class="label label-default">XML</span>
 <span class="label label-default">Amazon AWS s3</span>
 <span class="label label-default">Wiki & Wiki syntax</span>
+<span class="label label-default">Gatsby</span>
 <span class="label label-default">Jekyll</span>
 <span class="label label-default">InDesign</span>
 <span class="label label-default">Illustrator</span>
-<span class="label label-default">Gatsby</span>
 <span class="label label-default">Swift</span>
 <span class="label label-default">Bootstrap</span>
 <span class="label label-default">AJAX</span>
 <span class="label label-default">Liquid</span>
+<span class="label label-default">Amazon AWS</span>
 
 
 
