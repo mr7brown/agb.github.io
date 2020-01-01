@@ -44,6 +44,7 @@ folder: mydoc
                    <i class="fa fa-github fa-2x"></i>
                    <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
                    <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
+                   <span class="label label-default">XML</span>
                    <span class="label label-default">Amazon AWS s3</span>
                    <span class="label label-default">Wiki & Wiki syntax</span>
                    <span class="label label-default">Javascript</span>
@@ -65,13 +66,13 @@ folder: mydoc
                    <i class="fa fa-github fa-2x"></i>
                    <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
                    <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
+                   <span class="label label-default">XML</span>
                    <span class="label label-default">Google Drive & Team Drive</span>
                    <span class="label label-default">Javascript</span>
                    <span class="label label-default">Google Suite</span>
                    <span class="label label-default">Wiki & Wiki syntax</span>
                    <span class="label label-default">Visio</span>
                    <span class="label label-default">Jekyll</span>
-                   <span class="label label-default">Aspera</span>
                    <span class="label label-default">InDesign</span>
                    <span class="label label-default">Illustrator</span>
                </div>
@@ -87,6 +88,7 @@ folder: mydoc
                    <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
                    <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
                    <span class="label label-default">Javascript</span>
+                   <span class="label label-default">XML</span>
                    <span class="label label-default">Google Drive & Team Drive</span>
                    <span class="label label-default">Google Suite</span>
                    <span class="label label-default">Piper</span>
