@@ -50,6 +50,7 @@ folder: mydoc
                    <span class="label label-default">Jekyll</span>
                    <span class="label label-default">Gatsby</span>
                    <span class="label label-default">Aspera</span>
+                   <span class="label label-default">Visio</span>
                    <span class="label label-default">InDesign</span>
                    <span class="label label-default">Illustrator</span>
                </div>
@@ -68,6 +69,7 @@ folder: mydoc
                    <span class="label label-default">Javascript</span>
                    <span class="label label-default">Google Suite</span>
                    <span class="label label-default">Wiki & Wiki syntax</span>
+                   <span class="label label-default">Visio</span>
                    <span class="label label-default">Jekyll</span>
                    <span class="label label-default">Aspera</span>
                    <span class="label label-default">InDesign</span>
@@ -89,6 +91,7 @@ folder: mydoc
                    <span class="label label-default">Google Suite</span>
                    <span class="label label-default">Piper</span>
                    <span class="label label-default">Cider</span>
+                   <span class="label label-default">Visio</span>
                    <span class="label label-default">InDesign</span>
                    <span class="label label-default">Illustrator</span>
                </div>
@@ -128,6 +131,7 @@ folder: mydoc
                    <i class="fa fa-file-excel-o fa-2x" style ="color: green;"></i>
                    <i class="fa fa-file-word-o fa-2x" style ="color: blue;"></i>
                    <i class="fa fa-file-pdf-o fa-2x" style ="color: red;"></i>
+                   <span class="label label-default">Visio</span>
                    <span class="label label-default">Citrix</span>
                </div>
            </div>
@@ -155,6 +159,7 @@ folder: mydoc
 <i class="fa fa-github fa-2x"></i>
 <i class="fa fa-html5 fa-2x" style ="color: orange;"></i>
 <i class="fa fa-css3 fa-2x" style ="color: blue;"></i>
+<span class="label label-default">Visio</span>
 <span class="label label-default">Xcode</span>
 <span class="label label-default">JSON</span>
 <span class="label label-default">XML</span>
