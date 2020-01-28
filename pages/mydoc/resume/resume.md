@@ -7,7 +7,7 @@ permalink: resume.html
 folder: mydoc
 ---
 
-  <a href="https://drive.google.com/file/d/1E4Uj26CCJ6ZiileJHqwQiCM6fhvZY4pM/view?usp=sharing" class="btn btn-primary">PDF version</a>
+  <a href="https://drive.google.com/file/d/1l2zncb4y7zfhTqwSOqcL4mtlusvpjKuD/view?usp=sharing" class="btn btn-primary">PDF version</a>
 
  
   <div class="row">
