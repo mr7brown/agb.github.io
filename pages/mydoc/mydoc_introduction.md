@@ -111,8 +111,8 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading">Specifications</h4>
-                <p>Technical information for Audio/Video specs created at HBO. <b>Coming soon!</b></p>
+                <h4 class="media-heading"><a href ="/mydoc_hbo_mmc.html">Technical Specifications</a></h4>
+                <p>Technical information for Audio/Video specs created at HBO.</p>
             </div>
         </div>
         <div class="media">

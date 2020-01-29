@@ -36,6 +36,18 @@ entries:
       url: /mydoc_google_sdk.html
       output: web, pdf
 
+  - title: Technical Specifications
+    output: web, pdf
+    folderitems:
+
+    - title: Media Manifest Metadata
+      url: /mydoc_hbo_mmc.html
+      output: web, pdf
+
+    - title: Licensed Content Delivery SDR
+      url: /mydoc_hbo_sdr.html
+      output: web,pdf
+
   - title: End User Documentation
     output: web, pdf
     folderitems:
