@@ -8,7 +8,7 @@ toc: false
 
 I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Engineers, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences, and I developed this site for two primary reasons.
 
-### Passion for Technology
+### A Passion for Technology
 
 Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to be able to adopt emerging technologies. Over the past year, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documentation.
 
@@ -16,9 +16,7 @@ So, I figured what better way to understand static sites than to use Jekyll, a s
 
 ### Growing Need for an Online Portfolio
 
-I needed a better way to showcase the projects that I’ve worked on over the past few years. Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and sending screenshots of web pages featuring my content felt lazy.
-
-Which led me to the conclusion that I need a web-based portfolio, and Jekyll/GitHub Pages gives me the platform to showcase some of my work.
+Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and sending screenshots of web pages featuring my content felt lazy. So, I decided that Jekyll/Github Pages would be a fun way to showcase some of the projects I've recently worked on.
 
 ## Site Navigation
 <hr />
@@ -35,7 +33,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_google_rpi3.html">Developer docs.</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_google_rpi3.html">Developer docs</a></h4>
             <p>Documentation examples that contain code snippets and configurations.</p>
             </div>
         </div>
@@ -47,7 +45,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_fb_deployment.html">End-User docs.</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_fb_deployment.html">End-User docs</a></h4>
             <p>Information designed for both technical and non-technical audiences.</p>
             </div>
         </div>
@@ -59,7 +57,7 @@ Which led me to the conclusion that I need a web-based portfolio, and Jekyll/Git
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_aml.html">Legal docs.</a></h4>
+            <h4 class="media-heading"><a href ="/mydoc_aml.html">Legal docs</a></h4>
             <p>Documentation created for a commercial credit policy rewrite.</p>
             </div>
         </div>
