@@ -80,7 +80,7 @@ folder: mydoc
                </div>
                <div class="tab-pane fade" id="service-three">
                    <h4>Technical Writer III</h4>
-                   <p><i>Apr '18 – Sep '19</i></p>
+                   <p><i>Apr '18 – Sep '18</i></p>
                    <p>Hired to develop a program for third-party developers looking to integrate the Google Assistant with an OEM device. This effort included: producing SDK documentation, defining logistics expectations with Google’s Business Development team, creating integration guides, and drafting Google Assistant specifications.</p>
                    <h5>Technology used</h5>
                    <i class="fa fa-apple fa-2x"></i>
