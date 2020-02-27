@@ -9,7 +9,7 @@ folder: mydoc
 
 <br />
 
-  <a href="https://drive.google.com/file/d/1l2zncb4y7zfhTqwSOqcL4mtlusvpjKuD/view?usp=sharing" class="btn btn-primary">PDF version</a>
+  <a href="https://drive.google.com/file/d/1T-3GIaCD1pxBNB7ybcbBlwRGBn4WVhSL/view?usp=sharing" class="btn btn-primary">PDF version</a>
 
  
   <div class="row">
