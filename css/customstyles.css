@@ -1,3 +1,25 @@
+:root {
+    --tw-black: #1e1e1e;
+    --tw-gold: #e5bc73;
+    --tw-light-blue: #5bc0de;
+    --tw-blue: #1a73e8;
+    --tw-white: #ffffff;
+    --tw-max: #28323f;
+    --tw-gray: #8c8b8b;
+    --tw-light-gray: #ebebeb;
+    --tw-medium-gray: #d3d3d3;
+    --tw-dark-gray: #262626;
+    --light-green: #5cb85c;
+    --tw-note: #e6f4ea;
+    --tw-dark-blue: #01579b;
+    --tw-red: #d9534f;
+
+  
+    --tw-primary: #aa6ee6;
+    --tw-warning: #f0ad4e;
+    --tw-accent: #fc7a22;
+  }
+
 body {
     font-size:15px;
 }
@@ -5,7 +27,7 @@ body {
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #eee;
+    border: 1px solid var(--tw-white);
     border-left-width: 5px;
     border-radius: 3px;
 }
@@ -23,40 +45,40 @@ body {
     margin-top: -5px;
 }
 .bs-callout-default {
-    border-left-color: #777;
+    border-left-color: var(--tw-gray);
 }
 .bs-callout-default h4 {
-    color: #777;
+    color: var(--tw-gray);
 }
 .bs-callout-primary {
-    border-left-color: #428bca;
+    border-left-color: var(--tw-blue);
 }
 .bs-callout-primary h4 {
-    color: #428bca;
+    color: var(--tw-blue);
 }
 .bs-callout-success {
-    border-left-color: #5cb85c;
+    border-left-color: var(--light-green);
 }
 .bs-callout-success h4 {
-    color: #5cb85c;
+    color: var(--light-green);
 }
 .bs-callout-danger {
-    border-left-color: #d9534f;
+    border-left-color: var(--tw-red);
 }
 .bs-callout-danger h4 {
-    color: #d9534f;
+    color: var(--tw-red);
 }
 .bs-callout-warning {
-    border-left-color: #f0ad4e;
+    border-left-color: var(--tw-warning);
 }
 .bs-callout-warning h4 {
-    color: #f0ad4e;
+    color: var(--tw-warning);
 }
 .bs-callout-info {
-    border-left-color: #5bc0de;
+    border-left-color: var(--tw-light-blue);
 }
 .bs-callout-info h4 {
-    color: #5bc0de;
+    color: var(--tw-light-blue);
 }
 
 
@@ -69,7 +91,7 @@ body {
 
 
 
-.breadcrumb > .active {color: #777 !important;}
+.breadcrumb > .active {color: var(--tw-gray) !important;}
 
 /* make room for the nav bar */
 h1[id],
@@ -120,7 +142,7 @@ table {
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
-    color: #777;
+    color: var(--tw-dark-gray);
     text-align: left;
 }
 th {
@@ -129,7 +151,6 @@ th {
 table {
     max-width: 90%;
     margin-bottom: 20px;
-    border: 1px solid #dedede;
 }
 
 table > thead > tr > th,
@@ -141,14 +162,12 @@ table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd;
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
     text-transform: none;
-    background-color: #777;
-    color: white;
+    background-color: var(--tw-dark-gray);
+    color: var(--tw-white);
     text-align: left;
 }
 table > caption + thead > tr:first-child > th,
@@ -161,7 +180,7 @@ table > thead:first-child > tr:first-child > td {
 }
 
 table > tbody > tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
+    background-color: var(--tw-light-gray);
 }
 
 table col[class*="col-"] {
@@ -184,14 +203,14 @@ table tr td {
 p.external a {
     text-align:right;
     font-size:12px;
-    color: #0088cc;
+    color: var(--tw-blue);
     display:inline;
 }
 
 #definition-box-container div a.active {
     font-weight: bold;
 }
-p.post-meta {font-size: 80%; color: #777;}
+p.post-meta {font-size: 80%; color: var(--tw-light-gray);}
 
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
@@ -205,7 +224,7 @@ p.post-meta {font-size: 80%; color: #777;}
     left: 20px;
     z-index: -1;
     width:223px;
-    border-left: 1px solid #dedede;
+    border-left: 1px solid var(--tw-light-gray);
 }
 
 
@@ -265,7 +284,7 @@ div#toc ul li ul li::before {
 div#toc >ul::before {
     content: "Contents";
     font-weight: 500;
-    color: #555;
+    color: var(--tw-gray);
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -530,10 +549,6 @@ span.myLabel {
     padding-right:10px;
 }
 
-button.cursorNorm {
-    cursor: default;
-}
-
 a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
     margin-left: 10px;
 }
@@ -633,6 +648,22 @@ li.activeSeries {
     color: #444;
 }
 
+.new-note {
+        font-size: 80%;
+        display: block;
+        color: var(--tw-black);
+        background-color: var(--tw-note);
+        overflow-x: hidden;
+        word-wrap: break-word;
+        border-radius: 5px;
+        border-left: 4px solid #137333;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+
 div.alert code, h2 code {
     background-color: transparent !important;
 }
@@ -653,10 +684,6 @@ hr {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-}
-
-button.cursorNorm {
-    cursor: pointer;
 }
 
 h2  {
@@ -762,6 +789,9 @@ pre, table code {
 
 pre {
     margin: 25px 0px;
+    background-color: #28323f !important;
+    border: 0px !important;
+    color: white;
 }
 
 #json-box-container pre {
@@ -792,7 +822,6 @@ dd {margin-left:20px;}
 }
 
 .note code, .alert code, .warning code, div#toc code, h2 code, h3 code, h4 code {
-    color: inherit;
     padding: 0px;
 }
 
@@ -1035,7 +1064,7 @@ ol li ul li ol li ul li{
 }
 
 table thead th code.highlighter-rouge {
-    background-color: transparent;
+    background-color: red;
 }
 
 
@@ -1104,10 +1133,6 @@ div.content {
 
 .box1 {
     margin-left:0px;
-}
-
-button.btn.btn-default.btn-lg.modalButton1 {
-    margin-left: -20px;
 }
 
 div.box.box1 {

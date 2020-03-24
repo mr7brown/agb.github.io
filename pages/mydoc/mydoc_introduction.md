@@ -109,7 +109,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_hbo_mmc.html">Tech Specs</a></h4>
+                <h4 class="media-heading"><a href ="/mydoc_hbo_mmc.html">Tech specs</a></h4>
                 <p>Technical information for Audio/Video specs created at HBO.</p>
             </div>
         </div>

@@ -38,7 +38,7 @@ folder: mydoc
                    <h4>Senior Technical Writer & Documentation Engineer</h4>
                    <p><i>July '19 – Present</i></p>
                    <p> Currently working on creating Audio/Video technical specifications for the HBO Max platform. These specs include audio track layouts, video composition, closed caption formatting, and metadata definitions for ingestion into HBO's Media Manifest Core.</p>
-                   <p>In addition to my responsibilities as a Technical Writer, I am also tasked with deploying a partner specification portal. Here third-party content providers will be able to review our spec library and deliver content according to HBO's specifications.</p>
+                   <p>In addition to my responsibilities as a Technical Writer, I am also tasked with deploying and maintaining a partner specification portal. Here third-party content providers are able to review our spec library and deliver content according to HBO's specifications.</p>
                    <h5>Technology used</h5>
                    <i class="fa fa-apple fa-2x"></i>
                    <i class="fa fa-linux fa-2x"></i>
