@@ -33,7 +33,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_google_rpi3.html">Developer docs</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_google_rpi3.html">Developer docs</a></h4>
             <p>Documentation examples that contain code snippets and configurations.</p>
             </div>
         </div>
@@ -45,7 +45,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_fb_deployment.html">End-User docs</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_fb_deployment.html">End-User docs</a></h4>
             <p>Information designed for both technical and non-technical audiences.</p>
             </div>
         </div>
@@ -57,7 +57,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_aml.html">Legal docs</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_aml.html">Legal docs</a></h4>
             <p>Documentation created for a commercial credit policy rewrite.</p>
             </div>
         </div>
@@ -71,7 +71,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_kb_landing_page.html">Knowledge base</a></h4>
+                <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_kb_landing_page.html">Knowledge base</a></h4>
                 <p>Screenshots and background information for a Facebook KB.</p>
             </div>
         </div>
@@ -83,7 +83,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_visualization_fb_smb.html">Visualizations</a></h4>
+                <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_visualization_fb_smb.html">Visualizations</a></h4>
                 <p>A few general examples of visualizations created for various companies.</p>
             </div>
         </div>
@@ -95,7 +95,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/mydoc_pulse_career.html">Blog posts</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_pulse_career.html">Blog posts</a></h4>
             <p>Excerpts from a few self-help articles created while employed with Facebook.</p>
             </div>
         </div>
@@ -109,7 +109,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a href ="/mydoc_hbo_mmc.html">Tech specs</a></h4>
+                <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_hbo_mmc.html">Tech specs</a></h4>
                 <p>Technical information for Audio/Video specs created at HBO.</p>
             </div>
         </div>
@@ -121,7 +121,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/style_intro.html">Style guide</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/style_intro.html">Style guide</a></h4>
                 <p>Link to a style guide that I follow and have also implemented.</p>
             </div>
             <div class="media">
@@ -132,7 +132,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a href ="/resume.html">Resume</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/resume.html">Resume</a></h4>
             <p>Static link to a  resume that can be downloaded or viewed online.</p>
             </div>
         </div>

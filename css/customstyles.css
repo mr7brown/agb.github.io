@@ -22,6 +22,11 @@
 
 body {
     font-size:15px;
+    margin-top: 10vh;
+}
+
+.sitenav-link {
+    color: var(--tw-blue);
 }
 
 .bs-callout {
@@ -207,6 +212,10 @@ p.external a {
     display:inline;
 }
 
+a {
+    color: var(--tw-blue);
+}
+
 #definition-box-container div a.active {
     font-weight: bold;
 }
@@ -264,12 +273,16 @@ div#toc ul li {
     font-size: 90%;
     list-style: square;
 }
+#toc a{
+    color: var(--tw-blue);
+
+}
 div#toc ul {
-    background-color: whitesmoke;
+    background-color: var(--tw-light-gray);
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: gray;
+    color: var(--tw-dark-gray);
 }
 
 div#toc ul li ul {
@@ -284,7 +297,7 @@ div#toc ul li ul li::before {
 div#toc >ul::before {
     content: "Contents";
     font-weight: 500;
-    color: var(--tw-gray);
+    color: var(--tw-dark-gray);
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -300,7 +313,7 @@ li.dropdownActive a {
 
 
 .post-content a.fa-rss {
-    color: #2e5eaa;
+    color: var(--tw-blue);;
 }
 
 
@@ -310,7 +323,7 @@ li.dropdownActive a {
 }
 
 .post-content .rssfeedLink {
-    color: #2e5eaa;
+    color: var(--tw-blue);;
 }
 
 footer {
@@ -377,7 +390,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a:hover, .nav li.active > a {
-    background-color: #2e5eaa;
+    background-color: var(--tw-blue);;
     color: #f5f5f5;
 }
 
@@ -400,6 +413,8 @@ background-color: black;
 
 ul#mysidebar {
     border-radius:0px;
+    position: fixed;
+
 }
 
 .nav ul li ul li a {
@@ -423,7 +438,7 @@ ul#mysidebar {
 }
 
 .nav li a:hover {
-    background-color: #2e5eaa;
+    background-color: var(--tw-blue);;
 }
 
 .nav ul li a {
@@ -433,7 +448,10 @@ ul#mysidebar {
 /* end sidebar */
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    border-radius:5px;
+    border-radius:0px;
+    background-color: transparent!important;
+    color: var(--tw-blue);
+    border-bottom: 3px solid var(--tw-blue);
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
@@ -571,6 +589,17 @@ hr.shaded {
     margin-bottom: 10px;
 }
 
+.navlogo {
+    position: absolute;
+    top: 0;
+    height: 55%;
+    bottom: 0;
+    margin: auto;
+}
+
+@media 
+
+
 .fa-6x{font-size:900%;}
 .fa-7x{font-size:1100%;}
 .fa-8x{font-size:1300%;}
@@ -606,15 +635,14 @@ a.fa.fa-envelope-o.mailto {
 }
 
 h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+h4 {color: #808080; font-weight:normal; font-size:120%; }
 
 .alert, .callout {
     overflow: hidden;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: black;
-    color: white;
+    color: black;
 }
 
 ol li ol li {list-style-type: lower-alpha;}
@@ -629,7 +657,7 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: whitesmoke;
+    background-color: var(--tw-light-gray);
 }
 
 span.tagTitle {font-weight: 500;}
@@ -662,6 +690,12 @@ li.activeSeries {
         padding-right: 20px;
         padding-top: 2%;
         padding-bottom: 2%;
+}
+
+.social-media {
+    display: block;
+    color: var(--tw-blue);
+    border-radius: 5px;
 }
 
 div.alert code, h2 code {
@@ -733,11 +767,6 @@ ol.series li {
     color: silver;
     color: #444;
     display:block;
-}
-
-/* not sure if using this ...*/
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: black !important;
 }
 
 #mysidebar .nav ul {
@@ -883,7 +912,10 @@ span.soft {
 
 @media (max-width: 990px) {
     #mysidebar {
-        position: relative;
+        position: relative !important;
+    }
+    a img {
+        max-width: 20%;
     }
 }
 
@@ -892,12 +924,18 @@ span.soft {
     ul#mysidebar {
         width: 225px;
     }
+    a img {
+        max-width: 20%;
+    }
 }
 
 @media (max-width: 900px) {
 
     ul#mysidebar {
         max-width: 100%;
+    }
+    a img {
+        max-width: 20%;
     }
 }
 
@@ -940,6 +978,13 @@ span.soft {
         max-width: 700px;
         max-height: 700px;
     }
+    a img {
+        max-width: 20%;
+    }
+}
+
+img {
+    max-width: 35%;
 }
 
 *:hover > .anchorjs-link {
@@ -1179,6 +1224,9 @@ div.box.box1 {
     img[src$=".svg"] {
         width: 100%;
     }
+    a img {
+        max-width: 20%;
+    }
 }
 
 h4.panel-title {
@@ -1222,4 +1270,5 @@ h4.panel-title {
     .collapse.in{
         display:block !important;
     }
+
 }
