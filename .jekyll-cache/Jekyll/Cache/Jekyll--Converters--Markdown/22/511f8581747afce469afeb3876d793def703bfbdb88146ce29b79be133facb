@@ -1,0 +1,28 @@
+I"�	<h2 id="technical-writing-at-a-glance">Technical Writing at a glance</h2>
+
+<p>Unlike other forms of writing, technical writing is better with less variation. For example, when describing the terminal, you should refer to it the same way throughout a document and throughout the whole library of information.</p>
+
+<p>With technical information, it is easy to cause confusion just by referring to a program, applications, or process in a different way. Being consistent helps reduce the mental load that’s put on users. For more on cognitive load, see <a href="https://uxplanet.org/8-ways-to-reduce-cognitive-load-part-1-cc2048d1b157">8 ways to reduce cognitive load: Part 1</a>.</p>
+
+<h2 id="examples">Examples</h2>
+
+<p><i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> The filename should match the title record. If the file name does not match, the submission will be rejected. <br /><br />
+<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> The filename should match the title record. If the filename does not match, the submission will be rejected.</p>
+
+<p>In the example above, filename is spelled differently in the two examples. For more on spelling, refer to the <a href="/spelling">Spelling</a> section of this style guide.
+<br /><br /></p>
+
+<p><i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> Run <code class="highlighter-rouge">git log --oneline</code> from your terminal…copy the commit that you want to revert, then type ‘q’ in the shell to exit.<br /><br />
+<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> Run <code class="highlighter-rouge">git log --oneline</code> from your terminal…copy the commit that you want to revert, then type ‘q’ to exit.</p>
+
+<p>In the example above, introducing the user to both terminal and shell in the same set of instructions can trip up a novice user. It’s best to avoid introducing new terms in the middle of instructions. Staying consistent and using one term is good, but rewriting the sentence to remove a need for two instances of the same word is better.</p>
+
+<h2 id="more-on-consistency">More on consistency</h2>
+
+<p>In addition to consistent terminology, formatting should also be consistent. In general, try to avoid:</p>
+
+<ul>
+  <li>Having inconsistent font/heading sizes.</li>
+  <li>Increasing or decreasing the amount of white space between sections unless there is a good reason.</li>
+</ul>
+:ET

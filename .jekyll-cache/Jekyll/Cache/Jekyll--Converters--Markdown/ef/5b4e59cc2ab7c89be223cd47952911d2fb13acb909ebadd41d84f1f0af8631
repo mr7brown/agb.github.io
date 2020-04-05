@@ -1,0 +1,20 @@
+I"é<h2 id="link-formatting">Link formatting</h2>
+
+<p>Links should be meaningful and accessible.<br /></p>
+
+<p><i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> Click <a href="/accessibility">here</a>.<br /><br />
+<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> For more information about accessibility, see <a href="/accessibility">Accessibility</a>.</p>
+
+<p>Another important note is that the wording of the cross-reference or link matters. When inserting a cross reference contains additional information, use <em>about</em> instead of <em>on</em>.</p>
+
+<p><i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> For more information on style and tone, see <a href="/style">Style and Tone</a>.<br /><br />
+<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> For more information about style and tone, see <a href="/style">Style and Tone</a>.</p>
+
+<h2 id="linking-to-pages-in-the-same-directory">Linking to pages in the same directory</h2>
+
+<p>To make documentation easier to read, try referencing the page from the root level, for example <code class="highlighter-rouge">/accessibility</code> instead of using the URL in the browser. This helps keep the code concise and easy to read.</p>
+
+<h2 id="external-links">External links</h2>
+
+<p>For external links, you should consider inserting an external link icon: <i class="fa fa-external-link"></i>.</p>
+:ET

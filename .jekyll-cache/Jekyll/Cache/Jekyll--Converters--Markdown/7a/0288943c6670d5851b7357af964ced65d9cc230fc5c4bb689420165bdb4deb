@@ -1,0 +1,10 @@
+I"®<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> Avoid using <i>will</i>.</div>
+<p><br />
+Generally speaking, you should use the present tense when writing content. The reason this is important is because when documenting something, it is better to describe what is happening. This may not always be possible, but the examples below illustrate how you should write content.
+<br /><br />
+<i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> Run <code class="highlighter-rouge">$git push origin &lt;branch&gt;</code> and your changes will be pushed to Github.<br /><br />
+<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> Run <code class="highlighter-rouge">$git push orign &lt;branch&gt;</code> to push your changes to Github.<br /><br />
+<i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> Click <em>Unsubscribe</em> and you will be removed from the contact list.<br /><br />
+<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> Click <em>Unsubscribe</em> to be removed from the contact list.</p>
+
+:ET
