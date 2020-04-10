@@ -72,6 +72,17 @@ a[data-toggle="tooltip"] {
     z-index: 21;
 }
 
+.headerlinks {
+    color: var(--tw-white);
+    margin-top: 15px;
+    padding-left: 15px;
+    float: right !important;
+    }
+.headerlinks:hover {
+    color: var(--tw-gray);
+    text-decoration: none;
+}
+
 /*Dropdown for the button (small screens*/
 
 /*
