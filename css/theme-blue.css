@@ -83,6 +83,16 @@ a[data-toggle="tooltip"] {
     text-decoration: none;
 }
 
+
+@media (max-width: 767px) {
+    .headerlinks {
+        font-size: 80%;
+        padding-right: 2vw;
+        padding-left: 0px;
+    }
+}
+
+
 /*Dropdown for the button (small screens*/
 
 /*
