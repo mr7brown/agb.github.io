@@ -78,24 +78,36 @@ a[data-toggle="tooltip"] {
     padding-left: 15px;
     float: right !important;
     }
+
 .headerlinks:hover {
     color: var(--tw-gray);
     text-decoration: none;
 }
 
-
 @media (max-width: 767px) {
     .headerlinks {
-        font-size: 80%;
+        font-size: 90%;
         padding-right: 2vw;
         padding-left: 0px;
     }
 }
 
+.button-2 {
+    background-color: var(--tw-blue) !important;
+    display: inline;
+    color: var(--tw-white) !important;
+    border-radius: 8px !important;
+    padding: 8px;
+}
 
-/*Dropdown for the button (small screens*/
+.button-2:hover {
+    background-color: var(--tw-dark-blue);
+    color: var(--tw-white);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 0 3px var(--tw-gray);
 
-/*
+}
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
@@ -124,28 +136,29 @@ a.navbar-brand:hover {
 
 
 .btn-primary {
-    color: #ffffff;
+    color: var(--tw-white);
+    line-height: 30px;
     background-color: var(--tw-blue);
-    border-color: var(--tw-blue);
+    border-color: transparent;
+    
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: #262626;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-color: 
-    border-color:
+.btn-primary:hover {
+    color: var(--tw-white);
+    background-color: var(--tw-dark-blue);
+    border-color: transparent;
+    box-shadow: 0 0 3px var(--tw-gray);
 }
+
 
 */
 
 .printTitle {
-    color: #var(--tw-blue) !important;
+    color: var(--tw-blue) !important;
 }
 
 body.print h1 {color: var(--tw-blue) !important; font-size:28px !important;}
@@ -172,13 +185,12 @@ li.sidebarTitle {
 
 }
 
-/*
+
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: 
 }
 
 .navbar-inverse .navbar-toggle {
     background-color: var(--tw-dark-gray);
-  
-*/    
+     
 }
