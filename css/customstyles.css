@@ -4,7 +4,7 @@
     --tw-light-blue: #e1f5fe;
     --tw-blue: #1a73e8;
     --tw-white: #ffffff;
-    --tw-max: #28323f;
+    --tw-max: rgba(0, 0, 0, 0.8);
     --tw-gray: #8c8b8b;
     --tw-light-gray: #ebebeb;
     --tw-medium-gray: #d3d3d3;
@@ -360,12 +360,14 @@ span.projectTitle {
     font-weight: bold;
 }
 
-.footer {
+.footer {  
     text-align: right;
+    position: relative;
+    
 }
 
 .footerMeta {
-    background-color: whitesmoke;
+    background-color: whitesmoke];
     padding: 10px;
     max-width: 250px;
     border-radius: 5px;
@@ -538,10 +540,6 @@ h4 {color: #808080; font-weight:normal; font-size:120%; }
     overflow: hidden;
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: black;
-}
-
 ol li ol li {list-style-type: lower-alpha;}
 ol li ul li {list-style-type: disc;}
 
@@ -554,7 +552,7 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: var(--tw-black);
+    background-color: rgba(0, 0, 0, 0.8);
     color: var(--tw-white);
     box-shadow: 0 0 3px var(--tw-gray);
     border-radius: 0px 0px 8px 8px;
@@ -725,7 +723,7 @@ pre, table code {
 
 pre {
     margin: 25px 0px;
-    background-color: #28323f !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
     border: 0px !important;
     color: white;
 }
@@ -1209,16 +1207,18 @@ h4.panel-title {
 }
 
 .nav ul {
-    padding-right: 0;
+    padding-right: 10px;
     /*margin: 0 0 0 18px;*/
     margin-left: 0px;
 }
 
 .nav {
     /* padding: 4px;*/
-    padding:0px;
-    border-radius: 5px;
+    padding-bottom:8px;
     margin: 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    
+    
 }
 
 .nav > li {
@@ -1263,6 +1263,7 @@ h4.panel-title {
 
 ul#mysidebar {
     position: fixed;
+
 
 }
 

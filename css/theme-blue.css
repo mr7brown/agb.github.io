@@ -4,7 +4,7 @@
     --tw-light-blue: #e1f5fe;
     --tw-blue: #1a73e8;
     --tw-white: #ffffff;
-    --tw-max: #28323f;
+    --tw-max: rgba(0, 0, 0, 0.8);
     --tw-gray: #8c8b8b;
     --tw-light-gray: #ebebeb;
     --tw-medium-gray: #d3d3d3;
@@ -67,6 +67,7 @@ a[data-toggle="tooltip"] {
 .navbar-inverse {
     position: fixed;
     background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
     top: 0;
     width: 100vw;
     height: 30px;
@@ -76,7 +77,7 @@ a[data-toggle="tooltip"] {
 .headerlinks {
     color: var(--tw-light-gray);
     margin-top: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
     float: right !important;
     }
 

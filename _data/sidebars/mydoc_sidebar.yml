@@ -28,7 +28,7 @@ entries:
       url: /mydoc_google_rpi3.html
       output: web, pdf
 
-    - title: Google - Developer Account Configuration
+    - title: Google - Developer Accounts
       url: /mydoc_google_developer.html
       output: web, pdf
 
@@ -44,7 +44,7 @@ entries:
       url: /mydoc_hbo_mmc.html
       output: web, pdf
 
-    - title: Licensed Content Delivery SDR
+    - title: Licensed Content (SDR)
       url: /mydoc_hbo_sdr.html
       output: web,pdf
 
@@ -52,11 +52,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Facebook pre-deployment process
+    - title: Facebook deployment
       url: /mydoc_fb_deployment.html
       output: web, pdf
 
-    - title: Facebook programming pass-down
+    - title: Facebook pass-down
       url: /mydoc_fb_programming.html
       output: web,pdf
 
@@ -66,30 +66,6 @@ entries:
 
     - title: Anti-money laundering
       url: /mydoc_aml.html
-      output: web, pdf
-
-  - title: Knowledge Base
-    output: web, pdf
-    folderitems:
-
-    - title: Facebook knowledge base landing page
-      url: /mydoc_kb_landing_page.html
-      output: web, pdf
-
-    - title: Facebook design standards portal
-      url: /mydoc_fb_kb_standards.html
-      output: web, pdf
-
-    - title: Facebook documentation portal
-      url: /mydoc_fb_kb_documentation.html
-      output: web, pdf
-
-  - title: Visualizations
-    output: web, pdf
-    folderitems:
-
-    - title: Facebook SMB visualization
-      url: /mydoc_visualization_fb_smb.html
       output: web, pdf
 
   - title: Blog Posts
