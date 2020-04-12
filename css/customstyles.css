@@ -224,16 +224,16 @@ p.post-meta {font-size: 80%; color: var(--tw-light-gray);}
 .entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
+
 #search-demo-container ul#results-container {
     list-style: none;
     font-size: 12px;
     background-color: white;
-    position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
-    z-index: -1;
+    position: fixed;
+    top: 20px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
+    left: 80px;
     width:223px;
-    border-left: 1px solid var(--tw-light-gray);
+    border-left: 1px solid var(--tw-black);
 }
 
 
@@ -272,21 +272,24 @@ div#toc ul li {
     margin: 8px 0px 8px 22px;
     font-size: 90%;
     list-style: square;
+    background-color:transparent;
 }
 #toc a{
-    color: var(--tw-blue);
+    color: var(--tw-white);
+    background-color:transparent;
 
 }
 div#toc ul {
-    background-color: var(--tw-light-gray);
+    background-color:rgba(0, 0, 0, 0.8);
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: var(--tw-dark-gray);
+    color: var(--tw-white);
 }
 
 div#toc ul li ul {
     padding-left:8px;
+    background-color:transparent;
 
 }
 
@@ -297,7 +300,7 @@ div#toc ul li ul li::before {
 div#toc >ul::before {
     content: "Contents";
     font-weight: 500;
-    color: var(--tw-dark-gray);
+    color: var(--tw-white);
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -340,116 +343,6 @@ a.accordion-toggle, a.accordion-collapsed {
     text-decoration: none;
 }
 
-/* navgoco sidebar styles (customized) */
-.nav, .nav ul, .nav li {
-    list-style: none;
-}
-
-.nav ul {
-    padding: 0;
-    /*margin: 0 0 0 18px;*/
-    margin:0px;
-}
-
-.nav {
-    /* padding: 4px;*/
-    padding:0px;
-    margin: 0px;
-}
-
-.nav > li {
-    margin: 0px 0;
-}
-
-.nav > li li {
-    margin: 0px 0;
-}
-
-.nav a {
-    color: #333;
-    display: block;
-    outline: none;
-    /*-webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;*/
-    text-decoration: none;
-}
-
-.nav li > a > span {
-    float: right;
-    font-size: 19px;
-    font-weight: bolder;
-}
-
-
-.nav li > a > span:after {
-    content: '\25be';
-}
-.nav li.active > a > span:after {
-    content: '\25b4';
-}
-
-.nav a:hover, .nav li.active > a {
-    background-color: var(--tw-blue);
-    color: var(--tw-white);
-}
-
-.nav > li.active > a  {
-background-color: black;
-}
-
-.nav li a {
-    font-size: 12px;
-    line-height: 18px;
-    padding: 2px 10px;
-    background-color: transparent;
-    color: black;
-}
-
-.nav > li > a {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 4px 10px;
-}
-
-ul#mysidebar {
-    border-radius:0px;
-    position: fixed;
-
-}
-
-.nav ul li ul li a {
-    padding-left:40px;
-}
-
-/* Third level nav
-.nav li.thirdlevel > a {
-    color: black;
-    font-weight:bold;
-    padding-left:20px;
-    background-color: whitesmoke !important;
-}
-
-*/
-
-
-.nav ul li a {
-    background-color: #FAFAFA;
-}
-
-.nav li a {
-    padding-right:10px;
-}
-
-.nav li a:hover {
-    background-color: var(--tw-blue);;
-}
-
-.nav ul li a {
-    border-top: 0px solid whitesmoke;
-    padding-left:10px;
-}
-/* end sidebar */
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     border-radius:0px;
@@ -661,8 +554,18 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: var(--tw-light-gray);
+    background-color: var(--tw-black);
+    color: var(--tw-white);
+    box-shadow: 0 0 3px var(--tw-gray);
+    border-radius: 0px 0px 8px 8px;
 }
+
+.tab-content-heading {
+    color: var(--tw-white);
+    font-weight: normal;
+    font-size: 120%;
+}
+
 
 span.tagTitle {font-weight: 500;}
 
@@ -1076,7 +979,7 @@ p.post-meta time {
 }
 
 span.label.label-default {
-    background-color: black;
+    background-color: var(--tw-blue);
 }
 
 span.label.label-primary {
@@ -1279,4 +1182,126 @@ h4.panel-title {
         display:block !important;
     }
 */
+
+.resume-link {
+    color: var(--tw-white); 
+    font-weight:normal; 
+    font-size:100%;
+    background: rgba(0, 0, 0, 0.8);;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.resume-link:hover {
+    color: var(--tw-white); 
+    box-shadow: 0 0 3px var(--tw-gray);
+    font-weight:normal; 
+    font-size:100%;
+    background: var(--tw-black);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* navgoco sidebar styles (customized) */
+.nav, .nav ul, .nav li {
+    list-style: none;
+}
+
+.nav ul {
+    padding-right: 0;
+    /*margin: 0 0 0 18px;*/
+    margin-left: 0px;
+}
+
+.nav {
+    /* padding: 4px;*/
+    padding:0px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.nav > li {
+    margin: 2px 0;
+}
+
+.nav > li li {
+    margin: 2px 0;
+}
+
+/* arrows for the left sidebar */
+.nav li > a > span {
+    float: left;
+    color: var(--tw-black);
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+.nav li > a > span:after {
+    content: '\25be';
+}
+.nav li.active > a > span:after {
+    content: '\25b4';
+}
+
+.nav a:hover, .nav li.active > a {
+    background-color:rgba(0, 0, 0, 0.8);
+    color: var(--tw-white);
+    display: block;
+}
+
+
+.nav li a {
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 4px 0px;
+    background-color: transparent;
+    color: black;
+}
+
+ul#mysidebar {
+    position: fixed;
+
+}
+
+.nav ul li ul li a {
+    padding-left: 0px;
+}
+
+/* Third level nav
+.nav li.thirdlevel > a {
+    color: black;
+    font-weight:bold;
+    padding-left:20px;
+    background-color: whitesmoke !important;
+}
+
+.nav a {
+    color: #333;
+    display: block;
+    outline: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+*/
+
+.nav ul li a {
+    background-color: transparent;
+    margin-left: -40px !important;
+    border-radius: 8px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--tw-white);
+}
+
+/* end sidebar */
+

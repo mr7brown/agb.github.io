@@ -1,0 +1,308 @@
+I"'<p>The purpose of this document is to facilitate and define <strong>Redacted</strong> requirements for the successful acquisition of Standard Dynamic Range (SDR) Licensed Content from external parties. This specification establishes the composition and technical requirements for all aspects of the delivery to which external parties must comply to complete the content acquisition process.</p>
+
+<p>This specification is not intended to provide guidance on delivering High Dynamic Range, Stereoscopic 3D or multi-language component content to <strong>Redacted</strong>. For additional Contribution Specifications covering these deliveries please reach out to <strong>Redacted</strong>.</p>
+
+<h3 id="quality-requirements">Quality Requirements</h3>
+
+<p>It is <strong>Redacted</strong> intent to acquire the highest quality masters that preserve the original artistic intent while providing a premium viewing experience to the consumer. To meet <strong>Redacted</strong> perceptual and measured quality standards content delivered must conform to the specifications outlined in this document. In preparing content for delivery and to preserve the highest quality it is strongly preferred that all unnecessary transformations or processing that results in the degradation to the master quality be avoided.</p>
+
+<h3 id="expected-deliverables">Expected Deliverables</h3>
+
+<p>A complete and valid delivery SHALL include:</p>
+
+<ol>
+  <li>Master File (JPEG 2000 MXF OP1a or ProRes 422 HQ)</li>
+  <li>English Closed Caption file (.scc)</li>
+  <li>Latin Spanish Closed Caption file (.scc)</li>
+  <li>Descriptive Metadata</li>
+  <li>Images / Artwork</li>
+</ol>
+
+<h3 id="master-technical-specifications">Master Technical Specifications</h3>
+
+<ol>
+  <li>Content MUST be delivered in the Native Frame Rate and Original Aspect Ratio.</li>
+  <li>Native SD content MUST be upconverted and delivered as HD (1920x1080) with pillar-box.</li>
+  <li>Content finished as UHD SHOULD be delivered as UHD. Note that UHD content will be presented as HD until such time as the service supports UHD.</li>
+  <li>The frame rate MUST be both continuous and constant throughout the duration of the program.</li>
+  <li>Theatrical content MUST be delivered as a continuous program. Theatrical content formatted with Ad breaks will be rejected.</li>
+  <li>Episodic content MAY be delivered formatted with Ad breaks ONLY if a continuous program is not available. Ad break duration SHOULD be 15 frames but MUST NOT exceed 1 second from the beginning of fade down to end of fade up.</li>
+  <li>Metadata in the file header MUST accurately indicate:
+    <ul>
+      <li>Scan Type</li>
+      <li>Scan Order</li>
+      <li>Display Aspect Ratio</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="master-file-format">Master File Format</h3>
+
+<h4 id="option-1-jpeg2000-mxf-op1a">Option 1: JPEG2000 MXF OP1a</h4>
+
+<table>
+<caption>
+  Video Specification
+</caption>
+  <tbody>
+    <tr>
+      <th>Codec</th>
+      <td>JPEG 2000</td>
+    </tr>
+    <tr>
+        <th>Container</th>
+        <td>MXF OP1a (Conforming to SMPTE ST 378: 2004)</td>
+      </tr>
+     <tr>
+         <th>Frame Rate</th>
+         <td>Original/Native</td>
+       </tr>
+    <tr>
+         <th>Scan Type</th>
+         <td>Native (Progressive or Interlaced)</td>
+       </tr>
+    <tr>
+         <th>Aspect Ratio</th>
+         <td>Original/Native</td>
+       </tr>
+     <tr>
+         <th>Resolution</th>
+         <td>HD (1920 x1080) | UHD (3840 x 2160)</td>
+       </tr>
+       <tr>
+         <th>Max Bit Rate</th>
+         <td>HD 250Mbps | UHD 800Mbps (BCP Level 5)</td>
+       </tr>
+       <tr>
+         <th>Rate Control</th>
+         <td>Variable Bit Rate (VBR)</td>
+       </tr>
+       <tr>
+         <th>Chroma Bit Depth</th>
+         <td>10-bit</td>
+       </tr>
+       <tr>
+         <th>Color Coding/Space</th>
+         <td>Y'CbCr 4:2:2/Legal Range</td>
+       </tr>
+       <tr>
+         <th>Color Matrix/Primaries</th>
+         <td>ITU-R BT.709</td>
+       </tr>
+  </tbody>
+</table>
+
+<table>
+<caption>
+  Audio Specification
+</caption>
+<tbody>
+  <tr>
+    <th>Codec</th>
+    <td>Linear PCM</td>
+  </tr>
+  <tr>
+      <th>Sample Bit Depth</th>
+      <td>24-bit</td>
+    </tr>
+   <tr>
+       <th>Sample Rate</th>
+       <td>48kHz</td>
+     </tr>
+</tbody>
+</table>
+
+<h5 id="jpeg-2000-qualification">JPEG 2000 Qualification</h5>
+
+<p>For providers wishing to deliver JPEG 2000 MXF OP1a masters, an on-boarding output qualification process is required before any content can be delivered. Please contact <strong>Redacted</strong> to initiate the qualification process.</p>
+
+<h4 id="option-2-proreshq">Option 2: ProResHQ</h4>
+
+<table>
+<caption>
+  Video Specification
+</caption>
+  <tbody>
+    <tr>
+      <th>Codec</th>
+      <td>ProRes 422 HQ</td>
+    </tr>
+    <tr>
+        <th>Container</th>
+        <td>QuickTime MOV</td>
+      </tr>
+     <tr>
+         <th>Frame Rate</th>
+         <td>Original/Native</td>
+       </tr>
+    <tr>
+         <th>Scan Type</th>
+         <td>Native (Progressive or Interlaced)</td>
+       </tr>
+    <tr>
+         <th>Aspect Ratio</th>
+         <td>Original/Native</td>
+       </tr>
+     <tr>
+         <th>Resolution</th>
+         <td>HD (1920 x1080) | UHD (3840 x 2160)</td>
+       </tr>
+       <tr>
+         <th>Max Bit Rate</th>
+         <td>HD ~ 176 to 220Mbps | UHD ~ 796 to 880Mbps</td>
+       </tr>
+       <tr>
+         <th>Rate Control</th>
+         <td>Variable Bit Rate (VBR)</td>
+       </tr>
+       <tr>
+         <th>Chroma Bit Depth</th>
+         <td>10-bit</td>
+       </tr>
+       <tr>
+         <th>Color Coding/Space</th>
+         <td>Y'CbCr 4:2:2/Legal Range</td>
+       </tr>
+       <tr>
+         <th>Color Matrix/Primaries</th>
+         <td>ITU-R BT.709</td>
+       </tr>
+  </tbody>
+</table>
+
+<table>
+<caption>
+  Audio Specification
+</caption>
+<tbody>
+  <tr>
+    <th>Codec</th>
+    <td>Linear PCM</td>
+  </tr>
+  <tr>
+      <th>Sample Bit Depth</th>
+      <td>24-bit</td>
+    </tr>
+   <tr>
+       <th>Sample Rate</th>
+       <td>48kHz</td>
+     </tr>
+</tbody>
+</table>
+
+<h3 id="master-composition">Master Composition</h3>
+
+<p>All content MUST conform to the following composition:</p>
+
+<table style="width:90%">
+<thead>
+  <tr>
+    <th scope="col">10" Slate Silence</th>
+    <th scope="col">30" Black Silence</th>
+    <th scope="col">Program @ 01:00:00:00</th>
+    <th scope="col">30" Black Silence</th>
+    <th scope="col">Textless</th>
+    <th scope="col">5" Black Silence</th>
+  </tr>
+</thead>
+</table>
+
+<p>If there are multiple textless segments, insert 5 seconds of black/silence in between each segment.</p>
+
+<h3 id="slate">Slate</h3>
+
+<p>First frame of video MUST begin with a visual slate. Slate SHALL contain:</p>
+
+<ul>
+  <li>Program title:</li>
+  <li>Episode No (if applicable):</li>
+  <li>Production Company:</li>
+  <li>Program Run Time:</li>
+  <li>Aspect Ratio:</li>
+  <li>Audio Track Layout: [Language/Type - Configuration]</li>
+  <li>Textless Included</li>
+</ul>
+
+<h3 id="audio-technical-specifications">Audio Technical Specifications</h3>
+
+<ol>
+  <li>Each Soundfield group MUST be arranged into a single track. e.g. 5.1 would be 1 track with 6 channels.</li>
+  <li>Stereo labels MUST match the method used to create the Soundfield: LtRt for matrixed downmix and LR for stereo mix.</li>
+  <li>All audio channels MUST be labeled in the file metadata and adhere to Multichannel Audio Labeling specified in <a href="https://ieeexplore.ieee.org/document/7290582">SMPTE ST 377-4:2012</a>.</li>
+  <li>All native mono content MUST be delivered as Dual Mono and labeled as ‘M1’ and ‘M2’. Any content delivered with a single mono channel will be rejected.</li>
+  <li>All audio tracks MUST conform (be synchronous) with video and have the same duration.</li>
+  <li>Where both exist, a near field mix is preferred over a Theatrical mix.</li>
+  <li>Primary 5.1 surround, Music &amp; Effects, Latin Spanish and Audio Description tracks are required where available.</li>
+  <li>Content with 5.1 surround MUST be provided with a separate, corresponding 2.0 track.</li>
+  <li>Target Audio loudness MUST conform to <a href="https://www.itu.int/rec/R-REC-BS.1770-3-201208-S/en">ITU-1770-3</a> specifications where:
+    <ul>
+      <li>Target loudness for 2 Channel Program Audio (e.g. LtRt) MUST be ∑ -24 LKFS +/- 2 dB</li>
+      <li>Target loudness for 5.1 Channel Program Audio MUST be ∑ -24 LKFS +/- 2 dB (minus LFE)</li>
+      <li>True Peak DOES NOT exceed -2 dBTP</li>
+    </ul>
+  </li>
+</ol>
+
+<table>
+   <thead>
+      <tr>
+         <th scope="col">Language/Type</th>
+         <th scope="col">Soundfield</th>
+         <th scope="col">Track</th>
+         <th colspan="2" align="right">Channel</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Original Production Language</td>
+         <td>5.1 Surround</td>
+         <td>Track 1</td>
+         <td>Channel 1 <br />Channel 2 <br />Channel 3 <br />Channel 4 <br />Channel 5 <br />Channel 6</td>
+         <td>L
+            <br />R
+            <br />C
+            <br />LFE
+            <br />LS
+            <br />Rs
+         </td>
+      </tr>
+      <tr>
+         <td>Original Production Language</td>
+         <td>Stereo / Dual Mono</td>
+         <td>Track 2</td>
+         <td>Channel 1 <br />Channel 2</td>
+         <td>L/Lt/M1
+            <br />R/Rt/M2
+         </td>
+      </tr>
+      <tr>
+         <td>Latin Spanish or English</td>
+         <td>Stereo / Dual Mono</td>
+         <td>Track 3</td>
+         <td>Channel 1 <br />Channel 2</td>
+         <td>L/Lt/M1
+            <br />R/Rt/M2
+         </td>
+      </tr>
+      <tr>
+         <td>Music &amp; Effects</td>
+         <td>Stereo / Dual Mono</td>
+         <td>Track 4</td>
+         <td>Channel 1 <br />Channel 2</td>
+         <td>L/Lt/M1
+            <br />R/Rt/M2
+         </td>
+      </tr>
+      <tr>
+         <td>Audio Description</td>
+         <td>Stereo / Dual Mono</td>
+         <td>Track 5</td>
+         <td>Channel 1 <br />Channel 2</td>
+         <td>L/Lt/M1
+            <br />R/ Rt/M2
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+:ET

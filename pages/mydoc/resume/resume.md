@@ -1,12 +1,13 @@
 ---
 title: Resume
-summary: "Adaptable Technical Writer/Documentation Engineer who’s passionate about working with engineers, designers, and business operations to make complex information accessible to both technical and non-technical audiences."
+summary: "Adaptable Technical Writer/Documentation Engineer who’s passionate about working with engineers, designers, and business operations to make complex information accessible to both technical and non-technical audiences. "
 sidebar: mydoc_resume
 toc: false
 permalink: resume.html
 folder: mydoc
 ---
- 
+
+
   <div class="row">
        <div class="col-lg-12">
            <h2 class="page-header">Experience</h2>
@@ -30,7 +31,7 @@ folder: mydoc
 
            <div id="myTabContent" class="tab-content">
                <div class="tab-pane fade active in" id="service-one">
-                   <h4>Senior Technical Writer & Documentation Engineer</h4>
+                   <h4 class="tab-content-heading">Senior Technical Writer & Documentation Engineer</h4>
                    <p><i>July '19 – Present</i></p>
                    <p> Currently working on creating Audio/Video technical specifications for the HBO Max platform. These specs include audio track layouts, video composition, closed caption formatting, and metadata definitions for ingestion into HBO's Media Manifest Core.</p>
                    <p>In addition to my responsibilities as a Technical Writer, I am also tasked with deploying and maintaining a partner specification portal. Here third-party content providers are able to review our spec library and deliver content according to HBO's specifications.</p>
@@ -53,7 +54,7 @@ folder: mydoc
                    <span class="label label-default">Illustrator</span>
                </div>
                <div class="tab-pane fade" id="service-two">
-                   <h4>Senior Technical Writer & Documentation Engineer</h4>
+                   <h4 class="tab-content-heading">Senior Technical Writer & Documentation Engineer</h4>
                    <p><i>Sep '18 – Jul '19</i></p>
                    <p>Was in charge of information architecture for an internal knowledge base, which I developed using HTML/CSS and Wiki syntax. This knowledge base is currently being referenced as a model for knowledge management across the Enterprise Engineering Organization.</p>
                    <h5>Technology used</h5>
@@ -74,7 +75,7 @@ folder: mydoc
                    <span class="label label-default">Illustrator</span>
                </div>
                <div class="tab-pane fade" id="service-three">
-                   <h4>Technical Writer III</h4>
+                   <h4 class="tab-content-heading">Technical Writer III</h4>
                    <p><i>Apr '18 – Sep '18</i></p>
                    <p>Hired to develop a program for third-party developers looking to integrate the Google Assistant with an OEM device. This effort included: producing SDK documentation, defining logistics expectations with Google’s Business Development team, creating integration guides, and drafting Google Assistant specifications.</p>
                    <h5>Technology used</h5>
@@ -95,7 +96,7 @@ folder: mydoc
                    <span class="label label-default">Illustrator</span>
                </div>
                <div class="tab-pane fade" id="service-four">
-                   <h4>Senior Technical Writer</h4>
+                   <h4 class="tab-content-heading">Senior Technical Writer</h4>
                    <p><i>Feb '17 – Apr '18</i></p>
                    <p>Drafted over 50 operational procedures to ensure regulatory compliance; and assisted with editing the Commercial Credit Policy. Wrote system specifications and surface-level scripts for a Robotic Process Automation (RPA) team that automated office processes.</p>
                    <h5>Technology used</h5>
@@ -112,7 +113,7 @@ folder: mydoc
                    <span class="label label-default">Visio</span>
                </div>
                <div class="tab-pane fade" id="service-five">
-                   <h4>Technical Writer III</h4>
+                   <h4 class="tab-content-heading">Technical Writer III</h4>
                    <p><i>Aug '15 – Jan '17</i></p>
                    <p>Managed the implementation and configuring of a custom yard management system to support operations within the largest automotive manufacturing plant in North America.</p>
                    <h5>Technology used</h5>
@@ -122,7 +123,7 @@ folder: mydoc
                    <i class="fa fa-file-pdf-o fa-2x" style ="color: red;"></i>
                </div>
                <div class="tab-pane fade" id="service-six">
-                   <h4>Technical Writer</h4>
+                   <h4 class="tab-content-heading">Technical Writer</h4>
                    <p><i>Nov '13 – Aug '15</i></p>
                    <p>Wrote commercial processes for LEGO’s LATAM market.</p>
                    <h5>Technology used</h5>
@@ -137,6 +138,10 @@ folder: mydoc
 
        </div>
    </div>
+
+<br />
+<a class="resume-link" href="https://drive.google.com/file/d/1BpiyPrlEijxh9eqTdSdwXz-JH94Sgvym/view?usp=sharing" alt="resume link">View as PDF</a>
+
 <hr />
 
 ## Education
@@ -175,6 +180,4 @@ folder: mydoc
 <span class="label label-default">Amazon AWS</span>
 
 <br />
-
-<a href="https://drive.google.com/file/d/1T-3GIaCD1pxBNB7ybcbBlwRGBn4WVhSL/view?usp=sharing" class="btn btn-primary">PDF version</a>
 

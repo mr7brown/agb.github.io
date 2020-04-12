@@ -20,7 +20,7 @@ entries:
       url: /resume.html
       output: web, pdf
 
-  - title: Documentation
+  - title: Portfolio
     output: web, pdf
     folderitems:
 

@@ -249,7 +249,7 @@ First frame of video MUST begin with a visual slate. Slate SHALL contain:
    <tbody>
       <tr>
          <td>Original Production Language</td>
-         <td>Stereo / Dual Mono</td>
+         <td>5.1 Surround</td>
          <td>Track 1</td>
          <td>Channel 1 <br />Channel 2 <br />Channel 3 <br />Channel 4 <br />Channel 5 <br />Channel 6</td>
          <td>L
@@ -262,7 +262,7 @@ First frame of video MUST begin with a visual slate. Slate SHALL contain:
       </tr>
       <tr>
          <td>Original Production Language</td>
-         <td>5.1 Surround</td>
+         <td>Stereo / Dual Mono</td>
          <td>Track 2</td>
          <td>Channel 1 <br />Channel 2</td>
          <td>L/Lt/M1
