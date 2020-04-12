@@ -140,7 +140,7 @@ folder: mydoc
    </div>
 
 <br />
-<a class="resume-link" href="https://drive.google.com/file/d/1BpiyPrlEijxh9eqTdSdwXz-JH94Sgvym/view?usp=sharing" alt="resume link">View as PDF</a>
+<a class="resume-link" href="https://drive.google.com/file/d/1DoY6JJZaSlv6UbdbyYUnKd-CrQWhh0we/view?usp=sharing" alt="resume link">View as PDF</a>
 
 <hr />
 
