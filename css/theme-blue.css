@@ -74,24 +74,60 @@ a[data-toggle="tooltip"] {
     z-index: 21;
 }
 
-.headerlinks {
+.headerlinks, .styleguidelink, .portfoliolink {
     color: var(--tw-light-gray);
     margin-top: 15px;
     padding-left: 25px;
     float: right !important;
     }
 
-.headerlinks:hover {
+.headerlinks:hover, .styleguidelink:hover, .portfoliolink:hover {
     color: var(--tw-white);
     text-decoration: none;
 }
 
 @media (max-width: 767px) {
-    .headerlinks {
+    .headerlinks, .styleguidelink, .portfoliolink {
         font-size: 90%;
         padding-right: 2vw;
         padding-left: 0px;
     }
+}
+
+.headerlinks::before {
+    content: "\f0f2";
+    font-family: FontAwesome;
+    font-size: 90%;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.styleguidelink::before {
+    content: "\f1dd";
+    font-family: FontAwesome;
+    font-size: 90%;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.portfoliolink::before {
+    content: "\f07c";
+    font-family: FontAwesome;
+    font-size: 90%;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .button-2 {
