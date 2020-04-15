@@ -24,6 +24,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: HBO GitLab Setup
+      url: /gitlab.html
+      output: web, pdf
+
     - title: Google - RPI3 Prerequisites
       url: /mydoc_google_rpi3.html
       output: web, pdf

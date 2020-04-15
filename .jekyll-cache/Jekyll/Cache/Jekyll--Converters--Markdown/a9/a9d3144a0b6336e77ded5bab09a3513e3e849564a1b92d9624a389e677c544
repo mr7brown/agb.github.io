@@ -1,0 +1,41 @@
+I"	<p><br /></p>
+
+<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> This guide assumes that you have access to the <b>REDACTED</b> instance and have installed the Gatsby CLI.</div>
+
+<h2 id="overview">Overview</h2>
+
+<p>This guide provides instructions for establishing a connection with HBO’s GitLab instance. By the end of the guide you will:</p>
+
+<ol>
+  <li>Clone the <code class="highlighter-rouge">/partnerhub/web</code> repo.</li>
+  <li>Validate SSH key pair.</li>
+  <li>Push a test commit.</li>
+</ol>
+
+<p>After successfully pushing a test commit, you can begin contributing to the Partner Hub.</p>
+
+<h2 id="clone-the-partner-hub-repo">Clone the Partner Hub Repo</h2>
+
+<p>To begin, you need to clone the <code class="highlighter-rouge">/partnerhub/web</code> repo. From your terminal, run the following command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@git.REDACTED:/partnerhub/web.git
+</code></pre></div></div>
+
+<p>After cloning the repo, go to the <a href="#submit-test-commit">Submit Test Commit</a> section. If your account was provisioned correctly, you should be able to create commits without additional setup. If you submitting a test commit doesn’t work, continue to the next section to establish a key pair.</p>
+
+<h2 id="ssh-key-validation">SSH key validation</h2>
+
+<p>If you have access to HBO’s GitLab instance, your account has been provisioned with the SSH key assigned to your machine. However, you may need to create a new one if you have changed or removed your machine’s SSH key at any point. To check if your key pair is correct, you need to validate that you have a key on GitLab and validate that the key matches the SSH key on your machine.</p>
+
+<h3 id="ssh-key-for-mac">SSH key for Mac</h3>
+
+<h3 id="gitlab-key-validation">GitLab key validation</h3>
+
+<ol>
+  <li>Navigate to <a href="https://git.wmedia.tech/profile/keys">SSH Keys</a> in your GitLab User Settings.</li>
+  <li>Scroll to the bottom and look for <strong>Your SSH Keys ()</strong>. If you have an SSH key it should look something like this: <code class="highlighter-rouge">47:xf:71:x7:02:1x:7x:x9:9x:x3:xx:7x:xx:6x:0x:xx</code>. If you don’t have a key</li>
+</ol>
+
+<h2 id="submit-test-commit">Submit Test Commit</h2>
+
+:ET

@@ -1,0 +1,79 @@
+I"�<p><br /></p>
+
+<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> This guide assumes that you have access to HBO’s GitLab instance and have installed the Gatsby CLI.</div>
+
+<h2 id="overview">Overview</h2>
+
+<p>This guide provides instructions for establishing a connection with the GitLab repo for the Partner Hub. By the end of the guide you will:</p>
+
+<ol>
+  <li>Clone the <code class="highlighter-rouge">/partnerhub/web</code> repo.</li>
+  <li>Validate SSH key pair.</li>
+  <li>Push a test commit.</li>
+</ol>
+
+<p>After successfully pushing a test commit, you can begin contributing to the Partner Hub.</p>
+
+<h2 id="clone-the-partner-hub-repo">Clone the Partner Hub Repo</h2>
+
+<p>To begin, you need to clone the <code class="highlighter-rouge">/partnerhub/web</code> repo. From your terminal, run the following command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@git.REDACTED:/partnerhub/web.git
+</code></pre></div></div>
+
+<p>After cloning the repo, go to the <a href="#submit-test-commit">Submit Test Commit</a> section. If your account was provisioned correctly, you should be able to create commits without additional setup. If you submitting a test commit doesn’t work, continue to the next section to establish a key pair.</p>
+
+<h2 id="working-with-gitlab-and-ssh-keys">Working with GitLab and SSH keys</h2>
+
+<p>HBO’s GitLab instance requires an SSH connection instead of the traditional HTTPS connection. If you have access to the <code class="highlighter-rouge">/partnerhub/web</code> repo, your account should already be provisioned with the SSH key assigned to your machine. However, you may need to create a new one if you have changed or removed your machine’s SSH key at any point. To check if your key pair is correct, you need to validate that you have a key on GitLab and validate that the key matches the SSH key on your machine.</p>
+
+<h3 id="ssh-key-generation">SSH key generation</h3>
+
+<p>To generate a new SSH key:</p>
+
+<ol>
+  <li>Open a terminal and run:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Use your desktop account
+$ ssh-keygen -t ed25519 -C "email@example.com"
+</code></pre></div>    </div>
+  </li>
+  <li>Follow the prompts to continue (it is recommended that you enter a password for an extra layer of security).</li>
+</ol>
+
+<p>Gitlab’s <a href="https://git.wmedia.tech/help/ssh/README#generating-a-new-ssh-key-pair">SSH Key</a> guideline contains more information on the commands key generation.</p>
+
+<h3 id="adding-ssh-key-to-gitlab">Adding SSH key to GitLab</h3>
+
+<ol>
+  <li>To copy your SSH key, run:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pbcopy &lt; ~/.ssh/id_ed25519.pub
+</code></pre></div>    </div>
+  </li>
+  <li>Navigate to <strong>SSH Keys</strong> in your GitLab <strong>User Settings</strong>.</li>
+  <li>Paste your copied key in the text box, it should look something like this: <code class="highlighter-rouge">47:xf:71:x7:02:1x:7x:x9:9x:x3:xx:7x:xx:6x:0x:xx</code>.</li>
+  <li>Enter a title (be descriptive) and click <strong>Add key</strong>.</li>
+</ol>
+
+<p>You should now see your new SSH key under <strong>Your SSH keys</strong>.</p>
+
+<p>##</p>
+
+<h2 id="submit-test-commit">Submit Test Commit</h2>
+
+<p><code class="highlighter-rouge">src/test</code> allows you to test your connection to the GitLab instance without impacting QA or Production environments. To test your connection:</p>
+
+<ol>
+  <li>Run:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git checkout -b test
+</code></pre></div>    </div>
+  </li>
+  <li>Create a Markdown file with your username as the title <code class="highlighter-rouge">&lt;user@hbo.md&gt;</code> in the <code class="highlighter-rouge">src/content/test/</code> folder.</li>
+  <li>Commit changes :
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git add &lt;filename&gt;
+$ git commit -m "commit message"
+$ git push 
+</code></pre></div>    </div>
+  </li>
+  <li>Once successful, use the link in the terminal to create a merge request. All merge requests should be assigned to <strong>REDACTED</strong>.</li>
+</ol>
+:ET
