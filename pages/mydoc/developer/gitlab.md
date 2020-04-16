@@ -12,7 +12,7 @@ folder: mydoc
 
 ## Overview
 
-This guide provides instructions for establishing a connection with the GitLab repo for the Partner Hub. By the end of the guide you will:
+This guide provides instructions for establishing a connection with the GitLab repo for the Partner Hub. By the end, you will:
 
 1. Clone the `/partnerhub/web` repo.
 2. Validate SSH key pair.
@@ -28,11 +28,13 @@ To begin, you need to clone the `/partnerhub/web` repo. From your terminal, run 
 $ git clone git@git.REDACTED:/partnerhub/web.git
 ```
 
-After cloning the repo, go to the [Submit Test Commit](/gitlab.html#submit-test-commit) section. If your account was provisioned correctly, you should be able to create commits without additional setup. If you submitting a test commit doesn't work, continue to the next section to establish a key pair.
+After cloning the repo, go to the [Submit Test Commit](/gitlab.html#submit-test-commit) section. If your account was provisioned correctly, you should be able to make commits without additional setup. If you are unable to make a test commit, continue to the next section to establish a key pair.
 
 ## Working with GitLab and SSH keys
 
-HBO's GitLab instance requires an SSH connection instead of the traditional HTTPS connection. The following sections provide instructions for generating an SSH key and adding it to your GitLab profile. Gitlab's [SSH Key](https://git.wmedia.tech/help/ssh/README#generating-a-new-ssh-key-pair) guideline contains more information on the commands used to generate a new key.
+HBO's GitLab instance requires an SSH connection instead of the traditional HTTPS connection. The following sections provide instructions for generating an SSH key and adding it to your GitLab profile.
+
+Gitlab's [SSH Key](https://git.wmedia.tech/help/ssh/README#generating-a-new-ssh-key-pair) guideline contains more information on the commands behind key generation.
 
 ### SSH key generation
 

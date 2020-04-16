@@ -33,7 +33,7 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
                 </span>
             </div>
             <div class="media-body">
-            <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_google_rpi3.html">Developer docs</a></h4>
+            <h4 class="media-heading"><a class="sitenav-link" href ="/gitlab.html">Developer docs</a></h4>
             <p>Documentation examples that contain code snippets and configurations.</p>
             </div>
         </div>
@@ -73,18 +73,6 @@ Put simply, sending a barrage of Google docs and PDFs seemed unprofessional, and
             <div class="media-body">
                 <h4 class="media-heading"><a class="sitenav-link" href ="/resume.html">Resume</a></h4>
                 <p>Static link to a  resume that can be downloaded or viewed online.</p>
-            </div>
-        </div>
-        <div class="media">
-            <div class="pull-left">
-                <span class="fa-stack fa-2x">
-                      <i class="fa fa-circle fa-stack-2x text-black"></i>
-                       <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
-                </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading"><a class="sitenav-link" href ="/mydoc_visualization_fb_smb.html">Visualizations</a></h4>
-                <p>A few general examples of visualizations created for various companies.</p>
             </div>
         </div>
         <div class="media">
