@@ -94,6 +94,7 @@ a[data-toggle="tooltip"] {
     }
 }
 
+/*
 .headerlinks::before {
     content: "\f0f2";
     font-family: FontAwesome;
@@ -105,6 +106,7 @@ a[data-toggle="tooltip"] {
     padding-left: 3px;
     padding-right: 3px;
 }
+
 
 .styleguidelink::before {
     content: "\f1dd";
@@ -118,6 +120,7 @@ a[data-toggle="tooltip"] {
     padding-right: 3px;
 }
 
+
 .portfoliolink::before {
     content: "\f07c";
     font-family: FontAwesome;
@@ -129,6 +132,7 @@ a[data-toggle="tooltip"] {
     padding-left: 3px;
     padding-right: 3px;
 }
+*/
 
 .button-2 {
     background-color: var(--tw-blue) !important;
