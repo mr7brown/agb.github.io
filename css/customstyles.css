@@ -160,7 +160,7 @@ body {
 }
 
 .header-intro {
-    position: absolute;
+    position: fixed;
     background: black;
     border-bottom: 1px solid var(--tw-dark-gray);
     top: 0;
