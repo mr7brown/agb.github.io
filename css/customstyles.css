@@ -29,6 +29,7 @@ body {
     background-color: black;
     height: 100vh;
     margin-top: -10vh;
+    overflow-y: hidden;
 }
 
 .new {
@@ -82,13 +83,15 @@ body {
 .new-image {
     background-color: black;
     margin-top: -60vh;
-    margin-left: 2vw;
+    margin-left: 0vw;
     margin-right: 2vw;
+    overflow: hidden;
+    width: 100vw;
 }
 
 .test img {
     padding-bottom: 0vh;
-    margin-top: 10vh;
+    margin-top: 12vh;
     margin-left: 10vw;
     display: flex;
     flex-flow: row nowrap;
@@ -97,7 +100,7 @@ body {
     height: 44.25vh;
     width: 44.25vh;
     max-width: 600px;
-    overflow: hidden;
+    overflow: hidden !important;
     animation: fadeIn ease 6;
     -webkit-animation: fadeIn ease 6s;
     -moz-animation: fadeIn ease 6s;
@@ -130,6 +133,8 @@ body {
 @media (max-width: 800px) {
     .column img {
         width: 40vw;
+        margin-top: 20vh;
+        overflow: hidden;
     }
 }
 
