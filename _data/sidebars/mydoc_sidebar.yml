@@ -17,7 +17,7 @@ entries:
     folderitems:
 
     - title: Introduction
-      url: /index.html
+      url: /home.html
       output: web, pdf
 
   - title: Developer Documentation

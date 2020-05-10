@@ -1,23 +1,14 @@
 ---
-title: Hello, World!
+title: Welcome
 sidebar: mydoc_sidebar
-permalink: index.html
+permalink: home.html
 folder: mydoc
 toc: false
-layout: print
 ---
 
-I'm Ashton Brown, an adaptable Technical Writer/Documentation Engineer who’s passionate about working with Tech Ops, Designers, and Business Operations to make complex information accessible to both technical and non-technical audiences, and I developed this site for two primary reasons.
+Here you will find a collection of projects that I have worked on over the past few years. You can use the navigation below or in the left sidebar to see some of my technical writing work. In the future this site will also house some examples of my development projects, as well as a tech blog.
 
-### A Passion for Technology
-
-Without getting into too much detail, being a Technical Writer/Documentation Engineer means that I need to be able to adopt emerging technologies. Over the past few years, one of the more prominent trends I have witnessed is for static sites to be used to maintain technical documentation.
-
-So, I figured what better way to understand static sites than to use Jekyll, a static site generator, to build my own documentation portal?
-
-### Growing Need for an Online Portfolio
-
-Put simply, sending links to Google docs/PDFs seemed unprofessional, and sending screenshots of web pages featuring my content felt lazy. So, I decided that Jekyll/Github Pages would be a fun way to showcase some of the projects I've recently worked on.
+If you want to learn more about me and my work or just want to drop a friendly note, feel free to reach out via my LInkedIn or email links at the bottom of the page.
 
 ## Site Navigation
 <hr />

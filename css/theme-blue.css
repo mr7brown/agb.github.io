@@ -81,6 +81,25 @@ a[data-toggle="tooltip"] {
     float: right !important;
     }
 
+.introlink {
+    color: var(--tw-white);
+    background-color: var(--tw-blue);
+    margin-top: 10px;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    float: right !important;
+    }
+
+.introlink:hover {
+    color: var(--tw-white);
+    background-color: var(--tw-dark-blue);
+    text-decoration: none;
+}
+
 .headerlinks:hover, .styleguidelink:hover, .portfoliolink:hover {
     color: var(--tw-white);
     text-decoration: none;
@@ -183,6 +202,15 @@ a.navbar-brand:hover {
     background-color: var(--tw-blue);
     border-color: transparent;
     
+}
+
+.button-new {
+    color: var(--tw-white);
+    line-height: 30px;
+    background-color: var(--tw-blue);
+    margin-top: 40%;
+    margin-bottom: 2%;
+    padding: 10px;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
