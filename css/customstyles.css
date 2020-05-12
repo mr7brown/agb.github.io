@@ -78,6 +78,13 @@ body {
         padding-left: 5vw;
         padding-right: 5vw;
     }
+    .new h1 {
+        margin-top: -10vh;
+        margin-left: -30vw;
+        margin-right: -30vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
 
 .new-image {
@@ -132,8 +139,9 @@ body {
 
 @media (max-width: 800px) {
     .column img {
-        width: 40vw;
-        margin-top: 20vh;
+        height: 44.25vh;
+        width: 44.25vh;
+        margin-top: 15vh;
         overflow: hidden;
     }
 }
