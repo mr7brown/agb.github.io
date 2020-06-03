@@ -1,5 +1,5 @@
 ---
-title: Licensed Content (SDR)
+title: HBO Licensed Content (SDR)
 permalink: mydoc_hbo_sdr.html
 summary: "For privacy reasons company sensitive information has been replaced with 'Redacted'"
 sidebar: mydoc_sidebar

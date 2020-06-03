@@ -1,6 +1,6 @@
 ---
-title: HBO Media Manifest Metadata
-permalink: mydoc_hbo_mmc.html
+title: HBO Image Specification
+permalink: mydoc_hbo_image.html
 summary: "For privacy reasons company sensitive information has been replaced with 'Redacted'"
 sidebar: mydoc_sidebar
 folder: mydoc
@@ -324,31 +324,3 @@ This purpose of this section in the MMC is to provide technical details regardin
    </tbody>
 </table> 
 
-### Markers
-
-A marker identifies a significant time-code event within a work. A single, “marked” frame may represent one point in time (a single frame’s timecode label) or may be one of a pair of markers describing the start and end of a segment of interest.
- 
-* Distinct segments described by first-frame (FF) and last-frame (LF) notation may overlap.
-
-* Composition segments (declared using the in-point label FFOC and the out-point label LFOC) MUST bracket a single, contiguous segment of program content. If one were to play all composition segments back-to-back, playback MUST not include non-program material nor exclude any program content.
-
-*  Logos, slates, cards and so forth are not program content and SHOULD NOT appear in a playlist of composition segments. However, they MUST be “marked.”
-
-* End-credits and start-credits are not distinct composition segments and MUST be marked independently of the composition segment in which they appear.
- 
-**Redacted** supports label types described in SMPTE ST 2067-3 and will not recognize or process a distributor’s proprietary marker labels. Currently-recognized labels are listed in the Controlled Vocabulary section below.
- 
-In addition to the SMPTE labels, we support two additional, non-SMPTE labels (a pair) which allow us to distinguish black outside of the bounds of the program from commercial black. The two labels are:
- 
- 1. FFVB – First frame of video black
- 1. LFVB – Last frame of video black
-
-#### Snippet
-
-```
-<Marker>
-   <Timecode dropframe="false">00:59:20:00</Timecode>
-   <DisplayLabel language="en">START: SLATE</DisplayLabel>
-   <Label>FFHS</Label>
-</Marker>
-```
