@@ -121,6 +121,13 @@ body {
     width: 100vw;
 }
 
+.new-wrapper {
+    background-color: black;
+    height: 100vh;
+    margin-top: -10vh;
+    overflow-y: hidden;
+}
+
 .test img {
     padding-bottom: 0vh;
     margin-top: 12vh;
