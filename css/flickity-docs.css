@@ -1670,6 +1670,11 @@ tr:nth-child(2) td {
   font-weight: 600;
 }
 
+@media (max-width: 800px) {
+  .bottom-left, .bottom-caption {
+    font-size: 90%;
+  }}
+
 
 /* ---- carousel-image-cell ---- */
 /* frames single image in cell */
