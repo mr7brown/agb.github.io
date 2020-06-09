@@ -1648,18 +1648,24 @@ tr:nth-child(2) td {
 
 /* Bottom left text */
 .bottom-left {
-  position: absolute;
-  bottom: 4%;
-  left: 5%;
+  position: relative;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  bottom: 15%;
+  left: -5%;
   font-size: 24px;
   font-weight: 600;
 }
 
 /* Bottom caption text */
 .bottom-caption {
-  position: absolute;
-  bottom: 0%;
-  left: 5%;
+  position: relative;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  bottom: 15%;
+  left: -5%;
   font-size: 24px;
   font-weight: 600;
 }
