@@ -4,46 +4,44 @@
 <head>
     {% include head.html %}
 </head>
+<body class="body-2">
 <header>
     {% include header.html %}
+    
 </header>
-<body class="body-blog-post">
-
-    <div class="blog-container">
-
-<div class="blog-content">
-    <img class="blog-hero-image" src="/images/git.png" />
-
-<div class="blog-post">
-<h1>{{ page.title }}</h1>
+<div id="mainContent">
+	<div class="content-block no-image with-overflow"></div>
+	<div class="content-block post-view">
+		<div class="content-wrapper">
+			<article class="post">
+				<div class="post-intro">
+					<p class="post-meta"></p>
+					<h1> {{ page.title }}</h1>
+					<div class="social-share">
+						<a class="alternative-btn" href="http://github.com/mr7brown" target="_blank">
+						<i class="fa fa-github"></i>
+						</a>
+						<a class="alternative-btn" href="http://www.linkedin.com/in/ashton-brown-mba-6000238a/" target="_blank">
+						<i class="fa fa-linkedin-square"></i>
+						</a>
+						<a class="alternative-btn" href="mailto:ashtonbrownmba@gmail.com">
+						<i class="fa fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+				<div class="post-text">
+					{{ content}}
+                <div class="shadow"></div>
+                </div>
+					
+				</div>
+		</div>
+	</div>
 </div>
-<div class="blog-post">
-
-        <div class="{{content_col_size}}" id="tg-sb-content">
-            {{content}}
-        </div>
-   </div>
-    </div>
-</div>
-</div>
-
-<div class="more-posts">
-
-<div class="blog-section-heading">
-         <h2>Similar Posts</h2>
-    </div>
-<div data-flickity='{ "initialIndex": 0,"imagesLoaded": true, "percentPosition": false, "wrapAround": true, "autoPlay": true, "freeScroll": false }'}'>
-<img src="/images/git.png" alt="orange tree" />
-        <img src="/images/race-hero.png" alt="orange tree" />
-        <img src="/images/markdown.png" alt="orange tree" />
-        <img src="/images/news-hero.png" alt="orange tree" />
-        <img src="/images/osx-terminal.png" alt="orange tree" />
-        <img src="/images/civil-hero.png" alt="orange tree" />
-    </div>
+<footer>
+</footer>
 </body>
-<div class="spacer"></div>  
-     {% include footer-2.html %}
-    </div>
+
 {% if site.google_analytics %}
 {% include google_analytics.html %}
 {% endif %}

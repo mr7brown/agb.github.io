@@ -237,8 +237,7 @@ h1, h2, h3, h4, h5, a, p, pre, code {
 .header-intro {
     position: fixed;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: #221f1f;
     top: 0;
     width: 100vw;
     height: 50px;
