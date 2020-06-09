@@ -25,6 +25,10 @@ body {
     margin-top: 10vh;
 }
 
+h1, h2, h3, h4, h5, a, p, pre, code {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 .spacer {
     width: 100vw;
@@ -55,6 +59,15 @@ body {
     background-size: cover
 }
 
+.body-blog-post {
+    height: 100vh;
+    width: 100vw;
+    color: var(--tw-white);
+    background-color: white;
+    overflow-x: hidden;
+    background-size: cover
+}
+
 .blog-section-heading {
     margin-left: 5%;
     padding-top: 3%;
@@ -73,6 +86,14 @@ body {
     -moz-animation: fadeIn ease 2s;
     -o-animation: fadeIn ease 2s;
     -ms-animation: fadeIn ease 2s;
+}
+
+@media (max-width: 800px) {
+    .blog-container {
+        max-width: 100%;
+        min-width: 100vw;
+        display: flex;  
+    }
 }
 
 @media (max-width: 800px) {
@@ -616,6 +637,7 @@ li.dropdownActive a {
 
 footer {
     font-size: smaller;
+    text-align: center;
 }
 
 /* FAQ page */
@@ -655,6 +677,13 @@ span.projectTitle {
     position: relative;
 
 }
+
+.footer-2 {
+    text-align: center;
+    position: relative;
+
+}
+
 
 .footerMeta {
     background-color: whitesmoke];
@@ -1722,20 +1751,38 @@ ul#mysidebar {
     background-color: var(--tw-white);
     display: flex;
     border-radius: 8px;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 25%;
+    margin-top: 80px;
+    margin-right: 25%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .blog-content {
     color: var(--tw-black);
-    margin-top: 40%;
+    margin-top: 10%;
     margin-bottom: 10%;
+    padding-left: 0%;
+    min-width: 100%;
 }
 
+
+
+
 .blog-hero-image {
-    
+    min-width: 100%;
+    padding-left: -10%;
+    margin-top: -10%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.blog-post {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .featured {
@@ -1747,4 +1794,9 @@ ul#mysidebar {
     -moz-animation: fadeIn ease 2s;
     -o-animation: fadeIn ease 2s;
     -ms-animation: fadeIn ease 2s;
+}
+
+.more-posts {
+    background-color: var(--tw-black);
+    padding-bottom: 10%;
 }

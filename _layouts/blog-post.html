@@ -7,30 +7,59 @@
 <header>
     {% include header.html %}
 </header>
-<body class="body-blog">
+<body class="body-blog-post">
 
-
-<div class="blog-container">
-
-<!-- Page Content -->
+    <div class="blog-container">
 
 <div class="blog-content">
-<div class="blog-hero-image">
-    <img class="" src="/images/business-casual-hero.png" />
-</div>
+    <img class="blog-hero-image" src="/images/git.png" />
 
+<div class="blog-post">
 <h1>{{ page.title }}</h1>
+</div>
+<div class="blog-post">
+
+<h2><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} /
+            {% for tag in post.tags %}
+
+                <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
+
+                {% endfor %}</span>
+        <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
+
+        {% endfor %}
+
+        <p><a href="feed.xml" class="btn btn-primary navbar-btn cursorNorm" role="button">RSS Subscribe{{tag}}</a></p>
+
         <div class="{{content_col_size}}" id="tg-sb-content">
             {{content}}
         </div>
-   
+   </div>
     </div>
 </div>
 </div>
+
+<div class="more-posts">
+
+<div class="blog-section-heading">
+         <h2>Similar Posts</h2>
+    </div>
+<div data-flickity='{ "initialIndex": 0,"imagesLoaded": true, "percentPosition": false, "wrapAround": true, "autoPlay": true, "freeScroll": false }'}'>
+<img src="/images/git.png" alt="orange tree" />
+        <img src="/images/race-hero.png" alt="orange tree" />
+        <img src="/images/markdown.png" alt="orange tree" />
+        <img src="/images/news-hero.png" alt="orange tree" />
+        <img src="/images/osx-terminal.png" alt="orange tree" />
+        <img src="/images/civil-hero.png" alt="orange tree" />
+    </div>
 </body>
+<div class="spacer"></div>  
+     {% include footer-2.html %}
+    </div>
 {% if site.google_analytics %}
 {% include google_analytics.html %}
 {% endif %}
-{% include footer-2.html %}
+
 </html>
 

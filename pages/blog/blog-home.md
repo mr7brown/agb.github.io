@@ -1,8 +1,8 @@
 ---
-title: test
-sidebar: mydoc_sidebar
-permalink: test.html
-folder: mydoc
+title: Blog Home
+permalink: blog.html
+folder: blog
+keywords: test
 toc: false
 layout: blog
 ---
