@@ -23,6 +23,7 @@
 body {
     font-size: 15px;
     margin-top: 10vh;
+    background-color: white;
 }
 
 h1, h2, h3, h4, h5, a, p, pre, code {
@@ -243,22 +244,57 @@ h1, h2, h3, h4, h5, a, p, pre, code {
     height: 50px;
     padding-right: 5vw;
     padding-left: 5vw;
-    animation: fadeIn ease 2;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
 }
+
+.footer-blog-post {
+    margin: 0px auto;
+    background-color: #221f1f;
+    bottom: -5;
+    width: 100vw;
+    height: 80px;
+    padding-top: 10px;
+    color: white;
+}
+
+.footerlink {
+    color: var(--tw-white);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
 
 .header-blog {
     position: fixed;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: #221f1f;
     top: 0;
     width: 100vw;
     height: 50px;
-    text-align: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.introlink {
+    color: var(--tw-white);
+    margin-top: 10px;
+    margin-left: 1em;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    float: right !important;
+    }
+
+
+.introlink:hover {
+    color: var(--tw-blue);
+    text-decoration: none;
 }
 
 .sitenav-link {
