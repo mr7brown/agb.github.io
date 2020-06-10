@@ -388,7 +388,8 @@ https://flickity.metafizzy.co
 .flickity-viewport {
   overflow: hidden;
   position: relative;
-  height: 100%;
+  height: 310px !important;
+  background-color: #221f1f;
 }
 
 .flickity-slider {
@@ -496,7 +497,7 @@ https://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -5px;
+  bottom: -25px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1629,6 +1630,7 @@ tr:nth-child(2) td {
 .carousel-2 {
   background: hidden;
   margin-bottom: 0px;
+  margin-top: -20px;
   padding-bottom: 0px;
   animation: fadeIn ease 2;
   -webkit-animation: fadeIn ease 2s;
@@ -1649,14 +1651,10 @@ tr:nth-child(2) td {
 
 /* Bottom left text */
 .bottom-left {
-  position: relative;
-  text-align: center;
-  display: block;
-  justify-content: center;
-  bottom: 15%;
-  left: -5%;
-  font-size: 24px;
-  font-weight: 600;
+  float: left;
+  display: flex;
+  padding-left: 4.0em;
+  color: white;
 }
 
 /* Bottom caption text */
@@ -2823,7 +2821,7 @@ td.event-table__time {
 /* ---- o dots ---- */
 
 .carousel--o-dots .flickity-page-dots {
-  bottom: 0px;
+  bottom: 10px;
 }
 
 .carousel--o-dots .flickity-page-dots .dot {

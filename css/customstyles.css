@@ -33,7 +33,30 @@ h1, h2, h3, h4, h5, a, p, pre, code {
 
 .spacer {
     width: 100vw;
-    height: 80px;
+    height: 40px;
+    background-color: #221f1f;
+}
+
+.spacer-transparent {
+    width: 100vw;
+    height: 40px;
+    background-color: transparent;
+}
+
+.blog-feature-text {
+    width: 100px;
+    height: 100px;
+    background: red;
+    overflow: hidden;
+}
+
+.test-text {
+    
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 25%;
+    background: green;
 }
 
 .hero-image {
@@ -54,9 +77,8 @@ h1, h2, h3, h4, h5, a, p, pre, code {
     height: 100vh;
     width: 100vw;
     color: var(--tw-white);
-    background-color: black;
+    background-color: #221f1f;
     overflow-x: hidden;
-    background: linear-gradient(0deg, rgba(255, 0, 0, 0), rgba(0, 255, 255, 0.021)), url(/images/test.jpg);
     background-size: cover
 }
 
@@ -71,8 +93,11 @@ h1, h2, h3, h4, h5, a, p, pre, code {
 
 .blog-section-heading {
     padding-top: 1em;
-    padding-bottom: 4px;
-    margin-left: 2em!important;
+    padding-bottom: 1.5em;
+    width: 100%;
+    padding-left: 2em!important;
+    background-color: #221f1f;
+    color: white;
 }
 
 .blog-post-carousel-container {
@@ -241,6 +266,17 @@ h1, h2, h3, h4, h5, a, p, pre, code {
     position: fixed;
     z-index: 1;
     background-color: #221f1f;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.header-intro-2 {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
     top: 0;
     width: 100vw;
     height: 50px;
