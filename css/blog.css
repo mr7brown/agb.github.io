@@ -10151,7 +10151,7 @@
     display: block;
     background: #fff;
     position: relative;
-    margin-bottom: 10em;
+    margin-bottom: 1em;
   }
   .post-view .post h3.subhead-field {
     color: #221f1f;
@@ -10183,6 +10183,12 @@
       float: left;
       width: 100%;
     }
+  }
+
+  #related-posts {
+    padding-left: 5vw;
+    padding-bottom: 1em;
+    color: white
   }
   .post-view .post .post-intro {
     padding: 6.5em 12em 0 8em;

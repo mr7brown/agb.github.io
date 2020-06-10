@@ -70,10 +70,16 @@ h1, h2, h3, h4, h5, a, p, pre, code {
 }
 
 .blog-section-heading {
-    margin-left: 5%;
     padding-top: 1em;
-    padding-bottom: 40px;
+    padding-bottom: 4px;
+    margin-left: 2em!important;
+}
 
+.blog-post-carousel-container {
+    width: 100%;
+    background-color: #221f1f;
+    bottom: -100px;
+   
 }
 
 .new h1 {
@@ -243,12 +249,12 @@ h1, h2, h3, h4, h5, a, p, pre, code {
 }
 
 .footer-blog-post {
-    margin-top: 1.5em;
+    margin-top: ;
     background-color: #221f1f;
     bottom: -5;
     width: 100vw;
-    height: 80px;
-    padding-top: 10px;
+    height: 100px;
+    padding-top: 30px;
     color: white;
 }
 

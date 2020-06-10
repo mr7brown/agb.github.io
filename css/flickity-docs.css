@@ -496,7 +496,7 @@ https://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -25px;
+  bottom: -5px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1628,7 +1628,7 @@ tr:nth-child(2) td {
 
 .carousel-2 {
   background: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   padding-bottom: 0px;
   animation: fadeIn ease 2;
   -webkit-animation: fadeIn ease 2s;
@@ -1639,6 +1639,7 @@ tr:nth-child(2) td {
 
 .carousel-cell-2 {
   width: 601px;
+  margin-bottom: 20px;
   height: 258px;
   margin-right: 0px;
   background: hidden;
@@ -1668,6 +1669,7 @@ tr:nth-child(2) td {
   left: -5%;
   font-size: 24px;
   font-weight: 600;
+  color: white;
 }
 
 @media (max-width: 800px) {
