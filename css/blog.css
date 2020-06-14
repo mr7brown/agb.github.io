@@ -3862,7 +3862,7 @@
     transition: 0.3s; 
     border-radius: 8px;
     min-height: 400px;
-    height: 400px;
+    height: 500px;
     margin-top: 3em;
     margin-bottom: 3em;
     display: block;
@@ -10378,10 +10378,13 @@
       padding: 0.75rem 0.75rem 0;
     }
     .post-view .post {
-      float: left;
-      width: 100%;
-      margin-bottom: 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    border-radius: 0;
+    margin-top: 40em;
     }
+
     .post-view .post .shadow {
       display: none;
     }
