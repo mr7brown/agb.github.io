@@ -3860,6 +3860,7 @@
     transition: 0.3s; 
     border-radius: 8px;
     min-height: 400px;
+    height: 450px;
     margin-top: 3em;
     margin-bottom: 3em;
     display: block;
