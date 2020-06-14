@@ -3799,7 +3799,9 @@
 
 @media screen and (max-width: 567px) {
   .caption-blog {
-    left: 12vw;
+    left: 0;
+    right: 0;
+    justify-content: center;
   }
 }
     
@@ -3860,7 +3862,7 @@
     transition: 0.3s; 
     border-radius: 8px;
     min-height: 400px;
-    height: 450px;
+    height: 400px;
     margin-top: 3em;
     margin-bottom: 3em;
     display: block;
@@ -3890,6 +3892,12 @@
   float: left;
   width: 50%;
   padding: 0 10px;
+}
+
+@media screen and (max-width: 567px) {
+  .column-blog {
+    width: 100%;
+  }
 }
 
 /* Remove extra left and right margins, due to padding in columns */
