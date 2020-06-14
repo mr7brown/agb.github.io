@@ -9,23 +9,36 @@
     {% include header.html %}
 </header>
 <div id="mainContent">
-	<div class="content-block no-image with-overflow">
-        
-    </div>
-    
+	<div class="content-block no-image with-overflow-meditations"></div>
 	<div class="content-block post-view">
-    
 		<div class="content-wrapper">
-        <div class="caption-blog">
-        <h1>Welcome to The Pulse</h1>
-        </div>
 			<article class="post">
-				<div class="post-text">
-                <div class="row-blog">
+				<div class="post-intro">
+					<p class="post-meta"></p>
+					<h1> {{ page.title }}</h1>
+					<div class="social-share">
+						<a class="alternative-btn" href="http://github.com/mr7brown" target="_blank">
+						<i class="fa fa-github"></i>
+						</a>
+						<a class="alternative-btn" href="http://www.linkedin.com/in/ashton-brown-mba-6000238a/" target="_blank">
+						<i class="fa fa-linkedin-square"></i>
+						</a>
+						<a class="alternative-btn" href="mailto:ashtonbrownmba@gmail.com">
+						<i class="fa fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+				<div class="post-text"> 
+					{{ content}}
+                    <hr>
+                    <div class="other-posts">
+                        <h2>Related Posts</h2>
+                    </div>
+                    <div class="row-blog">
                 <div class="column-blog">
                 <div class="card">
                     <a href="/new">
-                    <img class="card-image" src="/images/civil-2020.jpg" alt="Avatar" >
+                    <img class="card-image" src="/images/civil-2020.jpg" alt="Meditations Image" >
                     </a>
                 <div class="container-blog">
                     <a href="/new">
@@ -37,34 +50,21 @@
                 </div>
                 </div>
 
-                <div class="column-blog">
-                <div class="card">
-                    <a href="/new-2">
-                    <img class="card-image" src="/images/Meditations.jpg" alt="Avatar" >
-                    </a>
-                <div class="container-blog">
-                    <a href="/new-2">
-                    <h4><b>Meditations on Workplace Culture</b></h4>
-                    </a>
-                    <p>In 1849, Henry David Thoreau wrote an essay on civil disobedience and why it is necessary. 171 years later,
-                     Thoreau's message is as important as ever.</p>
                 </div>
-                </div>
-                </div>
-                </div>
-
-        
                 <div class="shadow"></div>
                 </div>
 					
 				</div>
                 
+                
 </div>
+
+
 
 <div class="spacer-transparent"></div> 
 
 
-</div>
+<div class="spacer"></div> 
 <footer>
 {% include footer-blog-post.html %}
 </footer>

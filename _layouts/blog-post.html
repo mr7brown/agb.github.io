@@ -9,7 +9,7 @@
     {% include header.html %}
 </header>
 <div id="mainContent">
-	<div class="content-block no-image with-overflow"></div>
+	<div class="content-block no-image with-overflow-2"></div>
 	<div class="content-block post-view">
 		<div class="content-wrapper">
 			<article class="post">
@@ -28,48 +28,42 @@
 						</a>
 					</div>
 				</div>
-				<div class="post-text">
+				<div class="post-text"> 
 					{{ content}}
+                    <hr>
+                    <div class="other-posts">
+                        <h2>Related Posts</h2>
+                    </div>
+                    <div class="row-blog">
+                <div class="column-blog">
+                <div class="card">
+                    <a href="/new-2">
+                    <img class="card-image" src="/images/meditations.jpg" alt="Meditations Image" >
+                    </a>
+                <div class="container-blog">
+                    <a href="/new-2">
+                    <h4><b>Meditations on Workplace Culture</b></h4>
+                    </a>
+                    <p>In 1849, Henry David Thoreau wrote an essay on civil disobedience and why it is necessary. 171 years later,
+                     Thoreau's message is as important as ever.</p>
+                </div>
+                </div>
+                </div>
+
+                </div>
                 <div class="shadow"></div>
                 </div>
 					
 				</div>
                 
+                
 </div>
+
+
 
 <div class="spacer-transparent"></div> 
 
-<div class="blog-section-heading">
-        <h1>Related Posts</h1>
-    </div>
 
-<div class="carousel-2" data-flickity='{ "autoPlay": false, "contain": true, "initialIndex": 0, "imagesLoaded": true, "pageDots": true, "percentPosition": false, "wrapAround": true, "freeScroll": false }'>
-    <div class="carousel-cell-2">
-        <a href="/new">
-        <img class="carousel__natural-image-2"src="/images/osx-terminal.png" alt="Introduction to the Terminal >_" />
-        </a>
-    <div class="bottom-left"><h2>Introduction to the Terminal >_</h2></div>
-    </div>
-    <div class="carousel-cell-2">
-        <a href="/new">
-        <img class="carousel__natural-image-2"src="/images/git.png" alt="Markdown Image" />
-        </a>
-    <div class="bottom-left"><h2>Introduction to Git</h2></div>
-    </div>
-    <div class="carousel-cell-2">
-        <a href="/new">
-        <img class="carousel__natural-image-2"src="/images/css.png" alt="CSS Image" />
-        </a>
-    <div class="bottom-left"><h2>Thoughts on Organizing CSS File</h2></div>
-    </div>
-    <div class="carousel-cell-2">
-        <a href="/new">
-        <img class="carousel__natural-image-2"src="/images/markdown.png"  alt="OSX Terminal Image" />
-        </a>
-    <div class="bottom-left"><h2>Introduction to Markdown</h2></div>
-    </div>
-    </div>
-</div>
 <div class="spacer"></div> 
 <footer>
 {% include footer-blog-post.html %}
