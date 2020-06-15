@@ -1170,6 +1170,11 @@ pre {
     color: white;
 }
 
+.container {
+    margin-left: 5em;
+    padding-left: 0px;
+}
+
 #json-box-container pre {
     margin: 0px;
 }

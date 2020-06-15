@@ -1403,10 +1403,6 @@ tr:nth-child(2) td {
 
 /* ---- content ---- */
 
-.container {
-  max-width: 1000px;
-  padding: 0 10px;
-}
 
 /* ---- page-title ---- */
 
@@ -1464,10 +1460,6 @@ tr:nth-child(2) td {
 
   html.export {
     font-size: 16px;
-  }
-
-  .container {
-    padding: 0 30px;
   }
 
   .page-title {
