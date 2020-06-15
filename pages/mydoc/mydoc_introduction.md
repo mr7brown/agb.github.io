@@ -72,7 +72,7 @@ Put simply, sending links to Google docs/PDFs seemed unprofessional, and sending
                 </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a class="sitenav-link" href ="/resume.html">Resume</a></h4>
+                <h4 class="media-heading"><a class="sitenav-link" href ="http://drive.google.com/file/d/1DoY6JJZaSlv6UbdbyYUnKd-CrQWhh0we/view?usp=sharing">Resume</a></h4>
                 <p>Static link to a  resume that can be downloaded or viewed online.</p>
             </div>
         </div>

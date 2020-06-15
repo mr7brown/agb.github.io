@@ -3605,6 +3605,14 @@
     background-color: rgba( 0, 0, 0, .2) !important;
   }
 
+  .home-button {
+    color: red;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 2em;
+    bottom: 0;
+  }
+
 
   content-block.with-overflow {
     padding: 0 2.2em;
