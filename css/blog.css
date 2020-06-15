@@ -3762,7 +3762,7 @@
     width: 100%;
     min-width: 100%;
     height: 40em;
-    background-image: url("/images/meditations.jpg");
+    background-image: url("/images/earth.png");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -10495,6 +10495,28 @@
     min-height: 500px;
     display: flow-root;
   }
+
+  .post-image-container {
+    margin-left: -4em;
+    margin-right: -4em;
+
+  }
+
+  .post-image {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    height: auto;
+  }
+
+  @media screen and (max-width: 767px) {
+    .post-image-container {
+      margin-left: -2em;
+      margin-right: -2em;
+    }
+  }
+
   @media screen and (max-width: 767px) {
     .post-view {
       font-size: 10px;

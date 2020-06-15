@@ -26,7 +26,7 @@ body {
     background-color: white;
 }
 
-h1, h2, h3, h4, h5, a, p, pre, code {
+h1, h2, h3, h4, h5, a, p, pre, code, ul, li {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
