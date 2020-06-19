@@ -43,7 +43,7 @@ It's odd to hear the response all lives matter and be told "did you know that co
 
 It's odd. And I say odd, because I'm conditioned to be positive and to let things go.
 
-But, if we want to discuss facts, then let's talk facts and why #BlackLivesMatter. The hashtag, movement, and sentiment were not born out of ignorance. It was born out of necessity. If we compare two separate groups: White Nationalists and those part of #BlackLivesMatter, we see two stark contrasts: 
+But, if we want to discuss facts, then let's talk facts and why #BlackLivesMatter. The hashtag, movement, and sentiment were not born out of ignorance. They were born out of necessity. If we compare two separate groups: White Nationalists and those part of #BlackLivesMatter, we see two stark contrasts: 
 
 1.  The White Nationalists (formerly known as the KKK), were founded as a hate group to lynch and kill black people, and for whatever reason, they still proudly exist today. The Black Lives Matter started in 2013 after yet another murder of an unarmed black person (Trayvon Martin) went without punishment. The difference between the two groups is that one group hates and kills with no provocation. The other group wants the words "liberty and justice for all" to extend to black people.
 
