@@ -6,7 +6,7 @@ folder: blog
 layout: meditations-blog-post
 ---
 
-Earth. It's a small, blue sphere drifting through infinite space and is home to the only known sentient life. Its very essence bewilders even the greatest minds and has led to much speculation surrounding when it was created, how it was created, and if it will conquer the test of time. For most of earth's residents, little time is devoted to understanding the cosmos. Instead, we are focused on the 1,440 minutes in a day. 
+Earth. It's a small, blue sphere drifting through infinite space and is home to the only known sentient life. Its very essence bewilders even the greatest minds and has led to much speculation surrounding when it was created, how it was created, and if it will survive the test of time. For most of earth's residents, little time is devoted to understanding the cosmos. Instead, we are focused on the 1,440 minutes in a day. 
 
 On May 25th, 2020 a black man by the name of George Floyd was murdered when a white police officer (Derek Chauvin) knelt on Floyd's neck for 8 minutes and 46 seconds. George begged. George cried out for his mother. George was met with silence, and his life was taken. 
 
