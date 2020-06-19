@@ -24,7 +24,7 @@ The graphic below highlights the reality of when a city of 250,000 residents has
     <img class="post-image" src="images/buffalo-crime.png" />
 </div>
 
-For perspective, here are the graduation rate for each city in the graphic:
+For perspective, here are the graduation rates for each city in the graphic:
 
 * Kenmore: 82%
 * Cheektowaga: 90%
