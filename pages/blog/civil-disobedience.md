@@ -71,7 +71,7 @@ This may seem like a dynamic shift in topic but bear with me. Below are two maps
 
 These maps look eerily similar. The higher educated states do not vote for Trump. 
 
-Sadly, this is just one reason why it is frustrated to be "led" by an individual who simply [doesn't understand](https://fordhaminstitute.org/national/commentary/president-donald-trump-quotes-about-education) education and views education as a business; not as an essential/unalienable service.
+Sadly, this is just one reason why it is frustrating to be "led" by an individual who simply [doesn't understand](https://fordhaminstitute.org/national/commentary/president-donald-trump-quotes-about-education) education and views education as a business; not as an essential/unalienable service.
 
 In Trump's defense, many of these issues have existed long before he became president. However, he has done nothing but set us back.
 
