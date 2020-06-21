@@ -10019,6 +10019,28 @@
       line-height: 1.25;
     }
   }
+
+  .post-text h1 {
+    background-color: var(--tw-dark-gray);
+    width: auto;
+    color: white;
+    margin-left: -2em;
+    margin-right: -2em ;
+    margin-top: 0em;
+    padding: 2em;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  @media screen and (max-width: 767px) {
+  .post-text h1 {
+    margin-left: -1em;
+    margin-right: -1em;
+
+}
+  }
+
   .post-view .post .post-intro .mobile-wrapper {
     display: -ms-flexbox;
     display: -webkit-box;
