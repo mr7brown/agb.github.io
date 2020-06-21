@@ -191,25 +191,6 @@ For providers wishing to deliver JPEG 2000 MXF OP1a masters, an on-boarding outp
 </tbody>
 </table>
 
-### Master Composition
-
-All content MUST conform to the following composition:
-
-<table style="width:90%">
-<thead>
-  <tr>
-    <th scope="col">10" Slate Silence</th>
-    <th scope="col">30" Black Silence</th>
-    <th scope="col">Program @ 01:00:00:00</th>
-    <th scope="col">30" Black Silence</th>
-    <th scope="col">Textless</th>
-    <th scope="col">5" Black Silence</th>
-  </tr>
-</thead>
-</table>
-
-If there are multiple textless segments, insert 5 seconds of black/silence in between each segment.
-
 ### Slate
 
 First frame of video MUST begin with a visual slate. Slate SHALL contain:
@@ -237,65 +218,5 @@ First frame of video MUST begin with a visual slate. Slate SHALL contain:
   * Target loudness for 5.1 Channel Program Audio MUST be ∑ -24 LKFS +/- 2 dB (minus LFE)
   * True Peak DOES NOT exceed -2 dBTP
 
-<table>
-   <thead>
-      <tr>
-         <th scope="col">Language/Type</th>
-         <th scope="col">Soundfield</th>
-         <th scope="col">Track</th>
-         <th colspan="2" align="right">Channel</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>Original Production Language</td>
-         <td>5.1 Surround</td>
-         <td>Track 1</td>
-         <td>Channel 1 <br />Channel 2 <br />Channel 3 <br />Channel 4 <br />Channel 5 <br />Channel 6</td>
-         <td>L
-            <br />R
-            <br />C
-            <br />LFE
-            <br />LS
-            <br />Rs
-         </td>
-      </tr>
-      <tr>
-         <td>Original Production Language</td>
-         <td>Stereo / Dual Mono</td>
-         <td>Track 2</td>
-         <td>Channel 1 <br />Channel 2</td>
-         <td>L/Lt/M1
-            <br />R/Rt/M2
-         </td>
-      </tr>
-      <tr>
-         <td>Latin Spanish or English</td>
-         <td>Stereo / Dual Mono</td>
-         <td>Track 3</td>
-         <td>Channel 1 <br />Channel 2</td>
-         <td>L/Lt/M1
-            <br />R/Rt/M2
-         </td>
-      </tr>
-      <tr>
-         <td>Music & Effects</td>
-         <td>Stereo / Dual Mono</td>
-         <td>Track 4</td>
-         <td>Channel 1 <br />Channel 2</td>
-         <td>L/Lt/M1
-            <br />R/Rt/M2
-         </td>
-      </tr>
-      <tr>
-         <td>Audio Description</td>
-         <td>Stereo / Dual Mono</td>
-         <td>Track 5</td>
-         <td>Channel 1 <br />Channel 2</td>
-         <td>L/Lt/M1
-            <br />R/ Rt/M2
-         </td>
-      </tr>
-   </tbody>
-</table>
+
 
