@@ -3727,11 +3727,9 @@
   }
 
   .caption-blog {  
-    display: flex;
-    position: absolute;
-    top: 10%;
-    left: 20vw;
-    transform: translate(-50%,-50%);
+    top: 100%;
+    /* left: 50vw; */
+    /* transform: translate(-50%,-50%); */
     text-align: center;
     max-width: 900px;
     color: white;
@@ -3742,6 +3740,13 @@
     animation: pulse 3s infinite;
     -webkit-animation-name: pulse;
     animation-name: pulse;
+    /* margin-top: 10%; */
+    /* width: 600px; */
+    /* height: 300px; */
+    /* justify-content: center; */
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10em;
 }
 
 @media screen and (max-width: 567px) {
@@ -3827,6 +3832,14 @@
     border-radius: 8px 8px 0px 0px;
 
   }
+
+  @media screen and (max-width: 567px){
+    .card {
+      height: 200px;
+    }
+
+  }
+
   
   /* Add some padding inside the card container */
   .container-blog {
@@ -9926,7 +9939,7 @@
     clear: both;
   }
   .post-view .post {
-    margin-top: 35em;
+    margin-top: 14em;
     border-radius: 8px;
     display: block;
     background: #fff;
@@ -9950,7 +9963,7 @@
     width: 100%;
     margin-bottom: 0;
     border-radius: 0;
-    margin-top: 40em;
+    margin-top: 30em;
     }
 
     .post-view .post .shadow {
