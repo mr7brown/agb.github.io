@@ -9,11 +9,13 @@
     {% include header.html %}
 </header>
 
- 
+<div class="error">
+ {{content}}
+</div>
 
 </body>
 <footer>
-{% include footer-blog-post.html %}
+{% include footer-error.html %}
 </footer>
 
 {% if site.google_analytics %}
