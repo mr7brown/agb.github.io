@@ -1,7 +1,7 @@
 ---
 title: Meditations on Education and the Importance of Socioeconomic Reform
 sidebar: false
-permalink: socioeconomic-reform.html
+permalink: hidden.html
 folder: blog
 layout: blog-post
 ---

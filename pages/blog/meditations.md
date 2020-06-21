@@ -1,7 +1,7 @@
 ---
 title: '8:46'
 sidebar: false
-permalink: blm.html
+permalink: hidden-2.html
 folder: blog
 layout: meditations-blog-post
 ---

@@ -1,6 +1,6 @@
 ---
 title: Blog Home
-permalink: blog.html
+permalink: hidden-home.html
 folder: blog
 keywords: test
 toc: false
