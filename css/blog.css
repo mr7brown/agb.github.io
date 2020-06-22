@@ -3756,6 +3756,28 @@
     justify-content: center;
   }
 }
+
+.home-button-blog {
+  background-color: var(--tw-dark-gray);
+  width: auto;
+  color: white;
+  margin-left: -2em;
+  margin-right: -2em ;
+  margin-top: 0em;
+  padding: 1em;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+@media screen and (max-width: 767px) {
+.home-button-blog {
+  margin-left: -1em;
+  margin-right: -1em;
+
+}
+}
     
 @-webkit-keyframes pulse {
   0% {
@@ -10040,9 +10062,10 @@
     margin-left: -2em;
     margin-right: -2em ;
     margin-top: 0em;
-    padding: 2em;
+    padding: 1em;
     justify-content: center;
     text-align: center;
+    text-transform: uppercase;
     
   }
 
