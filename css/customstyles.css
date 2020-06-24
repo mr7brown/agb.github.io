@@ -26,7 +26,7 @@
     text-align: center;
     padding-top: 20vh;
     margin: 5%;
-    overflow-y: !important;
+    overflow-y: hidden !important;
 
 }
 
