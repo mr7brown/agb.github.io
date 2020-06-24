@@ -1,6 +1,6 @@
 ---
 title: Facebook - Career Growth
-layout: portfolio
+layout: portfolio-informative
 permalink: fb-pulse-strengths.html
 folder: mydoc
 ---

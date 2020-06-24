@@ -1,6 +1,6 @@
 ---
 title: Google - SDK Installation
-layout: portfolio
+layout: portfolio-developer
 permalink: google-sdk.html
 ---
 

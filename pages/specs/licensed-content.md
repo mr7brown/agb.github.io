@@ -1,7 +1,7 @@
 ---
 title: HBO - Licensed Content (SDR)
 permalink: hbo-sdr.html
-layout: portfolio
+layout: portfolio-specs
 folder: mydoc
 ---
 

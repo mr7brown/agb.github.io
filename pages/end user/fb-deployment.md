@@ -1,6 +1,6 @@
 ---
 title: Facebook - New Builds Deployment Process
-layout: portfolio
+layout: portfolio-end-user
 permalink: fb-deployment.html
 folder: mydoc
 ---

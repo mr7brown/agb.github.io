@@ -1,7 +1,7 @@
 ---
 title: HBO - Media Manifest Metadata
 permalink: hbo-mmc.html
-layout: portfolio
+layout: portfolio-specs
 folder: mydoc
 ---
 

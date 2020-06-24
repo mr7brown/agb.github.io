@@ -1,7 +1,7 @@
 ---
 title: Anti-money Laundering  
 tags: [getting_started]
-layout: portfolio
+layout: portfolio-end-user
 permalink: aml.html
 folder: mydoc
 ---

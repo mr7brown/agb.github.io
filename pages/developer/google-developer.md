@@ -2,7 +2,7 @@
 title: Google - Developer Account Configuration
 permalink: google-developer.html
 folder: mydoc
-layout: portfolio
+layout: portfolio-developer
 ---
 
 ## Overview

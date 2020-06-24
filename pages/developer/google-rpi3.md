@@ -1,6 +1,6 @@
 ---
 title: Google - Raspberry Pi Set Up
-layout: portfolio
+layout: portfolio-developer
 permalink: google-rpi3.html
 folder: mydoc
 ---

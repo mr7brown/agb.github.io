@@ -13,7 +13,7 @@
 	<div class="content-block post-view">
 		<div class="content-wrapper">
         <div class="caption-developer">
-        <h1>Tech Writing Portfolio</h1>
+        <h1>Tech Writing Portfolio: Technical Specifications</h1>
         </div>
 			<article class="post">
 				<div class="post-intro">
@@ -22,11 +22,8 @@
 				<div class="post-text">
                <hr />
 					{{ content}}
-                    
-                    <div class="other-posts">
-                        <h2>All Technical Writing Docs</h2>
-                    </div>
 
+                {% include portfolio-latest.html %}
                 {% include portfolio-home.html %}
                 
 

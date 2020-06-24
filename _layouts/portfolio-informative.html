@@ -9,24 +9,22 @@
     {% include header.html %}
 </header>
 <div id="mainContent">
-	<div class="content-block no-image with-overflow-style"></div>
+	<div class="content-block no-image with-overflow-developer"></div>
 	<div class="content-block post-view">
 		<div class="content-wrapper">
         <div class="caption-developer">
-        <h1>Style Guide: Other</h1>
+        <h1>Tech Writing Portfolio: Informative Posts</h1>
         </div>
 			<article class="post">
 				<div class="post-intro">
 					<h1> {{ page.title }}</h1>
 				</div>
 				<div class="post-text">
-                <hr > 
+               <hr />
 					{{ content}}
 
-                {% include style-latest.html %}
-                {% include style-home.html %}
-
-            
+                {% include portfolio-latest.html %}
+                {% include portfolio-home.html %}
                 
 
                 </div>

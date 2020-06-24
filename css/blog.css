@@ -51,7 +51,7 @@
     width: 100%;
     min-width: 100%;
     height: 120vh;
-    background-image: url("/images/rock-climb.jpg");
+    background-image: url("/images/other.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -4056,7 +4056,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   background: rgba( 0, 0, 0, .6);
   border-radius: 8px;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 10em;
   -webkit-animation: fadeIn ease 4s;
     -moz-animation: fadeIn ease 4s;
     -o-animation: fadeIn ease 4s;
@@ -4104,6 +4104,21 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
       
     }
     }
+
+    @media screen and (max-width: 360px) {
+      .caption-home {
+        margin-top: 4em !important;
+        margin-left: 2em;
+        margin-right: 2em;
+      -webkit-animation: fadeIn ease 4s;
+        -moz-animation: fadeIn ease 4s;
+        -o-animation: fadeIn ease 4s;
+        -ms-animation: fadeIn ease 4s;
+        
+      }
+      }
+
+    
 
 .intro-links {
   color: var(--tw-dark-gray);

@@ -2,7 +2,7 @@
 title: HBO - GitLab Set Up
 permalink: gitlab.html
 folder: mydoc
-layout: portfolio
+layout: portfolio-developer
 ---
 
 ## Overview
