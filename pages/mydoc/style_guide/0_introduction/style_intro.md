@@ -1,8 +1,7 @@
 ---
 title: Style Guide Overview
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "This style guide provides general technical editing guidelines for anyone engaged in technical writing. The guide is kept at a pretty high-level so that it is able to be used across industries. That said, some of the contents are written primarily for a technical audience."
-sidebar: style_sidebar
+layout: style
 permalink: style_intro.html
 folder: mydoc
 ---

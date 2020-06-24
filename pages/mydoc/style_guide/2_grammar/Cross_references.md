@@ -1,8 +1,7 @@
 ---
 title: Links and Cross References
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Capitalization"
-summary: "Different users have different needs. To avoid excessive documentation or documentation that is not detailed enough, it's often useful to provide internal or external links. This page highlights some ways to improve links and cross-references."
-sidebar: style_sidebar
+layout: style-grammar
 permalink: cross-references.html
 folder: mydoc
 ---

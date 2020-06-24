@@ -1,8 +1,7 @@
 ---
 title: Second Person Versus First Person
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Second Person"
-summary: "In technical writing it's important for it to be clear who or what is performing an action. For this reason, documents are typically written in the second person (you) rather than the first person (I/we). This page contains some examples of writing in the second person."
-sidebar: style_sidebar
+layout: style-grammar
 permalink: second_person.html
 toc: true
 folder: mydoc

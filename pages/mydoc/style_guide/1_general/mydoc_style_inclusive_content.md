@@ -1,8 +1,7 @@
 ---
 title: Inclusive Content
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "To create content that is inclusive, you should avoid using language that can be perceived negative by others. One of the most common ways this happens is when ableist or sexist language is used. This page provides some information on how to improve your writing by creating content that's inclusive. "
-sidebar: style_sidebar
+layout: style-general-guidelines
 permalink: inclusive_content.html
 folder: mydoc
 ---

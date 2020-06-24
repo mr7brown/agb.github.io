@@ -1,8 +1,7 @@
 ---
 title: Resources
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "External resources for editing and technical writing tips."
-sidebar: style_sidebar
+layout: style-other
 permalink: resources.html
 folder: mydoc
 ---

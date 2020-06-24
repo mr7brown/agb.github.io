@@ -294,6 +294,11 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     height: 50px;
     padding-right: 5vw;
     padding-left: 5vw;
+/*
+    background: rgba(0,0,0,0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+*/
 }
 
 .header-intro-2 {
@@ -318,9 +323,9 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
 }
 
 .footer-intro {
-    background-color: black;
-    position: absolute;
-    bottom:-10;
+    background-color: #221f1f;
+    position: fixed;
+    bottom:0;
     width:100%;
     height:80px; 
     padding-top: 1em;
@@ -380,11 +385,22 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
 .introlink:hover {
     color: var(--tw-blue);
     text-decoration: none;
+    transition: transform 300ms;
 }
 
 .sitenav-link {
     color: var(--tw-blue);
 }
+
+.btn-grad {background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+    color: white;
+}
+.btn-grad:hover{ 
+    background-position: right center; 
+    color: white !important;
+
+}
+
 
 .bs-callout {
     padding: 20px;
@@ -1056,11 +1072,11 @@ li.activeSeries {
     font-size: 80%;
     display: block;
     color: var(--tw-black);
-    background-color: var(--tw-note);
+    background-color: var(--tw-light-blue);
     overflow-x: hidden;
     word-wrap: break-word;
     border-radius: 5px;
-    border-left: 4px solid #137333;
+    border-left: 4px solid var(--tw-dark-blue);
     margin-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1211,10 +1227,13 @@ table code {
 }
 
 pre {
-    margin: 25px 0px;
+    
     background-color: rgba(0, 0, 0, 0.8) !important;
     border: 0px !important;
     color: white;
+    margin-bottom: 1em;
+    margin-top: 1em;
+   
 }
 
 .container {

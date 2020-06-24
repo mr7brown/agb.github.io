@@ -1,7 +1,7 @@
 ---
 title: Anthropomorphism
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Anthropomorphism"
-sidebar: style_sidebar
+layout: style-grammar
 permalink: anthropomorphism.html
 folder: mydoc
 ---

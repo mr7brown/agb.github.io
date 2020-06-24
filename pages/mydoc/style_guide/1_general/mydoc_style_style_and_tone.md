@@ -1,8 +1,7 @@
 ---
 title: Style and Tone
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "When writing it is easy to forget that the writing needs to be, above all else, human. This page provides some guidelines for writing conversationally and how to avoid being too formal or too informal."
-sidebar: style_sidebar
+layout: style-general-guidelines
 permalink: style.html
 folder: mydoc
 ---

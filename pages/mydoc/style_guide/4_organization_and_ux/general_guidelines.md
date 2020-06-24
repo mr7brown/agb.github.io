@@ -1,8 +1,7 @@
 ---
 title: General Organization and UX Guidelines
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "User Experience or UX shares many similarities with Technical Writing. One of the major similarities is that in both UX and Technical Writing, headings and links need to be meaningful. Another similarity is that headings and page navigation should strive for clarity and be logical. This page goes over some tips for organizing information and improving the user's experience."
-sidebar: style_sidebar
+layout: style-ux
 permalink: ux-guidelines.html
 folder: mydoc
 ---

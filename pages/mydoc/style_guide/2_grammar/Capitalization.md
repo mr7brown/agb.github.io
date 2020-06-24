@@ -1,8 +1,7 @@
 ---
 title: Capitalization
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Capitalization"
-summary: "Different organizations have a house style for capitalization rules. The rules presented here are not intended to be objectively correct. Instead, the capitalization rules on this page reflect a stylistic preference."
-sidebar: style_sidebar
+layout: style-grammar
 permalink: capitalization.html
 folder: mydoc
 ---

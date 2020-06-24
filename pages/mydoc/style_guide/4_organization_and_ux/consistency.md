@@ -1,8 +1,7 @@
 ---
 title: Consistency
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing"
-summary: "This page provides examples on how to create content that is consistent and why it is so important in technical communication."
-sidebar: style_sidebar
+layout: style-ux
 permalink: consistency.html
 folder: mydoc
 ---

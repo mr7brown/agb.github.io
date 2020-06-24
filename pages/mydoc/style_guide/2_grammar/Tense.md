@@ -1,7 +1,7 @@
 ---
 title: Present Tense
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Present Tense"
-sidebar: style_sidebar
+layout: style-grammar
 permalink: tense.html
 toc: true
 folder: mydoc
