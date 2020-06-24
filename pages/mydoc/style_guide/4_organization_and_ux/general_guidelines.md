@@ -35,9 +35,9 @@ Not all navigation will be able to follow an alphabetical order, but where possi
 This style guide discusses [links and cross-references](/cross-references) and how they should be meaningful. The same can be said for the overall user experience and the navigation. 
 
 * Place links in places where users would expect to find them.
-  * Home button in the top left of the `head`.
-  * Contact button, and extra site navigation on the top right of the `head`.
-  * Links to social sites and copyright in the `footer`.
+  * Home button in the top left of the `Header`.
+  * Contact button, and extra site navigation on the top right of the `Header`.
+  * Links to social sites and copyright in the `Footer`.
 * Use descriptive names for sidebar and header navigation.
 
 
