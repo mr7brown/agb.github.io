@@ -1,0 +1,38 @@
+I"<p>Over the past few years technology has boomed and the general technical aptitude of companies has improved. With this increase in technical aptitude, the traditional ways of creating documentation are also shifting. In this post we will look at the traditional way of documentation by using a Content Management System (CMS) and a more modern approach, which takes advantage of some of the great developer tools out there.</p>
+
+<h2 id="old-school-cms">Old-School CMS</h2>
+
+<p>First, let’s start with the good. A CMS like SharePoint or Dropbox provide a a place to store documents in a manner that nearly all professionals are familiar with. They are also great solutions for companies or teams with a small set of documentation, especially if the documents are template based.</p>
+
+<p>However, this reality is rapidly fading. Everything has become digitial and with the Covid-19 forcing many of us to work remotely, documentation is already seeing rapid increases. For traditional Content Management Systems, here is the problem. When document sets become large, they become difficult and tedious to maintain. Let’s take a look at an actual example that I came across and solved at HBO.</p>
+
+<h3 id="case-study-1-global-updates">Case Study 1: Global Updates</h3>
+
+<p>At HBO we maintain a specification library of around 50 documents that provide content producers with a set of technical requirements that must be met before the content is ingested into the media pipeline. While each specification had variations, there were also some sections that were identical.</p>
+
+<p>And here is the problem with the CMS model.</p>
+
+<p>If a global update needs to be made to a section that is common across 50 specs, then all 50 specs have to be updated manually. This is tedious, error prone, and simply not effective.</p>
+
+<h2 id="new-school-docs-as-code">New-School Docs as Code</h2>
+
+<p>If we take the same case study and use a docs as code approach, the update only needs to be made once. With a modern approach that uses <a href="/https://git-scm.com/">Git + Github or GitLab</a>, a text editor (my favorite is <a href="https://code.visualstudio.com/">Visual Studio Code</a>), and a plugin (Liquid) or component (React), you can do something like this:</p>
+
+<ol>
+  <li>Create an <code class="highlighter-rouge">_includes</code> folder.</li>
+  <li>Create a file that contains global text that will be used across multiple documents.</li>
+  <li>Embed the <code class="highlighter-rouge">includes</code> in each doc.</li>
+</ol>
+
+<p>With the <code class="highlighter-rouge">includes</code> file embedded in each doc, you can now make global updates one time and be done!</p>
+
+<p>Hello World</p>
+
+<h3 id="collaboration">Collaboration</h3>
+
+<h3 id="case-study-2-global-updates">Case Study 2: Global Updates</h3>
+
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+
+<p>If you have any questions, need assistance with technical documentation, or want a documentation portal created, feel free to connect with me on LinkedIn or by email (links are in the <code class="highlighter-rouge">Footer</code>).</p>
+:ET

@@ -19,5 +19,7 @@ My hope is that providing industry-knowledge and skills in `byte` size chunks wi
 
 If there are any topics that you are curious to learn more about or you believe would be worth documenting, feel free to reach out to me directly and I will try to curate information that better serves the tech community.
 
+Also, be sure to check out my [style guide](/style_intro.html) that I helped write for Google Engineers!
+
 
 

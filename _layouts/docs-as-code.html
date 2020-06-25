@@ -9,26 +9,35 @@
     {% include header.html %}
 </header>
 <div id="mainContent">
-	<div class="content-block no-image with-overflow-tech"></div>
+	<div class="content-block no-image with-overflow-docs"></div>
 	<div class="content-block post-view">
 		<div class="content-wrapper">
         <div class="caption-developer">
-        <h1>Write. Code. Repeat.</h1>
+        <h1>Tech Writing Collection</h1>
         </div>
 			<article class="post">
 				<div class="post-intro">
+                <h1> {{ page.title }}</h1>
+					<div class="social-share">
+						<a class="alternative-btn" href="http://github.com/mr7brown" target="_blank">
+						<i class="fa fa-github"></i>
+						</a>
+						<a class="alternative-btn" href="http://www.linkedin.com/in/ashton-brown-mba-6000238a/" target="_blank">
+						<i class="fa fa-linkedin-square"></i>
+						</a>
+						<a class="alternative-btn" href="mailto:ashtonbrownmba@gmail.com">
+						<i class="fa fa-envelope"></i>
+						</a>
+					</div>
 				</div>
+                <br>
 				<div class="post-text">
 
                 {{ content}}
 
                 {% include tech-writing-collection.html %}
                 
-                {% include git-collection.html %}
 
-                <!--
-                {% include linux-collection.html %}
-                -->
                 
                 
 
