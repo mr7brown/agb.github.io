@@ -11025,7 +11025,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     justify-content: left;
     width: 100%;
     border-bottom: 1px solid #d6d6d6;
-    margin: 0.6em auto 1em auto;
+    margin: 0em auto 0em auto;
   }
   .social-share::before,
   .social-share::after {

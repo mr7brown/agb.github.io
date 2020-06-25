@@ -1,0 +1,41 @@
+I"$<p>Over the past few years technology has boomed and the general technical aptitude of companies has improved. With this increase in technical aptitude, the traditional ways of creating documentation are also shifting. In this post we will look at the traditional way of documentation by using a Content Management System (CMS) and a more modern approach, which takes advantage of some of the great developer tools out there.</p>
+
+<h2 id="setting-the-bar">Setting the Bar</h2>
+
+<p>A few years ago I made it to the final round of interviews with Amazon’s infamous Lab126 for a Senior Technical Writer position for Alexa Auto. During the interview it became clear that the requsite technical knowledge was something that I lacked, and in one of the interviews I was introduced to an interesting way to think about the differences between technical writers. Essentially there are three types:</p>
+
+<ol>
+  <li>Writer first, technolgy second.</li>
+  <li>Technology first, writer second.</li>
+  <li>Middle of the pack at both.</li>
+</ol>
+
+<p>Of the three, the one that excels is the writer first. The reason I believe this is because if you do not have a technical background, but you learn the technologies that you will be documenting and can provide crisp examples, you will have an advantage due to writing ability. In other words, you MUST learn the tech.</p>
+
+<h2 id="technology-must-havs">Technology Must Havs</h2>
+
+<p>This section is based on my personal experience at high-tech companies and from looking at the current job market for Technical Writers.</p>
+
+<h3 id="unix-and-git">Unix and Git</h3>
+
+<p>At a basic level, if you are working with docs as code, you will likely be required to make commits through a versioning tool like Git. And to make these commits you need to understand how to work with the terminal.</p>
+
+<p>That said, if we think back to setting the bar, then technical writers need to understand where the bar is at and how to extend beyond it. It is not enough to understand how Unix Git work on a functional level. To stand out, you should build proficiencies to a level similar to engineers. While that may sound daunting, from experience I can tell you that if you know and can exhibit the following, you will find yourself in the higher tier of technical writers:</p>
+
+<ol>
+  <li>Be able to clone remote repositories, establish a remote connection, and push commits.</li>
+  <li>Understand branching, as well as efficiencies (i.e. <code class="highlighter-rouge">git checkout -b &lt;branch name&gt;</code>) and be able to resolve merge conflicts.</li>
+</ol>
+
+<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> At the time of publishing the Git and Linux guides are not published. Check back soon!</div>
+
+<p>I have documented all that you need to know for <a href="/tech-blog.html#git-collection-coming-soon">Git</a> and <a href="/tech-blog.html#linux-collection">Unix/Linux</a> for the purposes of Technical Writing. This doesn’t mean that there isn’t more to learn, but the content is more than enough to help you become a power user.</p>
+
+<div class="post-image-container">
+    <img class="post-image" src="images/diff.png" />
+</div>
+
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+
+<p>This post is designed as an introduction to docs as code. In the next post <a href="/tw-essentials">Technical Writing Essentials</a>, we will look at job descriptions from some top companies, which strengthen the case for docs as code. Additionally, the post will cover some of the requisite skills and resume builders for a career as a Technical Writer.</p>
+:ET
