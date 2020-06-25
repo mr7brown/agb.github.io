@@ -4108,7 +4108,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     @media screen and (max-width: 360px) {
       .caption-home {
         margin-top: 4em !important;
-        font-size: 70% !important;
+        font-size: 60% !important;
         margin-left: 2em;
         margin-right: 2em;
       -webkit-animation: fadeIn ease 4s;
