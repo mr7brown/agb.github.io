@@ -4,14 +4,13 @@ permalink: docs-as-code.html
 layout: docs-as-code
 ---
 
-Over the past few years technology has boomed and the general technical aptitude of companies has improved. With this increase in technical aptitude, the traditional ways of creating documentation are also shifting. In this post we will look at the traditional way of documentation by using a Content Management System (CMS) and a more modern approach, which takes advantage of some of the great developer tools out there.
-
+Over the past few years technology has boomed and the general technical aptitude of companies has improved. With this increase in technical aptitude, the traditional ways of creating documentation are also shifting. In this post we will look two different approaches to documentation and documentation management: Content Management Systems (CMS) an docs as code.
 
 ## Old-School CMS
 
-First, let's start with the good. A CMS like SharePoint or Dropbox provide a a place to store documents in a manner that nearly all professionals are familiar with. They are also great solutions for companies or teams with a small set of documentation, especially if the documents are template based.
+First, let's start with the good. Content Management Systems like SharePoint or Dropbox provide a place to store documents in a manner that nearly all professionals are familiar with. They are also great solutions for companies or teams with a small set of documentation, especially if the documents are template based.
 
-However, this reality is rapidly fading. Everything has become digitial and with the Covid-19 forcing many of us to work remotely, documentation is already seeing rapid increases. For traditional Content Management Systems, here is the problem. When document sets become large, they become difficult and tedious to maintain. Let's take a look at an actual example that I came across and solved at HBO.
+However, this reality is rapidly fading. Everything has become digitial and with Covid-19 forcing many of us to work remotely, online authoring is already seeing rapid increases. For traditional Content Management Systems and workflows, online authoring is a glaring weakness. When document sets become large, they become difficult and tedious to maintain. Let's take a look at an actual example that I came across and solved at HBO.
 
 ### Case Study 1: Global Updates
 
@@ -30,11 +29,11 @@ If we take the same case study and use a docs as code approach, the update only 
 2. Create a file that contains global text that will be used across multiple documents.
 3. Embed the `includes` in each doc.
 
-With the `includes` file embedded in each doc, you can now make global updates one time and be done!
+With the `includes` file embedded in each doc, global updates can be made by updating one file. 
 
 ## Collaboration
 
-At some point in time most of us have felt the pain of collaborating in a Word doc (even the online version is dreadful). That's because Microsoft Word and CMS-based approaches were built in a time where that was the only option availble. That is no longer true today and many companies, tech or otherwise, are moving away from the CMS model and are looking to creative solutions to documentation.
+At some point in time most of us have felt the pain of collaborating in a Word doc (even the online version is dreadful). That's because Microsoft Word and CMS-based approaches were built in a time where that was the only option availble. That is no longer true, which is why many companies, tech or otherwise, are moving from the CMS model to online authoring solutions.
 
 ### Case Study 2: Three Writers, One Document
 
@@ -43,7 +42,7 @@ Collaboration in the Word/CMS world goes something like:
 1. Recieve request for doc.
 2. One person begins writing, and sends the working doc via email.
 3. One at a time the doc is sent back and forth and changes are manually merged in.
-4. Versions become confusing, which leads to another collaborative meeting to fix the errors.
+4. Versions become confusing, which typically requires a collaboration meeting to fix the errors.
 5. Doc is approved and published.
 
 Compared to collaboration when docs are managed like code:
