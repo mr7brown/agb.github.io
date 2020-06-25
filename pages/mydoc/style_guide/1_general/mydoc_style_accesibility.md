@@ -9,9 +9,9 @@ folder: mydoc
 ## General guidelines
 
 * Avoid using slang or jargon. Having confusing language or terminology can cause unnecessary confusion.
-* Avoid [ableism](https://cdrnys.org/blog/uncategorized/ableism/), sexism, and [anthropomorphism](/anthropomorphism).
+* Avoid [ableism](https://www.mic.com/articles/121653/6-forms-of-ableism-we-need-to-retire-immediately), sexism, and [anthropomorphism](/anthropomorphism).
 * Keep sentences and paragraphs concise. Keep in mind that screen readers may be used to present the information. The longer the sentences and paragraphs, the more difficult it becomes for users to engage with the content.
-* Limit using symbols such as &, especially in headings and navigation.
+* Limit using symbols such as '&', especially in headings and navigation (screen readers struggle with symbols).
 
 
 ## Quick note on headings
@@ -20,14 +20,14 @@ To avoid confusion of content hierarchy, be sure to have content after each head
 
 ## Links
 
-* Create links that are meaningful. For example, instead of saying *click here* introduce the link to make it meaningful when read with no context. Some users skip from link to link and if the links do not provide context for their function, it makes it harder for users to navigate the content.
+* Create links that are meaningful. For example, instead of saying *click here*, introduce the link to make it meaningful when read with no context. Some users skip from link to link and if the links do not provide context for their function, it makes it harder for users to navigate the content.
 * Use an external link icon to tell users that the link leads to a different website.
 
 ## Readability
 
 There are some useful metrics for understanding how content should be written for users. In general, the content should be as easy to follow as possible. Here are a few ways to improve content readability.
 
-* Create content with a reading level around sixth-grade. Not sure what reading level your content is at? Check out WebFx's [Readability Test Tool](https://www.webfx.com/tools/read-able/).
+* Create content with a a sixth-grade reading level. Not sure what reading level your content is at? Check out WebFx's [Readability Test Tool](https://www.webfx.com/tools/read-able/).
 * Make use of white space and `<H1>, <H2>, <H3>` headings. White space and headings allow for quicker navigation.
 * Use shorter words that convey the same meaning, as George Orwell once said, "never use a long word where a short one will do."
 

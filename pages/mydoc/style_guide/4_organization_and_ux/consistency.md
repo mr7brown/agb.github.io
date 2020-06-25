@@ -10,7 +10,7 @@ folder: mydoc
 
 Unlike other forms of writing, technical writing is better with less variation. For example, when describing the terminal, you should refer to it the same way throughout a document and throughout the whole library of information. 
 
-With technical information, it is easy to cause confusion just by referring to a program, applications, or process in a different way. Being consistent helps reduce the mental load that's put on users. For more on cognitive load, see [8 ways to reduce cognitive load: Part 1](https://uxplanet.org/8-ways-to-reduce-cognitive-load-part-1-cc2048d1b157).
+With technical information, it is easy to cause confusion just by referring to a program, application, or process in a different way. Being consistent helps reduce the mental load that's put on users. For more on cognitive load, see [8 ways to reduce cognitive load: Part 1](https://uxplanet.org/8-ways-to-reduce-cognitive-load-part-1-cc2048d1b157).
 
 ## Examples
 

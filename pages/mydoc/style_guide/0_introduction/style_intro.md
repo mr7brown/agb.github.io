@@ -14,7 +14,7 @@ A secondary goal of this style guide is to provide information that can help imp
 
 ## Non-goals
 
-The information in this guideline is not meant to be a replacement for some of the traditional style-guides that have more detail on grammar, punctuation, and general writing (the [Resources](/resources) page has more information on some well respected style guides). Instead, this guideline contains supplementary information geared towards the editorial side of technical documentation.
+The information in this guideline is not meant to be a replacement for some of the traditional style-guides that have more detail on grammar, punctuation, and general writing. The [Resources](/resources) page has more information on some well respected style guides. Instead, this guideline contains supplementary information geared towards the editorial side of technical documentation.
 
 ## Using the guide
 

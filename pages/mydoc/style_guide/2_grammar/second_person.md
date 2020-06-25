@@ -1,5 +1,5 @@
 ---
-title: Second Person Versus First Person
+title: Second Person Versus First Person and Active Voice
 keywords: "Style Guide, Grammar, Technical Writing, Technical Editing, Second Person"
 layout: style-grammar
 permalink: second_person.html
