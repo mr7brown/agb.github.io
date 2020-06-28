@@ -1,0 +1,41 @@
+I"Ž<p>In this post we will look at Git, the most popular version control software tool, which is used by nearly every tech company. While many of you may be familiar with Git or have heard of it, the purpose of the Git collection is to provide you with the information and skills required from a tech writing standpoint. Most guides are created with the devloper in mind and contains more information than tech writers will ever use.</p>
+
+<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> The installation part of this post is for Mac OS users, but all other sections, including commands, are the same for Mac OS and Windows.</div>
+
+<h2 id="git-overview">Git Overview</h2>
+
+<p>Git is a version control tool that interacts with your computerâ€™s local file system and a remote repository. T</p>
+
+<p>Below is a diagram of a one-person Git workflow.</p>
+
+<div class="post-image-container">
+    <img class="post-image" src="images/git-workflow.png" />
+</div>
+
+<h3 id="working-directory">Working Directory</h3>
+
+<p>The working directory is</p>
+
+<h3 id="index">Index</h3>
+
+<h3 id="head">Head</h3>
+
+<h3 id="remote-repository">Remote Repository</h3>
+
+<h2 id="putting-it-all-together">Putting it all Together</h2>
+
+<h2 id="git-installation">Git installation</h2>
+
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+
+<p>By now, you should have a solid understanding of how Git is used. In the next post, <a href="/git-getting-started">Getting Started w/ Git</a>, we will create a remote repository and begin using it just like developers do. We will also begin creating branches, go over some common interview questions, and discuss some essentials for managing workflow.</p>
+
+<p>In the last post of this collection, <a href="/git-advanced">Advanced Git Commands</a>, we will look at:</p>
+
+<ol>
+  <li>How and when to delete branches</li>
+  <li>Rolling back commits</li>
+  <li>Becomming a power user</li>
+</ol>
+
+:ET
