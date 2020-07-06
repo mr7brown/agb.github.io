@@ -159,6 +159,6 @@ You should now have a local file system for the `<new-git-repo>` that matches wh
 
 ## Closing Thoughts
 
-That's it! You have just worked through the typical lifecycle of a typical docs as code project. Minus working on actual files.
+That's it! You have just worked through the typical lifecycle of a docs as code project. Minus working on actual files.
 
 The last post of the collection [Mastering Git](/git-master.html) is short, but packs some handy shortcuts and best practices.

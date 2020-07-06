@@ -45,7 +45,7 @@ That said, if we think back to setting the bar, then technical writers need to u
 
 {% include important.html content="At the time of publishing the Git and Linux guides are not published. Check back soon!" %}
 
-I have documented all that you need to know for [Git](/tech-blog.html#git-collection) and [Unix/Linux/OSX](//tech-blog.html#linux-osx-collection-coming-soon) for the purposes of Technical Writing. This doesn't mean that there isn't more to learn, but the content is more than enough to help you become a power user.
+I have documented all that you need to know for [Git](/tech-blog.html#git-collection) and [Unix/Linux/OSX](/tech-blog.html#linux-osx-collection-coming-soon) for the purposes of Technical Writing. This doesn't mean that there isn't more to learn, but the content is more than enough to help you become a power user.
 
 ### HTML | CSS | Markdown | Object Oriented Language
 
