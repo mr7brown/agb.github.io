@@ -4394,6 +4394,65 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     }
 
   }
+
+   /* On mouse-over, add a deeper shadow */
+   .card-tech-empty:hover {
+    box-shadow: ;
+  }
+
+  .card-tech {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    border-radius: 8px;
+    min-height: 300px;
+    height: 400px;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    display: block;
+  }
+
+  .card-tech h2 {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10em;
+  }
+
+  @media screen and (max-width: 567px){
+    .card-tech {
+      height: 0px;
+    }
+
+  }
+
+  .card-tech-1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    border-radius: 8px;
+    min-height: 300px;
+    height: 400px;
+    max-width: 31%;
+    margin-top: -1em;
+    margin-bottom: 5em;
+    display: block;
+  }
+
+  .card-tech h2 {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10em;
+  }
+
+  @media screen and (max-width: 567px){
+    .card-tech-1 {
+      height: 0px;
+      max-width: 100%;
+    }
+
+  }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
@@ -4456,6 +4515,22 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
       width: 100%;
     }
   }
+
+  /* Float two columns side by side */
+  .one-column-blog-tech {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  @media screen and (max-width: 567px) {
+    .one-column-blog-tech {
+      width: 100%;
+    }
+  }
+
+  /* Remove extra left and right margins, due to padding in columns */
+.one-row-blog {margin: 0 73%;}
 
 /* Remove extra left and right margins, due to padding in columns */
 .row-blog {margin: 0 0px;}

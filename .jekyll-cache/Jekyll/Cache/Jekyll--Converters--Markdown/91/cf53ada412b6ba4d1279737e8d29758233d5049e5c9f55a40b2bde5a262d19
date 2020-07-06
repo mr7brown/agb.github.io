@@ -1,0 +1,188 @@
+I"\*<p>Welcome back! This post is designed to help you begin creating in a docs as code envirronment.</p>
+
+<p>One question frequently asked by aspiring technical writers is: How do I gain the requisite experience? And typically, responders say to join an open source project or something similar to that.</p>
+
+<p>My answer is different. Instead of jumping on an open-source project that may not interest you and skipping steps in the learning process, you should start by setting up a remote repository of your own.</p>
+
+<p>So, let’s get started.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ol>
+  <li>A text editor. My favorite is <a href="https://code.visualstudio.com/">Visual Studio Code</a>, but <a href="https://atom.io/">Atom</a> and <a href="https://developer.apple.com/xcode/">Xcode</a> are good options too.</li>
+  <li><a href="https://github.com/">Github account</a>.</li>
+  <li>For MacOS, you will need <a href="https://developer.apple.com/xcode/resources/">Xcode and Command Line Tools</a> as well as Git. To check if you have Command Line Tools installed, open a new <a href="https://www.wikihow.com/Open-a-Terminal-Window-in-Mac">terminal window</a> and run:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># If you see a version number, you are good to go. Otherwise, follow the instructions for installing in the link above.
+$ xcode-select -v
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="quick-note-on-the-terminal">Quick Note on the Terminal</h2>
+
+<p>Before working with Git, it is important to note that the terminal is a powerful application used to modify a computer’s file system. Whenever working with it, be sure that you fully understand the how it works or you can cause major problems.</p>
+
+<p>To ensure that you are working from a place that won’t harm your computer, you should work from the <code class="highlighter-rouge">/desktop</code>.</p>
+
+<p>To begin, open a new terminal window and run:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Depending on your OS version, you may need to put a forward slash (/) before desktop
+$ cd desktop
+</code></pre></div></div>
+
+<h2 id="basic-commands">Basic Commands</h2>
+
+<p>This section is an optional read. If you’d rather start using Git and creating a sandbox, feel free to skip to the next section.</p>
+
+<p>For some, it is easier to understand the commands before using them. For others it is the opposite, but either way, you will frequently use these commands and the Git-workflow:</p>
+
+<div class="post-image-container">
+    <img class="post-image" src="images/git-flow.png" />
+</div>
+
+<ul>
+  <li><code class="highlighter-rouge">git init</code> - Initializes a blank repository. Essentially, this command is required before Git begins tracking and indexing.</li>
+  <li><code class="highlighter-rouge">git status</code> - Tells you the current state of the repository. For example, the command tells you:
+    <ul>
+      <li>If files need to be added.</li>
+      <li>If modifcations were made to a tracked file.</li>
+      <li>If a file was deleted.</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">git add</code> - This moves an untracked file from the <code class="highlighter-rouge">working directory</code> to the <code class="highlighter-rouge">index</code> where updates begin being tracked.</li>
+  <li><code class="highlighter-rouge">git commit</code> - Takes the added files and creates a new record for them, and updates the snapshot of the directory for future comparisons. This record is known as the <code class="highlighter-rouge">HEAD</code>.</li>
+  <li><code class="highlighter-rouge">git push</code> - This command takes the <code class="highlighter-rouge">Head</code> and pushes it to a web-based repository (such as Github).</li>
+  <li><code class="highlighter-rouge">git pull</code> - When working with a remote repo and part of a team that has multiple contributors, <code class="highlighter-rouge">git pull</code> is used to download any updates to the remote repo, and make those same updates to your local repository.</li>
+</ul>
+
+<h2 id="git-exercise">Git Exercise</h2>
+
+<p>In this excercise, you will:</p>
+
+<ol>
+  <li>Create and initialize a local Git repo.</li>
+  <li>Create and modify new files</li>
+</ol>
+
+<h3 id="1-creating-a-git-repository">1. Creating a Git Repository</h3>
+
+<p>For this exercise we will work from the desktop - so it is easy to find and delete later .</p>
+
+<ol>
+  <li>Create a new project folder:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd desktop
+$ mkdir new-git-repo
+$ cd new-git-repo
+</code></pre></div>    </div>
+    <p>This takes you from your <code class="highlighter-rouge">/home</code> directory to the <code class="highlighter-rouge">home/desktop</code> directory, creates a new repository <code class="highlighter-rouge">&lt;new-git-repo&gt;</code>, and then changes your working directory to the new folder <code class="highlighter-rouge">home/desktop/new-git-repo</code> .</p>
+  </li>
+  <li>Check Git status
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This tells you the current status of the repo
+$ git status
+</code></pre></div>    </div>
+    <p>Since you have not initialized a Git repository, you will receive an error message (this is expected).</p>
+  </li>
+  <li>Initialize Git repository:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This tells Git to begin indexing the folder and monitoring it for updates
+$ git init
+</code></pre></div>    </div>
+  </li>
+  <li>Check to be sure that Git is working
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This tells you the current status 
+$ git status
+</code></pre></div>    </div>
+    <p>Since we have not created a file, the output is blank.</p>
+  </li>
+</ol>
+
+<h3 id="2-adding-files-to-git-repository">2. Adding Files to Git Repository</h3>
+
+<p>Before you can add a remote Github repository, you need to have at least one file in your <code class="highlighter-rouge">&lt;new-git-repo&gt;</code> repository.</p>
+
+<ol>
+  <li>Create a new file:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># The touch command creates a new file
+$ touch notes.md 
+</code></pre></div>    </div>
+  </li>
+  <li>Check to make sure Git recognizes the new file:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># You should now see "notes.md" listed. 
+ls
+</code></pre></div>    </div>
+  </li>
+  <li>Add the file so git can begin tracking the file:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git add notes.md
+</code></pre></div>    </div>
+  </li>
+  <li>Commit the file to <code class="highlighter-rouge">HEAD</code>:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git commit -m "&lt;enter descriptive message&gt;"
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Now that the repository contains a file, you can connect it to a remote repository.</p>
+
+<h3 id="3-adding-github-as-a-remote-repository">3. Adding Github as a Remote Repository</h3>
+
+<p>If you have not created a <a href="https://github.com">Github</a> account, do so now.</p>
+
+<ol>
+  <li>From the Home Page of your Github account, click the <em>New</em> button.</li>
+</ol>
+<div class="post-image-container">
+    <img class="post-image" src="images/github-home.png" />
+</div>
+
+<ol>
+  <li>Enter a name for the repo and then click <em>Create repository</em>.</li>
+  <li>Now you need to connect the local repository <code class="highlighter-rouge">&lt;new-git-repo&gt;</code> with the remote Github repository:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git remote add origin &lt;url for remote repo&gt;
+$ git push - u origin master
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="4-final-step---working-with-the-local-and-remote-repositories">4. Final Step - Working with the Local and Remote Repositories</h3>
+
+<p>Now that the local repository <code class="highlighter-rouge">&lt;git-new-repo&gt;</code> is connected to your remote Github repository, you can <code class="highlighter-rouge">push</code> your content, code, or whatever to a web-based storage location.</p>
+
+<p>All you need to do is make an edit to the repo. Let’s do that:</p>
+
+<ol>
+  <li>Open your text editor (Visual Studio Code, Atom, etc.).</li>
+  <li>Navigate to the desktop and open the <code class="highlighter-rouge">&lt;new-git-repo&gt;</code> folder.
+    <ul>
+      <li>If using Visual Studio Code, type <strong>Cmd</strong> + <strong>o</strong> to open finder.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>You should now see the contents of the <code class="highlighter-rouge">&lt;new-git-repo&gt;</code>, which contains the blank <code class="highlighter-rouge">notes.md</code> file. If you edit the file by entering “Hello, World!” and save the file, Git will recognize that the file has changed.</p>
+
+<p>To check this:</p>
+
+<ol>
+  <li>Go back to your terminal (be sure that your terminal is pointed to the <code class="highlighter-rouge">&lt;new-git-repo&gt;</code>) and run:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># You should see "modified: notes.md"
+$ git status
+</code></pre></div>    </div>
+  </li>
+  <li>Now you need to <code class="highlighter-rouge">add</code> the modified file to the <code class="highlighter-rouge">index</code>:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git add notes.md
+</code></pre></div>    </div>
+  </li>
+  <li><code class="highlighter-rouge">commit</code> the changes to the <code class="highlighter-rouge">HEAD</code>:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git commit -m "&lt;enter descriptive message&gt;"
+</code></pre></div>    </div>
+  </li>
+  <li><code class="highlighter-rouge">push</code> the changes to Github:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git push
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>That’s it. If refresh your Github repository, then click on the <code class="highlighter-rouge">notes.md</code> file, you should see “Hello World!” displayed.</p>
+
+<p>The process for creating, updating, and maintaining the repository genrally follows the flow in the exercise, and most of what is expected of technical writers in regards to Git and managing docs as code can be found in this post. However, the last post in this collection <a href="/git-advanced">Advanced Git Commands</a> provides knowledge that can helps you correct mistakes and effectively manage your directories.</p>
+
+:ET

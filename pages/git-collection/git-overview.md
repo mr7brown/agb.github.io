@@ -1,5 +1,5 @@
 ---
-title: Git Installation w/ Overview
+title: Git Overview
 permalink: git.html
 layout: git-collection
 ---
@@ -62,40 +62,35 @@ Let's think of practical example using a file cabinet. After first initializing 
 
 This snapshot becomes known as the `HEAD`. In other words, the `HEAD` is set to the last commit.
 
-Sticking with the file cabinet example, say that in our initial commit (`git init`) we had 10 files, and then we add two more. Through indexing, Git compares the `HEAD` (10 files) to the currrent `working directory` (12 files) and notices that there is a difference. This difference is better known as a differential (similar to the screenshot below).
+Sticking with the file cabinet example, say that in our initial commit (`git init`) we had 10 files, and then we create a new file. Through indexing, Git compares the `HEAD` (10 files) to the currrent `working directory` (11 files) and notices that there is a difference. This difference is better known as a differential (similar to the screenshot of the terminal below).
 
 <div class="post-image-container">
-    <img class="post-image" src="images/diff.png" />
+    <img class="post-image" src="images/git-add.png" />
 </div>
 
-Put simply, Git is looking for changes to the folder:
 
-* Addition/deletion of a file or folder.
-* Modification of text in a file.
+Put simply, Git is actively comparing the last commit to the `working directory` for differences. 
+
 
 ### Head
 
-As discussed, the `HEAD` is the snapshot of the last commited change. But, unlike a Word document that only tracks the current state, Git indexs each commit. Meaning, each time you run 
+As discussed, the `HEAD` is effectively a snapshot of the last commited change. But, unlike a Word document that only tracks the current state, Git indexs each commit. Meaning, each time you run 
 
 ``` 
 $ git commit -m "<enter commit message>"
 ```
 
-you essentially create a new record, which can be referenced or reverted at any time (more on this in future posts).
+you create a new record, which can be referenced or reverted at any time (more on this in future posts).
+
+An important note here is that `HEAD` is where people tend to get into trouble. That is because the state is completely different than the `working directory` and `index`. Unlike the previous environments, updates can still be reverted, but it can be a tricky process.
 
 ### Remote Repository
 
-While having an index of files, folders, etc. on your personal computer is great and a step up from having an unmanaged file system, you can take your local directory further by creating a `remote repository`. As you may expect, a `remote repository` is essentially a web-based storage location for your files. However, remote repositories like Github allow you to not only store files, it can also become a platform for hosting a website (Git, Github, and Github pages are what I use for workflow on this site).
+While having an index of files, folders, etc. on your personal computer is great and a step up from having an unmanaged file system, you can take your local directory further by creating a `remote repository`. As you may expect, a `remote repository` is essentially a web-based storage location for your files. However, remote repositories like Github allow you to not only store files, remote repos can also become a platform for hosting a website (Git, Github, and Github pages are what I use for workflow on this site).
 
 ## Closing Thoughts
 
 By now, you should have a solid understanding of how Git is used. In the next post, [Getting Started w/ Git](/git-getting-started), we will create a remote repository and begin using it just like developers do. We will also begin creating branches, go over some common interview questions, and discuss some essentials for managing workflow.
-
-In the last post of this collection, [Advanced Git Commands](/git-advanced), we will look at:
-
-1. How and when to delete branches
-2. Rolling back commits
-3. Becomming a power user
 
 
 
