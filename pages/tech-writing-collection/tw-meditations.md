@@ -2,6 +2,8 @@
 title: Technical Writing Meditations
 permalink: tw-meditations.html
 layout: docs-as-code
+keywords: Meditations, Technical Writing, Ashton Brown, Blog, Work Experience, Resume, Editing
+summary: This post discussses some tips for getting started as a technical writer
 ---
 
 I'll start this post by being blunt, but don't worry, there is light throughout the post...Technical writing and the engineering world isn't easy. 

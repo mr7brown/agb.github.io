@@ -1,4 +1,4 @@
-I"ü<p>The purpose of this post is to highlight why documentation management is important and how we can achieve effective documentation by creating logical information architecture.</p>
+I"æ<p>The purpose of this post is to highlight why documentation management is important and how we can achieve effective documentation by creating logical information architecture.</p>
 
 <p>Unlike other documentation where the goal is to get readers to stay on the page for as long as possible, technical docmentation follows a different flow. For example, how many times have you clicked on a headline to read a specific portion of the article, only to find a tiny blurb near the end of the article?</p>
 
@@ -41,7 +41,7 @@
 <p>Below is an example of a simple layout I implemented to collate six repositories and processes for information gathering into a single source of truth.</p>
 
 <div class="post-image-container">
-    <img class="post-image" style="height: 500px" src="images/fb-wiki.png" />
+    <img class="post-image" src="images/fb-wiki.png" />
 </div>
 
 <div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> You donâ€™t have to be fancy. Sometimes simple is better.</div>
