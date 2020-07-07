@@ -45,7 +45,7 @@ During my time working at Facebook I was taked with solving this exact issue. Th
 Below is an example of a simple layout I implemented to collate six repositories and processes for information gathering into a single source of truth.
 
 <div class="post-image-container">
-    <img class="post-image" style="height: 500px" src="images/fb-wiki.png" />
+    <img class="post-image"  src="images/fb-wiki.png" />
 </div>
 
 {% include important.html content="You don't have to be fancy. Sometimes simple is better." %}
@@ -65,7 +65,7 @@ For example: Third party partners can't simply deliver content to HBO. They need
 Similar to the image below.
 
 <div class="post-image-container">
-    <img class="post-image" src="images/wm-image.png"   />
+    <img class="post-image" src="images/wm-image.png" />
 </div>
 
 In my opinion static sites are the way to go when creating documentation portals. They are easy to set up (if you know what you are doing), they don't require a CMS (you can host securely on GitLab), and they are basically costless.
