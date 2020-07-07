@@ -15,7 +15,7 @@ If you're like me, this happens often and it's pretty annoying. It's especially 
 An inverted writing style or inverted pyramid approach essentially means that the most important information comes first and becomes more general as the material progresses.
 
 <div class="post-image-container">
-    <img class="post-image" style="height: 500px" src="images/pyramid.jpeg" />
+    <img class="post-image"  src="images/pyramid.jpeg" />
 </div>
 
 The reason this is essential for information architecture is because it aligns with how we interact with information. For example, most people do not read documentation in its entirety. They skim instead. 

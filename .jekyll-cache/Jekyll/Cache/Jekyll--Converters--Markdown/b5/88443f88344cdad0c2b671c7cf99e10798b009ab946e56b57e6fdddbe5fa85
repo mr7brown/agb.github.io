@@ -1,4 +1,4 @@
-I"4<p>The purpose of this post is to highlight why documentation management is important and how we can achieve effective documentation by creating logical information architecture.</p>
+I"�<p>The purpose of this post is to highlight why documentation management is important and how we can achieve effective documentation by creating logical information architecture.</p>
 
 <p>Unlike other documentation where the goal is to get readers to stay on the page for as long as possible, technical docmentation follows a different flow. For example, how many times have you clicked on a headline to read a specific portion of the article, only to find a tiny blurb near the end of the article?</p>
 
@@ -9,7 +9,7 @@
 <p>An inverted writing style or inverted pyramid approach essentially means that the most important information comes first and becomes more general as the material progresses.</p>
 
 <div class="post-image-container">
-    <img class="post-image" style="height: 500px" src="images/pyramid.jpeg" />
+    <img class="post-image" src="images/pyramid.jpeg" />
 </div>
 
 <p>The reason this is essential for information architecture is because it aligns with how we interact with information. For example, most people do not read documentation in its entirety. They skim instead.</p>
@@ -38,29 +38,41 @@
 
 <p>During my time working at Facebook I was taked with solving this exact issue. The team I worked with had six or seven different repositories and processes for finding information and never really knew where or how to find the information that they needed.</p>
 
-<p>Below is an example of one of the landing pages I implemented to collate six repositories and processes for information gathering into a single source of truth.</p>
+<p>Below is an example of a simple layout I implemented to collate six repositories and processes for information gathering into a single source of truth.</p>
 
 <div class="post-image-container">
-    <img class="post-image" style="height: 800px" src="images/kb.png" />
+    <img class="post-image" style="height: 500px" src="images/fb-wiki.png" />
 </div>
 
 <div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> You don’t have to be fancy. Sometimes simple is better.</div>
 
 <h2 id="documentation-portals-static-sites">Documentation Portals (Static Sites)</h2>
 
-<p>A second scenario that you may come across regarding documentation management is the need for a public or internal facing site comprised of information designed to be build in a tiered manner.</p>
+<p>A second scenario that you may come across regarding documentation management is the need for a public or internal facing site comprised of information designed to be built in a tiered manner.</p>
 
-<p>For example, at HBO, 3rd party partners can’t simply deliver content to HBO. They need more information than where/how to upload files. And this is where information architecture comes into play. Thinking about a logical structure for partners to begin consuming information, and deliverying content to HBO, then you can begin laying out the information, similar to the image below.</p>
+<p>For example: Third party partners can’t simply deliver content to HBO. They need more information than where/how to upload files. And this is where information architecture comes into play. Thinking about a logical structure for partners to begin consuming information, and deliverying content to HBO, then you can begin laying out the information that moves progressively:</p>
+
+<ol>
+  <li>Onboarding.</li>
+  <li>Technical assessments.</li>
+  <li>Sample delivery packages.</li>
+  <li>Delivery requirements.</li>
+  <li>Delivery.</li>
+</ol>
+
+<p>Similar to the image below.</p>
 
 <div class="post-image-container">
     <img class="post-image" src="images/wm-image.png" />
 </div>
 
-<p>In my opinion static sites are the way to go when creating documentation portals. They are easy to set up (if you know what you are doing), they don’t require a CMS (you can host securely on GitLab), and they are basically costless. I plan to dedicate an entire post on static site generators and why Google, Facebook, Amazon, HBO, Netflix and the like are all using them.</p>
+<p>In my opinion static sites are the way to go when creating documentation portals. They are easy to set up (if you know what you are doing), they don’t require a CMS (you can host securely on GitLab), and they are basically costless.</p>
+
+<p>I plan to dedicate an entire post on static site generators and why Google, Facebook, Amazon, HBO, Netflix and the like are all using them.</p>
 
 <h2 id="cms">CMS</h2>
 
-<p>The last topic for this post and the simplest to understand is the Content Management System. Most times they are treated as a dumping ground for documents of all types. While they may not be as robust or as fancy as static sites or knowledge bases, you should still try to create a smart information architecture!</p>
+<p>The last topic for this post and the simplest to understand is the Content Management System. Most times they are treated as a dumping ground for documents of all types. While they may not be as robust or as fancy as static sites or knowledge bases, you should still try to create a smart information architecture! Use librariers, folders, etc.</p>
 
 <h2 id="closing-thoughts">Closing Thoughts</h2>
 
