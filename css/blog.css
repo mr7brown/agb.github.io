@@ -51,7 +51,10 @@
     width: 100%;
     min-width: 100%;
     height: 120vh;
-    background-image: url("/images/other.jpg");
+    background: #0052D4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -3708,7 +3711,10 @@
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -3738,12 +3744,13 @@
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background: #EB5757;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EB5757, #000000 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EB5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    
     
 
   }
@@ -3769,9 +3776,9 @@
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    background: #093028;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #237A57;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #237A57, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -3802,7 +3809,9 @@
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    background-image: radial-gradient( circle 966px at 6.9% 10.8%,  rgba(92,123,237,1) 0%, rgba(147,186,252,1) 90% );
+    background-color: rgba(147,186,252,1);
+    background: -webkit-linear-gradient(to right, rgba(147,186,252,1), #000000 );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(147,186,252,1), #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -3832,8 +3841,9 @@
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-color: #0575E6;
+    background: -webkit-linear-gradient(to right, #0575E6, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -3863,8 +3873,9 @@
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    background-color: #7f5a83;
-background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    background-color: #355C7D;
+    background: -webkit-linear-gradient(to right, #355C7D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #355C7D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -4246,7 +4257,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 
     
 
-.intro-links {
+.intro-link {
   color: var(--tw-dark-gray);
   background: white;
   padding: 1em 2em 1em 2em;
@@ -4256,13 +4267,15 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   margin: 0.5em;
 }
 
-.intro-links:hover {
+.intro-link:hover {
   box-shadow: 0 0 5px var(--tw-gray);
   text-decoration: none;
   color: black;
 }
 
-
+a.introlink:hover {
+  color: var(--tw-light-gray);
+}
 
 .home-button-blog {
   background-color: var(--tw-dark-gray);
@@ -4407,7 +4420,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; 
     border-radius: 8px;
-    min-height: 300px;
+    min-height: 400px;
     height: 400px;
     margin-top: 3em;
     margin-bottom: 5em;
@@ -4436,38 +4449,12 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   }
 
 
-  .card-tech {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; 
-    border-radius: 8px;
-    min-height: 300px;
-    height: 400px;
-    margin-top: 3em;
-    margin-bottom: 5em;
-    display: block;
-  }
-
-  .card-tech h2 {
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top: 10em;
-  }
-
-  @media screen and (max-width: 567px){
-    .card-tech {
-      height: 0px;
-    }
-
-  }
-
   .card-tech-1 {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; 
     border-radius: 8px;
-    min-height: 300px;
+    min-height: 400px;
     height: 400px;
     max-width: 31%;
     margin-top: -1em;
@@ -4507,7 +4494,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 
   @media screen and (max-width: 567px){
     .card-tech-1, .card-tech-2 {
-      height: 0px;
+      height: 200px;
       max-width: 100%;
     }
 
@@ -4536,8 +4523,8 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   }
 
   @media screen and (max-width: 567px){
-    .card {
-      height: 200px;
+    .card-image-tech {
+      height: 20em;
     }
 
   }
