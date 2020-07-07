@@ -3749,6 +3749,39 @@
   }
 
   @media screen and (max-width: 767px) {
+    .content-block.with-overflow-single {
+      padding: 0;
+      margin-bottom: 0.75rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    #releasesAndBlogs .content-block.with-overflow-single {
+      margin-bottom: 3em;
+    }
+  }
+  .content-block.no-image.with-overflow-single {
+    padding-top: 0;
+    margin-bottom: -40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    background: #093028;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: rgba( 0, 0, 0, .2) !important;
+    
+
+  }
+
+
+  @media screen and (max-width: 767px) {
     .content-block.with-overflow-git {
       padding: 0;
       margin-bottom: 0.75rem;
@@ -4388,6 +4421,13 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     top: 10em;
   }
 
+  .bottom-blog-link {
+    background-color: red;
+    color: white;
+    width: 5em;
+    margin: 0;
+  }
+
   @media screen and (max-width: 567px){
     .card-tech {
       height: 200px;
@@ -4395,10 +4435,6 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 
   }
 
-   /* On mouse-over, add a deeper shadow */
-   .card-tech-empty:hover {
-    box-shadow: ;
-  }
 
   .card-tech {
     /* Add shadows to create the "card" effect */
@@ -4439,6 +4475,29 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
     display: block;
   }
 
+  /* On mouse-over, add a deeper shadow */
+  .card-tech-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+  }
+
+  .card-tech-2 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    border-radius: 8px;
+    min-height: 300px;
+    height: 400px;
+    max-width: 31%;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    display: block;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card-tech-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+  }
+
   .card-tech h2 {
     justify-content: center;
     text-align: center;
@@ -4447,7 +4506,7 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   }
 
   @media screen and (max-width: 567px){
-    .card-tech-1 {
+    .card-tech-1, .card-tech-2 {
       height: 0px;
       max-width: 100%;
     }
@@ -4455,8 +4514,8 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   }
   
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  .card:hover, .card-image-tech, {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
   }
   
 

@@ -405,6 +405,30 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     color: white !important;
 
 }
+.btn-grad-c {
+    background-color: #221f1f;
+    float: right;
+    justify-content: center;
+    display: block;
+    margin-bottom: -15em;
+    padding-bottom: -10em;
+
+    margin-right: -4.4em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    width: 20%;
+}
+.btn-grad-c:hover{ 
+    background-position: right center; 
+    color: white !important;
+
+}
+
+a.btn-grad-c {
+    color: red;
+}
 
 
 .bs-callout {
