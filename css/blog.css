@@ -4115,6 +4115,38 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
   }
 }
 
+.left-arrow {
+	border-color: transparent black;
+	border-style: solid;
+	border-width: 20px 20px 20px 0px;
+	height: 0px;
+	width: 0px;
+}
+
+.right-arrow {
+	border-color: transparent black;
+	border-style: solid;
+	border-width: 20px 0px 20px 20px;
+	height: 0px;
+	width: 0px;
+}
+
+.down-arrow {
+	border-color: black transparent;
+	border-style: solid;
+	border-width: 20px 20px 0px 20px;
+	height: 0px;
+	width: 0px;
+}
+
+.up-arrow {
+	border-color: black transparent;
+	border-style: solid;
+	border-width: 0px 20px 20px 20px;
+	height: 0px;
+	width: 0px;
+}
+
 .caption-developer {  
   top: 100%;
   text-align: center;

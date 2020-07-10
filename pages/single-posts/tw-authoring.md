@@ -18,7 +18,7 @@ An inverted writing style or inverted pyramid approach essentially means that th
     <img class="post-image"  src="images/pyramid.jpeg" />
 </div>
 
-The reason this is essential for information architecture is because it aligns with how we interact with information. For example, most people do not read documentation in its entirety. They skim instead. 
+The reason this is essential for information architecture is because it aligns with how we interact with information. This is because most people do not read documentation in its entirety. They skim instead. 
 
 Another thing to note is that people reading technical documentation are usually looking for a specific piece of information, and not drawn out prose. 
 
@@ -48,13 +48,17 @@ Below is an example of a simple layout I implemented to collate six repositories
     <img class="post-image"  src="images/fb-wiki.png" />
 </div>
 
+
+
 {% include important.html content="You don't have to be fancy. Sometimes simple is better." %}
 
 ## Documentation Portals (Static Sites)
 
 A second scenario that you may come across regarding documentation management is the need for a public or internal facing site comprised of information designed to be built in a tiered manner.
 
-For example: Third party partners can't simply deliver content to HBO. They need more information than where/how to upload files. And this is where information architecture comes into play. Thinking about a logical structure for partners to begin consuming information, and deliverying content to HBO, then you can begin laying out the information that moves progressively:
+To illutrate this, let's look at an example from HBO. Third party partners can't simply deliver content to HBO - because they need more information than where/how to upload files. IF that is all that was required, there would be no need for a Media Supply Chain team. 
+
+And this is where information architecture comes into play. Knowing that there are more steps to the process, technical writers and documentation engineers become tasked with understanding the process for delivery and reproducing that knoweldge for unfamiliar parties. Once that is done, you can begin laying out the information that moves progressively:
 
 1. Onboarding.
 1. Technical assessments.
