@@ -4184,10 +4184,10 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
 @media screen and (width: 1024px) {
   .caption-developer {
     left: 0;
-    margin-top: -24% !important;
+    margin-top: -30em !important;
     right: 0;
     justify-content: center;
-    margin-bottom: 15em!important;
+    margin-bottom: 45em!important;
     -webkit-animation: fadeIn ease 4s;
       -moz-animation: fadeIn ease 4s;
       -o-animation: fadeIn ease 4s;
