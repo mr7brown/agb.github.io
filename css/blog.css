@@ -4260,6 +4260,7 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
   min-width: 10em;
   width: 400px !important;
   margin: 0.5em;
+  
 }
 
 .intro-link:hover {

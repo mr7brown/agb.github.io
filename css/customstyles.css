@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     float: right !important;
     }
 
-    @media screen and (max-width: 767px) {
+    /* @media screen and (max-width: 767px) {
         .introlink {
         font-size: 60%;
         }
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     color: var(--tw-blue);
     text-decoration: none;
     transition: transform 300ms;
-}
+} */
 
 .sitenav-link {
     color: var(--tw-blue);
