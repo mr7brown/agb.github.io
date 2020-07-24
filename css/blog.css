@@ -2,17 +2,18 @@
     --tw-black: #1e1e1e;
     --tw-gold: #e5bc73;
     --tw-light-blue: #e1f5fe;
-    --tw-blue: #1a73e8;
+    --tw-blue: #0984e3;
     --tw-white: #ffffff;
     --tw-max: rgba(0, 0, 0, 0.8);
     --tw-gray: #8c8b8b;
     --tw-light-gray: #ebebeb;
     --tw-medium-gray: #d3d3d3;
     --tw-dark-gray: #221f1f;
-    --light-green: #5cb85c;
+    --light-green: #00b894;
     --tw-note: #e6f4ea;
     --tw-dark-blue: #01579b;
-    --tw-red: #d9534f;
+    --tw-red: #ff3838;
+    --tw-yellow: #fdcb6e;
 
   
     --tw-primary: #aa6ee6;
@@ -52,21 +53,14 @@
     min-width: 100%;
     height: 100vh;
     margin: 0!important;
-    background: #0052D4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(#221f1f, #221f1f);
 
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
-  
-    
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     
   }
 
+  .caption-home img {
+    border-radius: 100%;
+  }
   
   .body-intro::-webkit-scrollbar {
     display: none;
@@ -3712,14 +3706,10 @@ background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+
     width: 100%;
     min-width: 100%;
     height: 95vh;
-    background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4A00E0, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    background-color: #0984e3;
     
 
   }
@@ -3745,12 +3735,7 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
     width: 100%;
     min-width: 100%;
     height: 95vh;
-    background: #EB5757;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EB5757, #000000 );  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EB5757, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    background: var(--tw-yellow);
     
     
 
@@ -3810,13 +3795,7 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
     width: 100%;
     min-width: 100%;
     height: 95vh;
-    background-color: rgba(147,186,252,1);
-    background: -webkit-linear-gradient(to right, rgba(147,186,252,1), #000000 );  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(147,186,252,1), #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    background: var(--tw-yellow);
     
 
   }
@@ -3842,13 +3821,7 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
     width: 100%;
     min-width: 100%;
     height: 95vh;
-    background-color: #0575E6;
-    background: -webkit-linear-gradient(to right, #0575E6, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    background: var(--tw-yellow);
     
 
   }
@@ -3874,13 +3847,7 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
     width: 100%;
     min-width: 100%;
     height: 95vh;
-    background-color: #355C7D;
-    background: -webkit-linear-gradient(to right, #355C7D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #355C7D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    background-color: #00b894;
     
   }
 
