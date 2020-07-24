@@ -9,7 +9,7 @@
     --tw-light-gray: #ebebeb;
     --tw-medium-gray: #d3d3d3;
     --tw-dark-gray: #221f1f;
-    --light-green: #00b894;
+    --light-green: #28C76F ;
     --tw-note: #e6f4ea;
     --tw-dark-blue: #01579b;
     --tw-red: #ff3838;
@@ -45,17 +45,38 @@
   }
 
   .body-intro {
-    display: flex;
-    overflow-y: hidden;
-    flex-direction: column;
     justify-content: center;
     width: 100%;
     min-width: 100%;
     height: 100vh;
-    margin: 0!important;
-    background: radial-gradient(#221f1f, #221f1f);
+    margin: 0 !important;
+    background-image: url(/images/general.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; */
+    background-color: black ;
 
     
+  }
+
+  .intro-row {
+    width: 100%;
+    margin: auto 5em auto 5em;
+  }
+
+  .intro-row-2 {
+    width: 100%;
+    margin: 0em 5em auto 5em;
+  }
+
+  .intro-card-3 {
+    background-color: red;
+    width: 25%;
+    height: 200px;
+    padding: 1em 2em 1em 2em;
+    color: white;
+    margin: 2em;
+    float: left;
   }
 
   .caption-home img {
@@ -4237,7 +4258,7 @@
 }
 
 a.introlink:hover {
-  color: var(--tw-light-gray);
+  color: var(--tw-dark-gray);
 }
 
 .home-button-blog {
@@ -4397,6 +4418,32 @@ a.introlink:hover {
     top: 10em;
   }
 
+  .card-intro img {
+    width: 5em;
+    height: 5em;
+  }
+
+  .card-intro h2 {
+    text-align: left;
+    position: relative;
+    top: 10em;
+    margin-left: -1em;
+  }
+
+  .card-intro {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    border-radius: 8px;
+    min-height: 200px;
+    height: 200px;
+    margin: auto 1em auto;
+    display: block;
+    background-color: red;
+    text-align: left;
+    padding: 1em;
+  }
+
   .bottom-blog-link {
     background-color: red;
     color: white;
@@ -4405,7 +4452,7 @@ a.introlink:hover {
   }
 
   @media screen and (max-width: 567px){
-    .card-tech {
+    .card-tech, .card.intro {
       height: 200px;
     }
 
@@ -4496,6 +4543,12 @@ a.introlink:hover {
   /* Add some padding inside the card container */
   .container-blog {
     padding: 2px 16px;
+    padding-bottom: 2em;
+  }
+
+  /* Add some padding inside the card container */
+  .container-intro {
+    padding: 2px 0px;
     padding-bottom: 2em;
   }
 
@@ -11161,6 +11214,7 @@ a.introlink:hover {
   .social-share a.alternative-btn span,
   .social-share a.alternative-btn i {
     color: var(--tw-dark-gray);
+    z-index: 0;
   }
   .social-share a.alternative-btn i {
     color: var(--tw-dark-gray);
