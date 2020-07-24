@@ -4169,6 +4169,13 @@ background: linear-gradient(to right, #4A00E0, #000000); /* W3C, IE 10+/ Edge, F
     -ms-animation: fadeIn ease 4s;
 }
 
+@media screen and (max-width: 812px) {
+  .caption-developer {
+    font-size: 0.7em;
+    width: 70%;
+  }
+}
+
 
     .caption-home p {
       font-size: 1.5em;
@@ -11164,7 +11171,7 @@ a.introlink:hover {
     justify-content: left;
     width: 100%;
     border-bottom: 1px solid #d6d6d6;
-    margin: 0em auto 0em auto;
+    margin: 1em auto 2em auto;
   }
   .social-share::before,
   .social-share::after {
@@ -11176,7 +11183,7 @@ a.introlink:hover {
   }
   .social-share a.alternative-btn {
     margin-right: 10px;
-    padding: 1em 1em 2em 0em;
+    padding: 1em 1em 1em 0em;
     border: 0px solid #fff;
     font-size: 1.2em;
     display: block;
