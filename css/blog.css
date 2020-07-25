@@ -90,6 +90,37 @@
   .body-intro{
     -ms-overflow-style: none;
   }
+
+  .button-home {
+    margin: auto;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline;
+}
+
+ .button-home a {
+   color: white;
+ }
+
+ .button-home:hover {
+   color: var(--tw-gray) !important;
+   text-decoration: none;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   -webkit-transition: padding 0.5s ease-in-out;
+    -moz-transition: padding 0.5s ease-in-out;
+    -ms-transition: padding 0.5s ease-in-out;
+    -o-transition: padding 0.5s ease-in-out;
+    transition: padding 0.5s ease-in-out;
+ }
+
+ a .button-home:hover {
+   text-decoration: none;
+ }
   
   /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -3726,11 +3757,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 95vh;
+    height: 55vh;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: #0984e3;
+    background-color: var(--tw-dark-gray);
     
 
   }
@@ -3755,8 +3786,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 95vh;
-    background: var(--tw-yellow);
+    height: 55vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: var(--tw-dark-gray);
     
     
 
@@ -3815,8 +3849,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 95vh;
-    background: var(--tw-yellow);
+    height: 55vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: var(--tw-dark-gray);
     
 
   }
@@ -3841,8 +3878,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 95vh;
-    background: var(--tw-yellow);
+    height: 55vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: var(--tw-dark-gray);
     
 
   }
@@ -3867,8 +3907,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 95vh;
-    background-color: #00b894;
+    height: 55vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: var(--tw-dark-gray);
     
   }
 
@@ -3921,12 +3964,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 40em;
-    background-image: url("/images/other.jpg");
+    height: 55vh;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    background-color: var(--tw-dark-gray);
     
   }
 
@@ -3950,13 +3992,17 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 40em;
+    /* height: 40em;
     background-image: url("/images/other.jpg");
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
-    
+    background-color: rgba( 0, 0, 0, .2) !important; */
+    height: 55vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: var(--tw-dark-gray);
   }
 
   @media screen and (max-width: 767px) {
@@ -3979,12 +4025,11 @@
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    height: 40em;
-    background-image: url("/images/other.jpg");
+    height: 55vh;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: rgba( 0, 0, 0, .2) !important;
+    background-color: var(--tw-dark-gray);
     
   }
 
@@ -4139,10 +4184,11 @@
 .caption-developer {  
   text-align: center;
   color: white;
-  border: 5px solid white;
+  font-size: 1.5em;
+  /* border: 5px solid white;
   padding: 1em 4em 1em 4em;
   background: rgba( 0, 0, 0, .6);
-  border-radius: 8px;
+  border-radius: 8px; */
   margin: 0;
   position: absolute;
   top: 50%;
