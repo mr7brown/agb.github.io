@@ -310,6 +310,8 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     height:80px; 
     padding-top: 1em;
     color: black;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .footer-intro {
@@ -320,6 +322,8 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     height:80px; 
     padding-top: 1em;
     color: black;
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .footer-error {
