@@ -51,10 +51,10 @@
     height: 110vh;
     overflow-y: hidden;
     margin: 0 !important;
-    background-image: url(/images/road.jpeg);
+    /* background-image: url(/images/road.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
     background-color: white ;
 
     
@@ -4173,14 +4173,14 @@
     .caption-home {  
       text-align: center;
       color: black;
-      padding: 1em 4em 1em 4em;
-      background: rgba(255, 255, 255, 0.983);
-      border-radius: 8px;
+      padding: 1em;
+      /* background: rgba(255, 255, 255, 0.983);
+      border-radius: 8px; */
       width: 100%; 
       margin: 0;
       position: absolute;
       margin-top: -2em;
-      top: 35%;
+      top: 50%;
       left: 50%;
       max-width: 100%;
       -ms-transform: translate(-50%, -50%);
