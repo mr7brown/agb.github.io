@@ -3762,6 +3762,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: var(--tw-dark-gray);
+    /* background-image: url(/images/yosemite_files/1295952.jpg); */
     
 
   }
@@ -4193,7 +4194,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 80%;
+  max-width: 100%;
+  width: 100%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   
@@ -4289,24 +4291,26 @@
     
 
 .intro-link {
-  color: var(--tw-dark-gray);
-  background: white;
-  padding: 1em 2em 1em 2em;
-  border-radius: 8px;
-  min-width: 10em;
-  width: 400px !important;
-  margin: 0.5em;
+  color: black;
+  margin-top: 10px;
+  margin-left: 1em;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  float: right !important;
+
   
 }
 
 .intro-link:hover {
-  box-shadow: 0 0 5px var(--tw-gray);
-  text-decoration: none;
-  color: black;
+  color: var(--tw-dark-gray);
 }
 
 a.introlink:hover {
-  color: var(--tw-dark-gray);
+  color: var(--tw-light-gray);
 }
 
 .home-button-blog {
