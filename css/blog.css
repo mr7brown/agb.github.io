@@ -4200,7 +4200,7 @@
   border-radius: 8px; */
   margin: 0;
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
   left: 50%;
   max-width: 100%;
   width: 100%;
@@ -10767,7 +10767,7 @@ a.introlink:hover {
     width: 100%;
     margin-bottom: 0;
     
-    margin-top: 50em;
+    margin-top: 49em;
     }
 
     .post-view .post .shadow {
