@@ -3764,7 +3764,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: var(--tw-dark-gray);
-    /* background-image: url(/images/yosemite_files/1295952.jpg); */
+    /* background-image: url(/images/bulb.jpeg); */
     
 
   }
@@ -4169,17 +4169,17 @@
 }
 
 .down-arrow {
-	border-color: white transparent;
+	/* border-color: white transparent;
 	border-style: solid;
-	border-width: 15px 15px 0px 15px;
+	border-width: 13px 13px 0px 13px;
 	height: 0px;
   width: 0px;
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 58%;
+  left: 49%;
   max-width: 100%;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .up-arrow {
@@ -10733,7 +10733,7 @@ a.introlink:hover {
     clear: both;
   }
   .post-view .post {
-    margin-top: 35em;
+    margin-top: 32em;
     border-radius: 8px;
     display: block;
     background: #fff;
@@ -10742,7 +10742,7 @@ a.introlink:hover {
   }
 
   .post-blog {
-    margin-top: 35em;
+    margin-top: 32em;
     border-radius: 8px;
     display: block;
     background: #fff;
