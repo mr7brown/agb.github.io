@@ -20,6 +20,7 @@
     --tw-warning: #f0ad4e;
     --tw-accent: #fc7a22;
   }
+  
 
 
   .body-2 {
@@ -29,6 +30,7 @@
     max-width: 100%;
     min-width: 100%;
     background-color: var(--tw-light-gray);
+    
   
     
     -webkit-font-smoothing: antialiased;
