@@ -4169,11 +4169,17 @@
 }
 
 .down-arrow {
-	border-color: black transparent;
+	border-color: white transparent;
 	border-style: solid;
-	border-width: 20px 20px 0px 20px;
+	border-width: 15px 15px 0px 15px;
 	height: 0px;
-	width: 0px;
+  width: 0px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  max-width: 100%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .up-arrow {
