@@ -274,8 +274,8 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     height: 50px;
     padding-right: 5vw;
     padding-left: 5vw;
-    background: var(--tw-dark-gray);
-    /* background: rgba(255, 255, 255, 0.7);
+    background: black;
+    /* background: rgba(0, 0, 0, 0.8);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px); */
 }
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
 }
 
 .footer-blog-post {
-    background-color: var(--tw-dark-gray);
+    background-color: black;
     position: absolute;
     bottom:-10;
     width:100%;
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     width:100%;
     height:80px; 
     padding-top: 1em;
-    color: black;
+    color: white;
     font-size: 1em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

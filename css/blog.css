@@ -20,8 +20,6 @@
     --tw-warning: #f0ad4e;
     --tw-accent: #fc7a22;
   }
-  
-
 
   .body-2 {
     margin-top: -32px;
@@ -30,9 +28,6 @@
     max-width: 100%;
     min-width: 100%;
     background-color: var(--tw-light-gray);
-    
-  
-    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
@@ -58,7 +53,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; */
-    background-color: white ;
+    background-color: black;
   }
 
   .intro-row {
@@ -3763,8 +3758,8 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: var(--tw-dark-gray);
-    /* background-image: url(/images/bulb.jpeg); */
+    background-color: black;
+    /* background-image: url(/images/art-3.jpeg); */
     
 
   }
@@ -3793,7 +3788,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: var(--tw-dark-gray);
+    background-color: black;
     
     
 
@@ -3856,7 +3851,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: var(--tw-dark-gray);
+    background-color: black;
     
 
   }
@@ -3885,7 +3880,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: var(--tw-dark-gray);
+    background-color: black;
     
 
   }
@@ -3914,7 +3909,7 @@
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: var(--tw-dark-gray);
+    background-color: black;
     
   }
 
@@ -4227,7 +4222,7 @@
 
     .caption-home {  
       text-align: center;
-      color: black;
+      color: white;
       padding: 1em;
       /* background: rgba(255, 255, 255, 0.983);
       border-radius: 8px; */
