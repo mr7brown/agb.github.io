@@ -54,6 +54,8 @@
     background-size: cover;
     background-position: 50% 50%; */
     background-color: black;
+    
+    
   }
 
   .intro-row {
@@ -3749,6 +3751,7 @@
   .content-block.no-image.with-overflow-developer {
     padding-top: 0;
     margin-bottom: -40em;
+    margin-top: -5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3759,7 +3762,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: black;
-    /* background-image: url(/images/green.jpg); */
+    background-image: url(/images/12.jpg);
     
 
   }
@@ -3900,6 +3903,7 @@
   .content-block.no-image.with-overflow-style {
     padding-top: 0;
     margin-bottom: -40em;
+    margin-top: -5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3910,6 +3914,8 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: black;
+    /* background-image: url(/images/yosemite_files/1216364.jpg); */
+    background-image: url(/images/yosemite_files/203524.jpg);
     
   }
 
@@ -4187,13 +4193,13 @@
 
 .caption-developer {  
   text-align: center;
-  color: white;
+  color: black;
   font-size: 1.5em;
   /* border: 5px solid white;
   padding: 1em 4em 1em 4em;
   background: rgba( 0, 0, 0, .6);
   border-radius: 8px; */
-  margin: 0;
+  margin-top: -20vh;
   position: absolute;
   /* top: 50%; */
   left: 50%;
