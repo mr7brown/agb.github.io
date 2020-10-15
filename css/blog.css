@@ -3762,7 +3762,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url(/images/12.jpg);
+    background-image: url(/images/6.jpg);
     
 
   }
@@ -3915,7 +3915,7 @@
     background-repeat: no-repeat;
     background-color: black;
     /* background-image: url(/images/yosemite_files/1216364.jpg); */
-    background-image: url(/images/14.jpg);
+    background-image: url(/images/8.jpg);
     
   }
 
@@ -4193,13 +4193,14 @@
 
 .caption-developer {  
   text-align: center;
-  color: black;
+  color: white;
   font-size: 1.5em;
   /* border: 5px solid white;
   padding: 1em 4em 1em 4em;
   background: rgba( 0, 0, 0, .6);
-  border-radius: 8px; */
-  margin-top: -20vh;
+  border-radius: 8px;
+  width: 50px; */
+  margin-top: -25vh;
   position: absolute;
   /* top: 50%; */
   left: 50%;
