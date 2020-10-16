@@ -275,9 +275,9 @@ h1, h2, h3, h4, h5, a, p, pre, code, ul, li, .summary {
     padding-right: 5vw;
     padding-left: 5vw;
     background: black;
-    background: rgba(0, 0, 0, 0.8);
+    /* background: rgba(0, 0, 0, 0.8);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px); */
 }
 
 .header-intro-2 {
