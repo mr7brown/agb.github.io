@@ -49,7 +49,7 @@
     height: 100vh;
     overflow-y: hidden;
     margin: 0 !important;
-    /* background-image: url(/images/road.jpeg);
+    /* background-image: url(/images/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; */
@@ -3762,7 +3762,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url(/images/6.jpg);
+    background-image: url(/images/0.jpg);
     
 
   }
@@ -3915,7 +3915,7 @@
     background-repeat: no-repeat;
     background-color: black;
     /* background-image: url(/images/yosemite_files/1216364.jpg); */
-    background-image: url(/images/8.jpg);
+    background-image: url(/images/1.jpg);
     
   }
 
@@ -4200,7 +4200,7 @@
   background: rgba( 0, 0, 0, .6);
   border-radius: 8px;
   width: 50px; */
-  margin-top: -25vh;
+  /* margin-top: -15vh; */
   position: absolute;
   /* top: 50%; */
   left: 50%;
@@ -10735,7 +10735,7 @@ a.introlink:hover {
     clear: both;
   }
   .post-view .post {
-    margin-top: 32em;
+    margin-top: 35em;
     border-radius: 8px;
     display: block;
     background: #fff;
@@ -10768,8 +10768,7 @@ a.introlink:hover {
     float: left;
     width: 100%;
     margin-bottom: 0;
-    
-    margin-top: 47em;
+    margin-top: 40em;
     }
 
     .post-view .post .shadow {
