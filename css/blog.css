@@ -4449,6 +4449,11 @@ a.introlink:hover {
     display: block;
   }
 
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
   @media screen and (max-width: 567px){
     .card {
       height: 200px;
