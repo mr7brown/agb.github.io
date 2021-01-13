@@ -1,0 +1,31 @@
+I"s<h2 id="overview">Overview</h2>
+
+<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> This page is not reflective of an actual document sent to partners. Rather it is an overview of the release notes, and the site (which I built) that the release notes are for.</div>
+
+<p>The release notes are categorized by type and by page, as applicable, on the HBO Max Partner Hub. The classifications are as follows:</p>
+
+<h2 id="release-note-categories">Release Note Categories</h2>
+
+<div>
+<div class="maintenance">MAINTENANCE</div> 
+    When HBO's Platform Architecture team needs to schedule maintenance for the site, the release note contains a **MAINTENANCE** tag that provides a date and timeframe for the downtime.
+
+</div>
+<p><br /></p>
+<div>
+<div class="feature">FEATURE</div> 
+    Typically linked with a page on the site, and a link to the specific feature is provided within the release note.
+
+</div>
+
+<div>
+<div class="fixed">FIXED</div> 
+    The **FIXED** tag applies to all bug fixes,
+
+</div>
+
+<div class="post-image-container">
+    <img class="post-image-2" src="images/test-release.png" />
+</div>
+
+:ET
