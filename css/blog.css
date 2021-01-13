@@ -10954,38 +10954,50 @@ a.introlink:hover {
 
   .maintenance {
     display: inline-block;
+    font-size: 80%;
     padding: .5em 1em .5em 1em;
     width: auto;
-    min-width: 9em;
+    min-width: 9.7em;
     background-color: #e74c3c;
     color: white;
     border-radius: 50px;
     margin-bottom: 1.5em;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .feature {
     display: inline-block;
+    font-size: 80%;
     padding: .5em 1em .5em 1em;
     width: auto;
-    min-width: 9em;
+    min-width: 9.7em;
     background-color: #27ae60;
     color: white;
     border-radius: 50px;
     margin-bottom: 1.5em;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .fixed {
     display: inline-block;
+    font-size: 80%;
     padding: .5em 1em .5em 1em;
     width: auto;
-    min-width: 9em;
+    min-width: 9.7em;
     background-color: #f39c12;
     color: white;
     border-radius: 50px;
     margin-bottom: 1.5em;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .side-by-side {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-overflow: wrap;
+
   }
 
   @media screen and (max-width: 767px) {

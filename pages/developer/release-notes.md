@@ -17,21 +17,20 @@ In addition to the automated message, HBO partners are also directed to a static
 
 <br />
 
-<div>
+<div class ="side-by-side">
 <div class="maintenance">MAINTENANCE</div> 
     Used for HBO Max's scheduled maintenance/downtime.
 
 </div>
 
-<div>
-<div class="feature">FEATURE</div> 
+<div class ="side-by-side">
+<div class="feature">FEATURE</div>
     Used for new pages, UI/UX compononents, and content.
-
 </div>
 
-<div>
+<div class ="side-by-side">
 <div class="fixed">FIXED</div> 
-    The **FIXED** tag applies to all bug fixes for both content and code.
+    The <b>FIXED</b> tag applies to bug fixes for content and code.
 
 </div>
 
