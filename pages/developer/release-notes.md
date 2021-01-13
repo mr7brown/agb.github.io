@@ -19,18 +19,18 @@ In addition to the automated message, HBO partners are also directed to a static
 
 <div class ="side-by-side">
 <div class="maintenance">MAINTENANCE</div> 
-    Used for HBO Max's scheduled maintenance/downtime.
+    Used for scheduled maintenance/downtime.
 
 </div>
 
 <div class ="side-by-side">
 <div class="feature">FEATURE</div>
-    Used for new pages, UI/UX compononents, and content.
+    Used for new content and UI/UX components.
 </div>
 
 <div class ="side-by-side">
 <div class="fixed">FIXED</div> 
-    The <b>FIXED</b> tag applies to bug fixes for content and code.
+    Applies to bug fixes for content and code.
 
 </div>
 
