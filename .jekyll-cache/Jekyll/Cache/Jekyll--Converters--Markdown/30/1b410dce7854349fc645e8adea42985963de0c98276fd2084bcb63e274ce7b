@@ -1,8 +1,0 @@
-I"Î<div class="alert new-note" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> Avoid attributing human qualities to software/hardware.</div>
-
-<h3 id="example">Example</h3>
-<p><br />
-<i class="fa fa-thumbs-down fa-lg" style="color: red;"></i> <strong>Not recommended:</strong> The PC sees the new device.<br /><br />
-<i class="fa fa-thumbs-up fa-lg" style="color: green;"></i> <strong>Recommended:</strong> The PC detects a new device.<br /><br /></p>
-
-:ET
