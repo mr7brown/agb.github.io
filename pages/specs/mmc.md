@@ -1,5 +1,5 @@
 ---
-title: HBO - Media Manifest Metadata
+title: HBO-Media Manifest Metadata
 permalink: hbo-mmc.html
 layout: portfolio-specs
 folder: mydoc
